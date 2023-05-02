@@ -1,0 +1,1786 @@
+Results ID,Module ID,Section ID,Slide ID,Element Name,BLEU Score,ROUGE-1 f-score,ROUGE-2 f-score,ROUGE-L f-score,Cosine Similarity,Predicted,Reference
+gpt-3-in-sample,1,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Introduction
+theme: template","marp: true
+title: 1 - Introduction
+theme: template"
+gpt-3-in-sample,1,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Introduction
+theme: template","marp: true
+title: 1 - Introduction
+theme: template"
+gpt-3-in-sample,1,1,0,class,,,,,,,
+gpt-3-in-sample,1,1,0,title,,,,,,,
+gpt-3-in-sample,1,1,0,body,,,,,,,
+gpt-3-in-sample,1,1,0,images,,,,,,,
+gpt-3-in-sample,1,1,0,notes,,,,,,,
+gpt-3-in-sample,1,1,0,footer,,,,,,,
+gpt-3-in-sample,1,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Intro to Data for Data Science","<!-- _class: title-slide -->
+
+# Intro to Data for Data Science"
+gpt-3-in-sample,1,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-3-in-sample,1,1,1,title,1.0,1.0,1.0,1.0,1.0,Intro to Data for Data Science,Intro to Data for Data Science
+gpt-3-in-sample,1,1,1,body,,,,,,,
+gpt-3-in-sample,1,1,1,images,,,,,,,
+gpt-3-in-sample,1,1,1,notes,,,,,,,
+gpt-3-in-sample,1,1,1,footer,,,,,,,
+gpt-3-in-sample,1,2,,,,,,,,
+gpt-3-in-sample,1,3,,,,,,,,
+gpt-3-in-sample,2,1,,,,,,,,
+gpt-3-in-sample,2,2,,,,,,,,
+gpt-3-in-sample,2,3,,,,,,,,
+gpt-3-in-sample,2,4,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Knowledge
+theme: template","marp: true
+title: 4 - Knowledge
+theme: template"
+gpt-3-in-sample,2,4,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Knowledge
+theme: template","marp: true
+title: 4 - Knowledge
+theme: template"
+gpt-3-in-sample,2,4,0,class,,,,,,,
+gpt-3-in-sample,2,4,0,title,,,,,,,
+gpt-3-in-sample,2,4,0,body,,,,,,,
+gpt-3-in-sample,2,4,0,images,,,,,,,
+gpt-3-in-sample,2,4,0,notes,,,,,,,
+gpt-3-in-sample,2,4,0,footer,,,,,,,
+gpt-3-in-sample,2,4,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Knowledge","<!-- _class: title-only -->
+
+# Knowledge"
+gpt-3-in-sample,2,4,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,2,4,1,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-3-in-sample,2,4,1,body,,,,,,,
+gpt-3-in-sample,2,4,1,images,,,,,,,
+gpt-3-in-sample,2,4,1,notes,,,,,,,
+gpt-3-in-sample,2,4,1,footer,,,,,,,
+gpt-3-in-sample,2,4,2,slide,0.29,0.6,0.51,0.6,0.57,"<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Understanding of the natural world
+Explains observations
+Predicts behavior
+
+![image An icon of a person with two arrows pointing at them in a circle with the words ""knowledge"", ""understanding"", ""explains"", ""observations"", ""predicts"", and ""behavior"" in the center of the circle in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Understanding of our world
+Explains observations
+Predicts behavior
+
+![image An icon of an open book in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,2,4,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,2,4,2,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-3-in-sample,2,4,2,body,0.56,0.82,0.67,0.82,0.71,"Understanding of the natural world
+Explains observations
+Predicts behavior
+","Understanding of our world
+Explains observations
+Predicts behavior
+"
+gpt-3-in-sample,2,4,2,images,0.09,0.42,0.31,0.42,0.35,"![image An icon of a person with two arrows pointing at them in a circle with the words ""knowledge"", ""understanding"", ""explains"", ""observations"", ""predicts"", and ""behavior"" in the center of the circle in a minimalist style](images/placeholder.png)",![image An icon of an open book in a flat minimalist style](images/placeholder.png)
+gpt-3-in-sample,2,4,2,notes,,,,,,,
+gpt-3-in-sample,2,4,2,footer,,,,,,,
+gpt-3-in-sample,2,4,3,slide,0.34,0.62,0.57,0.62,0.68,"<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Created from information
+Used to solve problems
+Used to make decisions
+
+![image An icon of a person with two arrows pointing at them in a circle with the words ""knowledge"", ""information"", ""created from"", ""solve problems"", ""make decisions"", and ""used to"" in the center of the circle in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Created from information
+Used to solve problems
+Used to make decisions
+
+![image An icon of an open book in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,2,4,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,2,4,3,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-3-in-sample,2,4,3,body,1.0,1.0,1.0,1.0,1.0,"Created from information
+Used to solve problems
+Used to make decisions
+","Created from information
+Used to solve problems
+Used to make decisions
+"
+gpt-3-in-sample,2,4,3,images,0.08,0.39,0.29,0.39,0.34,"![image An icon of a person with two arrows pointing at them in a circle with the words ""knowledge"", ""information"", ""created from"", ""solve problems"", ""make decisions"", and ""used to"" in the center of the circle in a minimalist style](images/placeholder.png)",![image An icon of an open book in a flat minimalist style](images/placeholder.png)
+gpt-3-in-sample,2,4,3,notes,,,,,,,
+gpt-3-in-sample,2,4,3,footer,,,,,,,
+gpt-3-in-sample,2,4,4,slide,0.53,0.68,0.59,0.68,0.54,"<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor with a patient in a hospital with the text ""Knowledge"" in a minimalist style](images/placeholder.png)","<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor with a patient and the text 39°C -> infection -> rest at the bottom](images/placeholder.png)"
+gpt-3-in-sample,2,4,4,class,0.25,1.0,1.0,1.0,1.0,one-pane,one-pane
+gpt-3-in-sample,2,4,4,title,,,,,,,
+gpt-3-in-sample,2,4,4,body,,,,,,,
+gpt-3-in-sample,2,4,4,images,0.44,0.64,0.53,0.64,0.49,"![bg contain A photo of a doctor with a patient in a hospital with the text ""Knowledge"" in a minimalist style](images/placeholder.png)",![bg contain A photo of a doctor with a patient and the text 39°C -> infection -> rest at the bottom](images/placeholder.png)
+gpt-3-in-sample,2,4,4,notes,,,,,,,
+gpt-3-in-sample,2,4,4,footer,,,,,,,
+gpt-3-in-sample,2,4,5,slide,0.24,0.61,0.43,0.57,0.62,"<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Knowledge alone is not enough
+Combination of knowledge and new information
+Solution to a problem
+
+![image An icon of a person with two arrows pointing at them in a circle with the words ""knowledge"", ""alone"", ""not enough"", ""combination"", ""solution"", and ""problem"" in the center of the circle in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Knowledge alone is not enough
+Knowledge + new information
+Combination leads to solution
+
+![image An icon of an open book in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,2,4,5,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,2,4,5,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-3-in-sample,2,4,5,body,0.34,0.81,0.4,0.67,0.77,"Knowledge alone is not enough
+Combination of knowledge and new information
+Solution to a problem
+","Knowledge alone is not enough
+Knowledge + new information
+Combination leads to solution
+"
+gpt-3-in-sample,2,4,5,images,0.09,0.41,0.31,0.41,0.35,"![image An icon of a person with two arrows pointing at them in a circle with the words ""knowledge"", ""alone"", ""not enough"", ""combination"", ""solution"", and ""problem"" in the center of the circle in a minimalist style](images/placeholder.png)",![image An icon of an open book in a flat minimalist style](images/placeholder.png)
+gpt-3-in-sample,2,4,5,notes,,,,,,,
+gpt-3-in-sample,2,4,5,footer,,,,,,,
+gpt-3-in-sample,2,5,,,,,,,,
+gpt-3-in-sample,2,6,,,,,,,,
+gpt-3-in-sample,2,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,2,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,2,7,0,class,,,,,,,
+gpt-3-in-sample,2,7,0,title,,,,,,,
+gpt-3-in-sample,2,7,0,body,,,,,,,
+gpt-3-in-sample,2,7,0,images,,,,,,,
+gpt-3-in-sample,2,7,0,notes,,,,,,,
+gpt-3-in-sample,2,7,0,footer,,,,,,,
+gpt-3-in-sample,2,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-3-in-sample,2,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,2,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,2,7,1,body,,,,,,,
+gpt-3-in-sample,2,7,1,images,,,,,,,
+gpt-3-in-sample,2,7,1,notes,,,,,,,
+gpt-3-in-sample,2,7,1,footer,,,,,,,
+gpt-3-in-sample,2,7,2,slide,0.9,0.98,0.94,0.98,0.96,"<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data
+Information
+Knowledge
+Purpose
+Process
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left -->
+
+# Summary
+
+Data
+Information
+Knowledge
+Purpose
+Process
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,2,7,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left-center,title-two-content-left
+gpt-3-in-sample,2,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,2,7,2,body,1.0,1.0,1.0,1.0,1.0,"Data
+Information
+Knowledge
+Purpose
+Process
+","Data
+Information
+Knowledge
+Purpose
+Process
+"
+gpt-3-in-sample,2,7,2,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of a database in a flat minimalist style](images/placeholder.png)
+gpt-3-in-sample,2,7,2,notes,,,,,,,
+gpt-3-in-sample,2,7,2,footer,,,,,,,
+gpt-3-in-sample,3,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,3,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,3,1,0,class,,,,,,,
+gpt-3-in-sample,3,1,0,title,,,,,,,
+gpt-3-in-sample,3,1,0,body,,,,,,,
+gpt-3-in-sample,3,1,0,images,,,,,,,
+gpt-3-in-sample,3,1,0,notes,,,,,,,
+gpt-3-in-sample,3,1,0,footer,,,,,,,
+gpt-3-in-sample,3,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Types of Data","<!-- _class: title-slide -->
+
+# Types of Data"
+gpt-3-in-sample,3,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-3-in-sample,3,1,1,title,0.79,1.0,1.0,1.0,1.0,Types of Data,Types of Data
+gpt-3-in-sample,3,1,1,body,,,,,,,
+gpt-3-in-sample,3,1,1,images,,,,,,,
+gpt-3-in-sample,3,1,1,notes,,,,,,,
+gpt-3-in-sample,3,1,1,footer,,,,,,,
+gpt-3-in-sample,3,1,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# What types of data exist?","<!-- _class: title-only -->
+
+# What types of data exist?"
+gpt-3-in-sample,3,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,3,1,2,title,1.0,1.0,1.0,1.0,1.0,What types of data exist?,What types of data exist?
+gpt-3-in-sample,3,1,2,body,,,,,,,
+gpt-3-in-sample,3,1,2,images,,,,,,,
+gpt-3-in-sample,3,1,2,notes,,,,,,,
+gpt-3-in-sample,3,1,2,footer,,,,,,,
+gpt-3-in-sample,3,1,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+
+![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+
+![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,3,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,3,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-3-in-sample,3,1,3,body,1.0,1.0,1.0,1.0,1.0,"Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+","Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+"
+gpt-3-in-sample,3,1,3,images,1.0,1.0,1.0,1.0,1.0,"![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)","![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,3,1,3,notes,,,,,,,
+gpt-3-in-sample,3,1,3,footer,,,,,,,
+gpt-3-in-sample,3,2,,,,,,,,
+gpt-3-in-sample,3,3,,,,,,,,
+gpt-3-in-sample,3,4,,,,,,,,
+gpt-3-in-sample,3,5,,,,,,,,
+gpt-3-in-sample,3,6,,,,,,,,
+gpt-3-in-sample,3,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,3,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,3,7,0,class,,,,,,,
+gpt-3-in-sample,3,7,0,title,,,,,,,
+gpt-3-in-sample,3,7,0,body,,,,,,,
+gpt-3-in-sample,3,7,0,images,,,,,,,
+gpt-3-in-sample,3,7,0,notes,,,,,,,
+gpt-3-in-sample,3,7,0,footer,,,,,,,
+gpt-3-in-sample,3,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-3-in-sample,3,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,3,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,3,7,1,body,,,,,,,
+gpt-3-in-sample,3,7,1,images,,,,,,,
+gpt-3-in-sample,3,7,1,notes,,,,,,,
+gpt-3-in-sample,3,7,1,footer,,,,,,,
+gpt-3-in-sample,3,7,2,slide,0.46,0.78,0.62,0.75,0.75,"<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+
+![image An icon containing three triangles in a triangular shape in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+
+![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,3,7,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,3,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,3,7,2,body,1.0,1.0,1.0,1.0,1.0,"Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+","Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+"
+gpt-3-in-sample,3,7,2,images,0.05,0.59,0.29,0.55,0.39,![image An icon containing three triangles in a triangular shape in a minimalist style](images/placeholder.png),"![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-3-in-sample,3,7,2,notes,,,,,,,
+gpt-3-in-sample,3,7,2,footer,,,,,,,
+gpt-3-in-sample,4,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,4,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,4,1,0,class,,,,,,,
+gpt-3-in-sample,4,1,0,title,,,,,,,
+gpt-3-in-sample,4,1,0,body,,,,,,,
+gpt-3-in-sample,4,1,0,images,,,,,,,
+gpt-3-in-sample,4,1,0,notes,,,,,,,
+gpt-3-in-sample,4,1,0,footer,,,,,,,
+gpt-3-in-sample,4,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Data Types","<!-- _class: title-slide -->
+
+# Data Types"
+gpt-3-in-sample,4,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-3-in-sample,4,1,1,title,0.5,1.0,1.0,1.0,1.0,Data Types,Data Types
+gpt-3-in-sample,4,1,1,body,,,,,,,
+gpt-3-in-sample,4,1,1,images,,,,,,,
+gpt-3-in-sample,4,1,1,notes,,,,,,,
+gpt-3-in-sample,4,1,1,footer,,,,,,,
+gpt-3-in-sample,4,1,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# How do we represent data in a computer?","<!-- _class: title-only -->
+
+# How do we represent data in a computer?"
+gpt-3-in-sample,4,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,4,1,2,title,1.0,1.0,1.0,1.0,1.0,How do we represent data in a computer?,How do we represent data in a computer?
+gpt-3-in-sample,4,1,2,body,,,,,,,
+gpt-3-in-sample,4,1,2,images,,,,,,,
+gpt-3-in-sample,4,1,2,notes,,,,,,,
+gpt-3-in-sample,4,1,2,footer,,,,,,,
+gpt-3-in-sample,4,1,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-3-in-sample,4,1,3,body,1.0,1.0,1.0,1.0,1.0,"Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+","Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+"
+gpt-3-in-sample,4,1,3,images,1.0,1.0,1.0,1.0,1.0,![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png),![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,1,3,notes,,,,,,,
+gpt-3-in-sample,4,1,3,footer,,,,,,,
+gpt-3-in-sample,4,2,,,,,,,,
+gpt-3-in-sample,4,3,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Scalar Data Types
+theme: template","marp: true
+title: 3 - Scalar Data Types
+theme: template"
+gpt-3-in-sample,4,3,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Scalar Data Types
+theme: template","marp: true
+title: 3 - Scalar Data Types
+theme: template"
+gpt-3-in-sample,4,3,0,class,,,,,,,
+gpt-3-in-sample,4,3,0,title,,,,,,,
+gpt-3-in-sample,4,3,0,body,,,,,,,
+gpt-3-in-sample,4,3,0,images,,,,,,,
+gpt-3-in-sample,4,3,0,notes,,,,,,,
+gpt-3-in-sample,4,3,0,footer,,,,,,,
+gpt-3-in-sample,4,3,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Scalar Data Types","<!-- _class: title-only -->
+
+# Scalar Data Types"
+gpt-3-in-sample,4,3,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,4,3,1,title,0.79,1.0,1.0,1.0,1.0,Scalar Data Types,Scalar Data Types
+gpt-3-in-sample,4,3,1,body,,,,,,,
+gpt-3-in-sample,4,3,1,images,,,,,,,
+gpt-3-in-sample,4,3,1,notes,,,,,,,
+gpt-3-in-sample,4,3,1,footer,,,,,,,
+gpt-3-in-sample,4,3,2,slide,0.84,0.96,0.92,0.96,0.96,"<!-- _class: title-two-content-left-center -->
+
+# Scalar Data Types
+
+Single unit of data
+Stores one value
+Unit of storage
+Operations
+
+![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left -->
+
+# Scalar Data Types
+
+Single unit of data
+Stores one value
+Unit of storage
+Set of operations
+
+![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,3,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left-center,title-two-content-left
+gpt-3-in-sample,4,3,2,title,0.79,1.0,1.0,1.0,1.0,Scalar Data Types,Scalar Data Types
+gpt-3-in-sample,4,3,2,body,0.74,0.92,0.82,0.92,0.94,"Single unit of data
+Stores one value
+Unit of storage
+Operations
+","Single unit of data
+Stores one value
+Unit of storage
+Set of operations
+"
+gpt-3-in-sample,4,3,2,images,1.0,1.0,1.0,1.0,1.0,![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png),![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,3,2,notes,,,,,,,
+gpt-3-in-sample,4,3,2,footer,,,,,,,
+gpt-3-in-sample,4,3,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Scalar Data Types
+
+Categorical
+Numerical
+Temporal
+
+![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Scalar Data Types
+
+Categorical
+Numerical
+Temporal
+
+![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,3,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,3,3,title,0.79,1.0,1.0,1.0,1.0,Scalar Data Types,Scalar Data Types
+gpt-3-in-sample,4,3,3,body,0.79,1.0,1.0,1.0,1.0,"Categorical
+Numerical
+Temporal
+","Categorical
+Numerical
+Temporal
+"
+gpt-3-in-sample,4,3,3,images,1.0,1.0,1.0,1.0,1.0,![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png),![image An icon of the hash symbol (hashtag) inside of a square with rounded corners in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,3,3,notes,,,,,,,
+gpt-3-in-sample,4,3,3,footer,,,,,,,
+gpt-3-in-sample,4,4,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Scalar Data Type Examples
+theme: template","marp: true
+title: 4 - Scalar Data Type Examples
+theme: template"
+gpt-3-in-sample,4,4,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Scalar Data Type Examples
+theme: template","marp: true
+title: 4 - Scalar Data Type Examples
+theme: template"
+gpt-3-in-sample,4,4,0,class,,,,,,,
+gpt-3-in-sample,4,4,0,title,,,,,,,
+gpt-3-in-sample,4,4,0,body,,,,,,,
+gpt-3-in-sample,4,4,0,images,,,,,,,
+gpt-3-in-sample,4,4,0,notes,,,,,,,
+gpt-3-in-sample,4,4,0,footer,,,,,,,
+gpt-3-in-sample,4,4,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Scalar Data Type Examples","<!-- _class: title-only -->
+
+# Scalar Data Type Examples"
+gpt-3-in-sample,4,4,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,4,4,1,title,1.0,1.0,1.0,1.0,1.0,Scalar Data Type Examples,Scalar Data Type Examples
+gpt-3-in-sample,4,4,1,body,,,,,,,
+gpt-3-in-sample,4,4,1,images,,,,,,,
+gpt-3-in-sample,4,4,1,notes,,,,,,,
+gpt-3-in-sample,4,4,1,footer,,,,,,,
+gpt-3-in-sample,4,4,2,slide,0.36,0.7,0.57,0.7,0.63,"<!-- _class: title-two-content-left-center -->
+
+# Categorical Data Types
+
+Character
+Boolean
+Enumeration
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Categorical Data Types
+
+Character: ABC
+Boolean: True/False
+Enumeration: 1-A, 2-B, 3-C
+
+![image An icon of the letters ""ABC"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,4,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,4,2,title,0.79,1.0,1.0,1.0,1.0,Categorical Data Types,Categorical Data Types
+gpt-3-in-sample,4,4,2,body,0,0.4,0.0,0.4,0.58,"Character
+Boolean
+Enumeration
+","Character: ABC
+Boolean: True/False
+Enumeration: 1-A, 2-B, 3-C
+"
+gpt-3-in-sample,4,4,2,images,0.35,0.67,0.59,0.67,0.55,![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png),"![image An icon of the letters ""ABC"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,4,2,notes,,,,,,,
+gpt-3-in-sample,4,4,2,footer,,,,,,,
+gpt-3-in-sample,4,4,3,slide,0.36,0.71,0.58,0.71,0.63,"<!-- _class: title-two-content-left-center -->
+
+# Numerical Data Types
+
+Integer
+Decimal
+Float
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Numerical Data Types
+
+Integer: 123
+Decimal: 1.23
+Float: 1.2 x 10^3
+
+![image An icon of the numbers ""123"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,4,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,4,3,title,0.79,1.0,1.0,1.0,1.0,Numerical Data Types,Numerical Data Types
+gpt-3-in-sample,4,4,3,body,0,0.43,0.0,0.43,0.58,"Integer
+Decimal
+Float
+","Integer: 123
+Decimal: 1.23
+Float: 1.2 x 10^3
+"
+gpt-3-in-sample,4,4,3,images,0.35,0.67,0.59,0.67,0.55,![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png),"![image An icon of the numbers ""123"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,4,3,notes,,,,,,,
+gpt-3-in-sample,4,4,3,footer,,,,,,,
+gpt-3-in-sample,4,4,4,slide,0.35,0.59,0.44,0.57,0.36,"<!-- _class: title-two-content-left-center -->
+
+# Temporal Data Types
+
+Date
+Time
+Date-Time
+Date-Time with Time-Zone Offset
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Temporal Data Types
+
+Date: 2001-02-03
+Time: 01:02:03
+Date/time: 2023-01-02 01:02:03
+2023-01-02T01:02:03-04:00
+
+![image An icon of a clock face with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,4,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,4,4,title,0.79,1.0,1.0,1.0,1.0,Temporal Data Types,Temporal Data Types
+gpt-3-in-sample,4,4,4,body,0,0.24,0.06,0.24,0.22,"Date
+Time
+Date-Time
+Date-Time with Time-Zone Offset
+","Date: 2001-02-03
+Time: 01:02:03
+Date/time: 2023-01-02 01:02:03
+2023-01-02T01:02:03-04:00
+"
+gpt-3-in-sample,4,4,4,images,0.28,0.65,0.51,0.65,0.52,![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png),![image An icon of a clock face with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,4,4,notes,,,,,,,
+gpt-3-in-sample,4,4,4,footer,,,,,,,
+gpt-3-in-sample,4,5,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Composite Data Type
+theme: template","marp: true
+title: 5 - Composite Data Type
+theme: template"
+gpt-3-in-sample,4,5,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Composite Data Type
+theme: template","marp: true
+title: 5 - Composite Data Type
+theme: template"
+gpt-3-in-sample,4,5,0,class,,,,,,,
+gpt-3-in-sample,4,5,0,title,,,,,,,
+gpt-3-in-sample,4,5,0,body,,,,,,,
+gpt-3-in-sample,4,5,0,images,,,,,,,
+gpt-3-in-sample,4,5,0,notes,,,,,,,
+gpt-3-in-sample,4,5,0,footer,,,,,,,
+gpt-3-in-sample,4,5,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Composite Data Types","<!-- _class: title-only -->
+
+# Composite Data Types"
+gpt-3-in-sample,4,5,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,4,5,1,title,0.79,1.0,1.0,1.0,1.0,Composite Data Types,Composite Data Types
+gpt-3-in-sample,4,5,1,body,,,,,,,
+gpt-3-in-sample,4,5,1,images,,,,,,,
+gpt-3-in-sample,4,5,1,notes,,,,,,,
+gpt-3-in-sample,4,5,1,footer,,,,,,,
+gpt-3-in-sample,4,5,2,slide,0.46,0.71,0.57,0.71,0.55,"<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Organize data
+Store and access
+Provide context
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Organize data
+Store and access
+Provide context
+
+![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,5,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,5,2,title,0.79,1.0,1.0,1.0,1.0,Composite Data Types,Composite Data Types
+gpt-3-in-sample,4,5,2,body,1.0,1.0,1.0,1.0,1.0,"Organize data
+Store and access
+Provide context
+","Organize data
+Store and access
+Provide context
+"
+gpt-3-in-sample,4,5,2,images,0.12,0.52,0.29,0.52,0.33,![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png),![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,5,2,notes,,,,,,,
+gpt-3-in-sample,4,5,2,footer,,,,,,,
+gpt-3-in-sample,4,5,3,slide,0.36,0.66,0.49,0.66,0.47,"<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Homogenous
+Tabular
+Semi-structured
+Multi-media
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Homogenous
+Tabular
+Semi-structured
+Multimedia
+
+![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,5,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,5,3,title,0.79,1.0,1.0,1.0,1.0,Composite Data Types,Composite Data Types
+gpt-3-in-sample,4,5,3,body,0.52,0.73,0.67,0.73,0.58,"Homogenous
+Tabular
+Semi-structured
+Multi-media
+","Homogenous
+Tabular
+Semi-structured
+Multimedia
+"
+gpt-3-in-sample,4,5,3,images,0.12,0.52,0.29,0.52,0.33,![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png),![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,5,3,notes,,,,,,,
+gpt-3-in-sample,4,5,3,footer,,,,,,,
+gpt-3-in-sample,4,6,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Composite Data Type Examples
+theme: template","marp: true
+title: 6 - Composite Data Type Examples
+theme: template"
+gpt-3-in-sample,4,6,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Composite Data Type Examples
+theme: template","marp: true
+title: 6 - Composite Data Type Examples
+theme: template"
+gpt-3-in-sample,4,6,0,class,,,,,,,
+gpt-3-in-sample,4,6,0,title,,,,,,,
+gpt-3-in-sample,4,6,0,body,,,,,,,
+gpt-3-in-sample,4,6,0,images,,,,,,,
+gpt-3-in-sample,4,6,0,notes,,,,,,,
+gpt-3-in-sample,4,6,0,footer,,,,,,,
+gpt-3-in-sample,4,6,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Composite Data Type Examples","<!-- _class: title-only -->
+
+# Composite Data Type Examples"
+gpt-3-in-sample,4,6,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,4,6,1,title,1.0,1.0,1.0,1.0,1.0,Composite Data Type Examples,Composite Data Type Examples
+gpt-3-in-sample,4,6,1,body,,,,,,,
+gpt-3-in-sample,4,6,1,images,,,,,,,
+gpt-3-in-sample,4,6,1,notes,,,,,,,
+gpt-3-in-sample,4,6,1,footer,,,,,,,
+gpt-3-in-sample,4,6,2,slide,0.5,0.71,0.63,0.71,0.62,"<!-- _class: title-two-content-left-center -->
+
+# Homogenous Data Types
+
+Vector
+Matrix
+Tensor
+
+![image An icon of a vector, a matrix, and a tensor in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Homogenous Data Types
+
+Vector
+Matrix
+Tensor
+
+![image A square with sharp corners divided into four quadrants in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,6,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,6,2,title,0.79,1.0,1.0,1.0,1.0,Homogenous Data Types,Homogenous Data Types
+gpt-3-in-sample,4,6,2,body,0.79,1.0,1.0,1.0,1.0,"Vector
+Matrix
+Tensor
+","Vector
+Matrix
+Tensor
+"
+gpt-3-in-sample,4,6,2,images,0.17,0.51,0.36,0.51,0.32,"![image An icon of a vector, a matrix, and a tensor in a minimalist style](images/placeholder.png)",![image A square with sharp corners divided into four quadrants in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,6,2,notes,,,,,,,
+gpt-3-in-sample,4,6,2,footer,,,,,,,
+gpt-3-in-sample,4,6,3,slide,0.62,0.83,0.68,0.79,0.72,"<!-- _class: title-two-content-left-center -->
+
+# Tabular Data Types
+
+Dictionary
+Table
+
+![image An icon of a dictionary and a table in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Tabular Data Types
+
+Dictionary
+Table
+
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)"
+gpt-3-in-sample,4,6,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,6,3,title,0.79,1.0,1.0,1.0,1.0,Tabular Data Types,Tabular Data Types
+gpt-3-in-sample,4,6,3,body,0.5,1.0,1.0,1.0,1.0,"Dictionary
+Table
+","Dictionary
+Table
+"
+gpt-3-in-sample,4,6,3,images,0.35,0.72,0.47,0.67,0.53,![image An icon of a dictionary and a table in a minimalist style](images/placeholder.png),![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)
+gpt-3-in-sample,4,6,3,notes,,,,,,,
+gpt-3-in-sample,4,6,3,footer,,,,,,,
+gpt-3-in-sample,4,6,4,slide,0.53,0.83,0.72,0.83,0.82,"<!-- _class: title-two-content-left-center -->
+
+# Semi-Structured Data Types
+
+Tree
+Graph
+
+![image An icon of a tree and a graph in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Semi-structured Data Types
+
+Tree
+Graph
+
+![image An icon of a tree with 7 nodes and and 7 edges in a minimialist style](images/placeholder.png)"
+gpt-3-in-sample,4,6,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,6,4,title,0.32,1.0,1.0,1.0,1.0,Semi-Structured Data Types,Semi-structured Data Types
+gpt-3-in-sample,4,6,4,body,0.5,1.0,1.0,1.0,1.0,"Tree
+Graph
+","Tree
+Graph
+"
+gpt-3-in-sample,4,6,4,images,0.37,0.72,0.53,0.72,0.66,![image An icon of a tree and a graph in a minimalist style](images/placeholder.png),![image An icon of a tree with 7 nodes and and 7 edges in a minimialist style](images/placeholder.png)
+gpt-3-in-sample,4,6,4,notes,,,,,,,
+gpt-3-in-sample,4,6,4,footer,,,,,,,
+gpt-3-in-sample,4,6,5,slide,0.58,0.76,0.67,0.76,0.67,"<!-- _class: title-two-content-left-center -->
+
+# Multimedia Data Types
+
+Text
+Image
+Audio
+Video
+Shape
+
+![image An icon of text, an image, an audio waveform, a video, and a map in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Multimedia Data Types
+
+Text
+Image
+Audio
+Video
+Shape
+
+
+![image An icon of a photograph with two triangles representing mountains and a circle representing the sun in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,6,5,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,6,5,title,0.79,1.0,1.0,1.0,1.0,Multimedia Data Types,Multimedia Data Types
+gpt-3-in-sample,4,6,5,body,1.0,1.0,1.0,1.0,1.0,"Text
+Image
+Audio
+Video
+Shape
+","Text
+Image
+Audio
+Video
+Shape
+"
+gpt-3-in-sample,4,6,5,images,0.3,0.61,0.45,0.61,0.42,"![image An icon of text, an image, an audio waveform, a video, and a map in a minimalist style](images/placeholder.png)",![image An icon of a photograph with two triangles representing mountains and a circle representing the sun in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,6,5,notes,,,,,,,
+gpt-3-in-sample,4,6,5,footer,,,,,,,
+gpt-3-in-sample,4,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,4,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,4,7,0,class,,,,,,,
+gpt-3-in-sample,4,7,0,title,,,,,,,
+gpt-3-in-sample,4,7,0,body,,,,,,,
+gpt-3-in-sample,4,7,0,images,,,,,,,
+gpt-3-in-sample,4,7,0,notes,,,,,,,
+gpt-3-in-sample,4,7,0,footer,,,,,,,
+gpt-3-in-sample,4,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-3-in-sample,4,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,4,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,4,7,1,body,,,,,,,
+gpt-3-in-sample,4,7,1,images,,,,,,,
+gpt-3-in-sample,4,7,1,notes,,,,,,,
+gpt-3-in-sample,4,7,1,footer,,,,,,,
+gpt-3-in-sample,4,7,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,4,7,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,4,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,4,7,2,body,1.0,1.0,1.0,1.0,1.0,"Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+","Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+"
+gpt-3-in-sample,4,7,2,images,1.0,1.0,1.0,1.0,1.0,![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png),![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,4,7,2,notes,,,,,,,
+gpt-3-in-sample,4,7,2,footer,,,,,,,
+gpt-3-in-sample,5,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,5,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,5,1,0,class,,,,,,,
+gpt-3-in-sample,5,1,0,title,,,,,,,
+gpt-3-in-sample,5,1,0,body,,,,,,,
+gpt-3-in-sample,5,1,0,images,,,,,,,
+gpt-3-in-sample,5,1,0,notes,,,,,,,
+gpt-3-in-sample,5,1,0,footer,,,,,,,
+gpt-3-in-sample,5,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Tabular Data","<!-- _class: title-slide -->
+
+# Tabular Data"
+gpt-3-in-sample,5,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-3-in-sample,5,1,1,title,0.5,1.0,1.0,1.0,1.0,Tabular Data,Tabular Data
+gpt-3-in-sample,5,1,1,body,,,,,,,
+gpt-3-in-sample,5,1,1,images,,,,,,,
+gpt-3-in-sample,5,1,1,notes,,,,,,,
+gpt-3-in-sample,5,1,1,footer,,,,,,,
+gpt-3-in-sample,5,1,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# How do we extract information from data?","<!-- _class: title-only -->
+
+# How do we extract information from data?"
+gpt-3-in-sample,5,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,5,1,2,title,1.0,1.0,1.0,1.0,1.0,How do we extract information from data?,How do we extract information from data?
+gpt-3-in-sample,5,1,2,body,,,,,,,
+gpt-3-in-sample,5,1,2,images,,,,,,,
+gpt-3-in-sample,5,1,2,notes,,,,,,,
+gpt-3-in-sample,5,1,2,footer,,,,,,,
+gpt-3-in-sample,5,1,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)"
+gpt-3-in-sample,5,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,5,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-3-in-sample,5,1,3,body,1.0,1.0,1.0,1.0,1.0,"Tabular Data
+Observations
+Variables
+Relationships
+Queries
+","Tabular Data
+Observations
+Variables
+Relationships
+Queries
+"
+gpt-3-in-sample,5,1,3,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png),![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)
+gpt-3-in-sample,5,1,3,notes,,,,,,,
+gpt-3-in-sample,5,1,3,footer,,,,,,,
+gpt-3-in-sample,5,2,,,,,,,,
+gpt-3-in-sample,5,3,,,,,,,,
+gpt-3-in-sample,5,4,,,,,,,,
+gpt-3-in-sample,5,5,,,,,,,,
+gpt-3-in-sample,5,6,,,,,,,,
+gpt-3-in-sample,5,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,5,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-3-in-sample,5,7,0,class,,,,,,,
+gpt-3-in-sample,5,7,0,title,,,,,,,
+gpt-3-in-sample,5,7,0,body,,,,,,,
+gpt-3-in-sample,5,7,0,images,,,,,,,
+gpt-3-in-sample,5,7,0,notes,,,,,,,
+gpt-3-in-sample,5,7,0,footer,,,,,,,
+gpt-3-in-sample,5,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-3-in-sample,5,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,5,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,5,7,1,body,,,,,,,
+gpt-3-in-sample,5,7,1,images,,,,,,,
+gpt-3-in-sample,5,7,1,notes,,,,,,,
+gpt-3-in-sample,5,7,1,footer,,,,,,,
+gpt-3-in-sample,5,7,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)"
+gpt-3-in-sample,5,7,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,5,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,5,7,2,body,1.0,1.0,1.0,1.0,1.0,"Tabular Data
+Observations
+Variables
+Relationships
+Queries
+","Tabular Data
+Observations
+Variables
+Relationships
+Queries
+"
+gpt-3-in-sample,5,7,2,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png),![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)
+gpt-3-in-sample,5,7,2,notes,,,,,,,
+gpt-3-in-sample,5,7,2,footer,,,,,,,
+gpt-3-in-sample,6,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,6,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-3-in-sample,6,1,0,class,,,,,,,
+gpt-3-in-sample,6,1,0,title,,,,,,,
+gpt-3-in-sample,6,1,0,body,,,,,,,
+gpt-3-in-sample,6,1,0,images,,,,,,,
+gpt-3-in-sample,6,1,0,notes,,,,,,,
+gpt-3-in-sample,6,1,0,footer,,,,,,,
+gpt-3-in-sample,6,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Life Cycle","<!-- _class: title-slide -->
+
+# Life Cycle"
+gpt-3-in-sample,6,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-3-in-sample,6,1,1,title,0.5,1.0,1.0,1.0,1.0,Life Cycle,Life Cycle
+gpt-3-in-sample,6,1,1,body,,,,,,,
+gpt-3-in-sample,6,1,1,images,,,,,,,
+gpt-3-in-sample,6,1,1,notes,,,,,,,
+gpt-3-in-sample,6,1,1,footer,,,,,,,
+gpt-3-in-sample,6,1,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# How do we get from data to action?","<!-- _class: title-only -->
+
+# How do we get from data to action?"
+gpt-3-in-sample,6,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,1,2,title,1.0,1.0,1.0,1.0,1.0,How do we get from data to action?,How do we get from data to action?
+gpt-3-in-sample,6,1,2,body,,,,,,,
+gpt-3-in-sample,6,1,2,images,,,,,,,
+gpt-3-in-sample,6,1,2,notes,,,,,,,
+gpt-3-in-sample,6,1,2,footer,,,,,,,
+gpt-3-in-sample,6,1,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+
+![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+
+![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-3-in-sample,6,1,3,body,1.0,1.0,1.0,1.0,1.0,"Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+","Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+"
+gpt-3-in-sample,6,1,3,images,1.0,1.0,1.0,1.0,1.0,"![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)","![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,1,3,notes,,,,,,,
+gpt-3-in-sample,6,1,3,footer,,,,,,,
+gpt-3-in-sample,6,2,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Collection
+theme: template","marp: true
+title: 2 - Collection
+theme: template"
+gpt-3-in-sample,6,2,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Collection
+theme: template","marp: true
+title: 2 - Collection
+theme: template"
+gpt-3-in-sample,6,2,0,class,,,,,,,
+gpt-3-in-sample,6,2,0,title,,,,,,,
+gpt-3-in-sample,6,2,0,body,,,,,,,
+gpt-3-in-sample,6,2,0,images,,,,,,,
+gpt-3-in-sample,6,2,0,notes,,,,,,,
+gpt-3-in-sample,6,2,0,footer,,,,,,,
+gpt-3-in-sample,6,2,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Collection","<!-- _class: title-only -->
+
+# Collection"
+gpt-3-in-sample,6,2,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,2,1,title,0.25,1.0,0.0,1.0,1.0,Collection,Collection
+gpt-3-in-sample,6,2,1,body,,,,,,,
+gpt-3-in-sample,6,2,1,images,,,,,,,
+gpt-3-in-sample,6,2,1,notes,,,,,,,
+gpt-3-in-sample,6,2,1,footer,,,,,,,
+gpt-3-in-sample,6,2,2,slide,0.43,0.73,0.56,0.7,0.57,"<!-- _class: title-two-content-left-center -->
+
+# Collection
+
+Observe phenomenon
+Record observation
+Data created
+
+![image An icon of a circle with two arrows pointing at each other in a circle, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Collection
+
+Observe phenomenon
+Record observation
+Both are required
+
+![image An icon of a circle, square, and triangle being inserted into a bin with arrows pointing from each shape to the bin, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,2,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,2,2,title,0.25,1.0,0.0,1.0,1.0,Collection,Collection
+gpt-3-in-sample,6,2,2,body,0.44,0.62,0.55,0.62,0.45,"Observe phenomenon
+Record observation
+Data created
+","Observe phenomenon
+Record observation
+Both are required
+"
+gpt-3-in-sample,6,2,2,images,0.31,0.68,0.47,0.64,0.5,"![image An icon of a circle with two arrows pointing at each other in a circle, in a minimalist style](images/placeholder.png)","![image An icon of a circle, square, and triangle being inserted into a bin with arrows pointing from each shape to the bin, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,2,2,notes,,,,,,,
+gpt-3-in-sample,6,2,2,footer,,,,,,,
+gpt-3-in-sample,6,2,3,slide,0.51,0.77,0.63,0.75,0.63,"<!-- _class: title-two-content-left-center -->
+
+# Collection
+
+Sensors
+Transactions
+Interactions
+Experiments
+
+![image An icon of a circle with two arrows pointing at each other in a circle, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Collection
+
+Sensors
+Transactions
+Interactions
+Experiments
+
+![image An icon of a circle, square, and triangle being inserted into a bin with arrows pointing from each shape to the bin, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,2,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,2,3,title,0.25,1.0,0.0,1.0,1.0,Collection,Collection
+gpt-3-in-sample,6,2,3,body,1.0,1.0,1.0,1.0,1.0,"Sensors
+Transactions
+Interactions
+Experiments
+","Sensors
+Transactions
+Interactions
+Experiments
+"
+gpt-3-in-sample,6,2,3,images,0.31,0.68,0.47,0.64,0.5,"![image An icon of a circle with two arrows pointing at each other in a circle, in a minimalist style](images/placeholder.png)","![image An icon of a circle, square, and triangle being inserted into a bin with arrows pointing from each shape to the bin, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,2,3,notes,,,,,,,
+gpt-3-in-sample,6,2,3,footer,,,,,,,
+gpt-3-in-sample,6,3,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Storage
+theme: template","marp: true
+title: 3 - Storage
+theme: template"
+gpt-3-in-sample,6,3,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Storage
+theme: template","marp: true
+title: 3 - Storage
+theme: template"
+gpt-3-in-sample,6,3,0,class,,,,,,,
+gpt-3-in-sample,6,3,0,title,,,,,,,
+gpt-3-in-sample,6,3,0,body,,,,,,,
+gpt-3-in-sample,6,3,0,images,,,,,,,
+gpt-3-in-sample,6,3,0,notes,,,,,,,
+gpt-3-in-sample,6,3,0,footer,,,,,,,
+gpt-3-in-sample,6,3,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Storage","<!-- _class: title-only -->
+
+# Storage"
+gpt-3-in-sample,6,3,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,3,1,title,0.25,1.0,0.0,1.0,1.0,Storage,Storage
+gpt-3-in-sample,6,3,1,body,,,,,,,
+gpt-3-in-sample,6,3,1,images,,,,,,,
+gpt-3-in-sample,6,3,1,notes,,,,,,,
+gpt-3-in-sample,6,3,1,footer,,,,,,,
+gpt-3-in-sample,6,3,2,slide,0.91,0.98,0.94,0.98,0.97,"<!-- _class: title-two-content-left-center -->
+
+# Storage
+
+Volatile storage
+Persistent storage
+Retrieve as needed
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Storage
+
+Volatile storage
+Persistent storage
+Retrieve as needed
+
+![image An icon of a database in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,3,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,3,2,title,0.25,1.0,0.0,1.0,1.0,Storage,Storage
+gpt-3-in-sample,6,3,2,body,1.0,1.0,1.0,1.0,1.0,"Volatile storage
+Persistent storage
+Retrieve as needed
+","Volatile storage
+Persistent storage
+Retrieve as needed
+"
+gpt-3-in-sample,6,3,2,images,0.78,0.96,0.88,0.96,0.92,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of a database in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,6,3,2,notes,,,,,,,
+gpt-3-in-sample,6,3,2,footer,,,,,,,
+gpt-3-in-sample,6,3,3,slide,0.92,0.99,0.95,0.99,0.97,"<!-- _class: title-two-content-left-center -->
+
+# Storage
+
+File-based formats
+Web-based formats
+Transactional databases
+Analytical databases
+Big Data platforms
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Storage
+
+File-based formats
+Web-based formats
+Transactional databases
+Analytical databases
+Big Data platforms
+
+![image An icon of a database in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,3,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,3,3,title,0.25,1.0,0.0,1.0,1.0,Storage,Storage
+gpt-3-in-sample,6,3,3,body,1.0,1.0,1.0,1.0,1.0,"File-based formats
+Web-based formats
+Transactional databases
+Analytical databases
+Big Data platforms
+","File-based formats
+Web-based formats
+Transactional databases
+Analytical databases
+Big Data platforms
+"
+gpt-3-in-sample,6,3,3,images,0.78,0.96,0.88,0.96,0.92,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of a database in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,6,3,3,notes,,,,,,,
+gpt-3-in-sample,6,3,3,footer,,,,,,,
+gpt-3-in-sample,6,4,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Processing
+theme: template","marp: true
+title: 4 - Processing
+theme: template"
+gpt-3-in-sample,6,4,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Processing
+theme: template","marp: true
+title: 4 - Processing
+theme: template"
+gpt-3-in-sample,6,4,0,class,,,,,,,
+gpt-3-in-sample,6,4,0,title,,,,,,,
+gpt-3-in-sample,6,4,0,body,,,,,,,
+gpt-3-in-sample,6,4,0,images,,,,,,,
+gpt-3-in-sample,6,4,0,notes,,,,,,,
+gpt-3-in-sample,6,4,0,footer,,,,,,,
+gpt-3-in-sample,6,4,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Processing","<!-- _class: title-only -->
+
+# Processing"
+gpt-3-in-sample,6,4,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,4,1,title,0.25,1.0,0.0,1.0,1.0,Processing,Processing
+gpt-3-in-sample,6,4,1,body,,,,,,,
+gpt-3-in-sample,6,4,1,images,,,,,,,
+gpt-3-in-sample,6,4,1,notes,,,,,,,
+gpt-3-in-sample,6,4,1,footer,,,,,,,
+gpt-3-in-sample,6,4,2,slide,0.33,0.68,0.48,0.62,0.49,"<!-- _class: title-two-content-left-center -->
+
+# Processing
+
+Transform
+Clean
+Query
+
+![image An icon of a database table with three columns and three rows in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left -->
+
+# Processing
+
+Transform
+Clean
+Query
+
+![image An icon representing data processing with a gear in the center and two curved arrows surrounding the gear chasing one another, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,4,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left-center,title-two-content-left
+gpt-3-in-sample,6,4,2,title,0.25,1.0,0.0,1.0,1.0,Processing,Processing
+gpt-3-in-sample,6,4,2,body,0.79,1.0,1.0,1.0,1.0,"Transform
+Clean
+Query
+","Transform
+Clean
+Query
+"
+gpt-3-in-sample,6,4,2,images,0.17,0.53,0.34,0.49,0.31,![image An icon of a database table with three columns and three rows in a minimalist style](images/placeholder.png),"![image An icon representing data processing with a gear in the center and two curved arrows surrounding the gear chasing one another, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,4,2,notes,,,,,,,
+gpt-3-in-sample,6,4,2,footer,,,,,,,
+gpt-3-in-sample,6,4,3,slide,0.39,0.67,0.54,0.64,0.5,"<!-- _class: title-two-content-left-center -->
+
+# Processing
+
+Manual
+Scripts
+Pipeline
+
+![image An icon of a database table with three columns and three rows in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Processing
+
+Manual
+Scripts
+Pipeline
+
+![image An icon representing data processing with a gear in the center and two curved arrows surrounding the gear chasing one another, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,4,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,4,3,title,0.25,1.0,0.0,1.0,1.0,Processing,Processing
+gpt-3-in-sample,6,4,3,body,0.79,1.0,1.0,1.0,1.0,"Manual
+Scripts
+Pipeline
+","Manual
+Scripts
+Pipeline
+"
+gpt-3-in-sample,6,4,3,images,0.17,0.53,0.34,0.49,0.31,![image An icon of a database table with three columns and three rows in a minimalist style](images/placeholder.png),"![image An icon representing data processing with a gear in the center and two curved arrows surrounding the gear chasing one another, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,4,3,notes,,,,,,,
+gpt-3-in-sample,6,4,3,footer,,,,,,,
+gpt-3-in-sample,6,5,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Analysis
+theme: template","marp: true
+title: 5 - Analysis
+theme: template"
+gpt-3-in-sample,6,5,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Analysis
+theme: template","marp: true
+title: 5 - Analysis
+theme: template"
+gpt-3-in-sample,6,5,0,class,,,,,,,
+gpt-3-in-sample,6,5,0,title,,,,,,,
+gpt-3-in-sample,6,5,0,body,,,,,,,
+gpt-3-in-sample,6,5,0,images,,,,,,,
+gpt-3-in-sample,6,5,0,notes,,,,,,,
+gpt-3-in-sample,6,5,0,footer,,,,,,,
+gpt-3-in-sample,6,5,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Analysis","<!-- _class: title-only -->
+
+# Analysis"
+gpt-3-in-sample,6,5,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,5,1,title,0.25,1.0,0.0,1.0,1.0,Analysis,Analysis
+gpt-3-in-sample,6,5,1,body,,,,,,,
+gpt-3-in-sample,6,5,1,images,,,,,,,
+gpt-3-in-sample,6,5,1,notes,,,,,,,
+gpt-3-in-sample,6,5,1,footer,,,,,,,
+gpt-3-in-sample,6,5,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Analysis
+
+Support decisions
+Explain observations
+Discover information
+
+![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Analysis
+
+Support decisions
+Explain observations
+Discover information
+
+![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,5,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,5,2,title,0.25,1.0,0.0,1.0,1.0,Analysis,Analysis
+gpt-3-in-sample,6,5,2,body,1.0,1.0,1.0,1.0,1.0,"Support decisions
+Explain observations
+Discover information
+","Support decisions
+Explain observations
+Discover information
+"
+gpt-3-in-sample,6,5,2,images,1.0,1.0,1.0,1.0,1.0,"![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)","![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,5,2,notes,,,,,,,
+gpt-3-in-sample,6,5,2,footer,,,,,,,
+gpt-3-in-sample,6,5,3,slide,0.91,0.96,0.94,0.96,0.97,"<!-- _class: title-two-content-left-center -->
+
+# Analysis
+
+Reports
+Dashboards
+Data analysis
+Data mining
+Machine learning
+Artificial intelligence
+
+![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Analysis
+
+Reports
+Dashboards
+Analytics
+Data mining
+Machine learning
+Artificial intelligence
+
+![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,5,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,5,3,title,0.25,1.0,0.0,1.0,1.0,Analysis,Analysis
+gpt-3-in-sample,6,5,3,body,0.62,0.84,0.71,0.84,0.79,"Reports
+Dashboards
+Data analysis
+Data mining
+Machine learning
+Artificial intelligence
+","Reports
+Dashboards
+Analytics
+Data mining
+Machine learning
+Artificial intelligence
+"
+gpt-3-in-sample,6,5,3,images,1.0,1.0,1.0,1.0,1.0,"![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)","![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,5,3,notes,,,,,,,
+gpt-3-in-sample,6,5,3,footer,,,,,,,
+gpt-3-in-sample,6,6,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Action
+theme: template","marp: true
+title: 6 - Action
+theme: template"
+gpt-3-in-sample,6,6,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Action
+theme: template","marp: true
+title: 6 - Action
+theme: template"
+gpt-3-in-sample,6,6,0,class,,,,,,,
+gpt-3-in-sample,6,6,0,title,,,,,,,
+gpt-3-in-sample,6,6,0,body,,,,,,,
+gpt-3-in-sample,6,6,0,images,,,,,,,
+gpt-3-in-sample,6,6,0,notes,,,,,,,
+gpt-3-in-sample,6,6,0,footer,,,,,,,
+gpt-3-in-sample,6,6,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Action","<!-- _class: title-only -->
+
+# Action"
+gpt-3-in-sample,6,6,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,6,1,title,0.25,1.0,0.0,1.0,1.0,Action,Action
+gpt-3-in-sample,6,6,1,body,,,,,,,
+gpt-3-in-sample,6,6,1,images,,,,,,,
+gpt-3-in-sample,6,6,1,notes,,,,,,,
+gpt-3-in-sample,6,6,1,footer,,,,,,,
+gpt-3-in-sample,6,6,2,slide,0.56,0.76,0.72,0.76,0.67,"<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decision
+Action
+Outcome
+
+![image An icon of a person running with a stick in one hand and a sword in the other, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decision
+Action
+Outcome
+
+![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,6,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,6,2,title,0.25,1.0,0.0,1.0,1.0,Action,Action
+gpt-3-in-sample,6,6,2,body,0.79,1.0,1.0,1.0,1.0,"Decision
+Action
+Outcome
+","Decision
+Action
+Outcome
+"
+gpt-3-in-sample,6,6,2,images,0.39,0.65,0.59,0.65,0.53,"![image An icon of a person running with a stick in one hand and a sword in the other, in a minimalist style](images/placeholder.png)","![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,6,2,notes,,,,,,,
+gpt-3-in-sample,6,6,2,footer,,,,,,,
+gpt-3-in-sample,6,6,3,slide,0.56,0.76,0.72,0.76,0.65,"<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decide
+Communicate
+Automate
+
+![image An icon of a person running with a stick in one hand and a sword in the other, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decide
+Communicate
+Automate
+
+![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,6,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,6,3,title,0.25,1.0,0.0,1.0,1.0,Action,Action
+gpt-3-in-sample,6,6,3,body,0.79,1.0,1.0,1.0,1.0,"Decide
+Communicate
+Automate
+","Decide
+Communicate
+Automate
+"
+gpt-3-in-sample,6,6,3,images,0.39,0.65,0.59,0.65,0.53,"![image An icon of a person running with a stick in one hand and a sword in the other, in a minimalist style](images/placeholder.png)","![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,6,3,notes,,,,,,,
+gpt-3-in-sample,6,6,3,footer,,,,,,,
+gpt-3-in-sample,6,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Repeat
+theme: template","marp: true
+title: 7 - Repeat
+theme: template"
+gpt-3-in-sample,6,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Repeat
+theme: template","marp: true
+title: 7 - Repeat
+theme: template"
+gpt-3-in-sample,6,7,0,class,,,,,,,
+gpt-3-in-sample,6,7,0,title,,,,,,,
+gpt-3-in-sample,6,7,0,body,,,,,,,
+gpt-3-in-sample,6,7,0,images,,,,,,,
+gpt-3-in-sample,6,7,0,notes,,,,,,,
+gpt-3-in-sample,6,7,0,footer,,,,,,,
+gpt-3-in-sample,6,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Repeat","<!-- _class: title-only -->
+
+# Repeat"
+gpt-3-in-sample,6,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,7,1,title,0.25,1.0,0.0,1.0,1.0,Repeat,Repeat
+gpt-3-in-sample,6,7,1,body,,,,,,,
+gpt-3-in-sample,6,7,1,images,,,,,,,
+gpt-3-in-sample,6,7,1,notes,,,,,,,
+gpt-3-in-sample,6,7,1,footer,,,,,,,
+gpt-3-in-sample,6,7,2,slide,0.66,0.93,0.76,0.85,0.8,"<!-- _class: title-two-content-left-center -->
+
+# Repeat
+
+Feedback
+Iterative process
+Continuous improvement
+
+![image An icon of a circle with two arrows chasing each other representing a process with repeat and feedback in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Repeat
+
+Feedback
+Iterative process 
+Continuous improvement
+
+![image An icon of two arrows in a circle chasing each other representing a repeating processes in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,7,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,7,2,title,0.25,1.0,0.0,1.0,1.0,Repeat,Repeat
+gpt-3-in-sample,6,7,2,body,1.0,1.0,1.0,1.0,1.0,"Feedback
+Iterative process
+Continuous improvement
+","Feedback
+Iterative process 
+Continuous improvement
+"
+gpt-3-in-sample,6,7,2,images,0.48,0.9,0.64,0.78,0.64,![image An icon of a circle with two arrows chasing each other representing a process with repeat and feedback in a minimalist style](images/placeholder.png),![image An icon of two arrows in a circle chasing each other representing a repeating processes in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,6,7,2,notes,,,,,,,
+gpt-3-in-sample,6,7,2,footer,,,,,,,
+gpt-3-in-sample,6,7,3,slide,0.67,0.93,0.77,0.85,0.81,"<!-- _class: title-two-content-left-center -->
+
+# Repeat
+
+Collect
+Store
+Process
+Analyze
+Decide
+Repeat
+
+![image An icon of a circle with two arrows chasing each other representing a process with repeat and feedback in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Repeat
+
+Collect
+Store
+Process
+Analyze
+Decide
+Repeat
+
+![image An icon of two arrows in a circle chasing each other representing a repeating processes in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,7,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,7,3,title,0.25,1.0,0.0,1.0,1.0,Repeat,Repeat
+gpt-3-in-sample,6,7,3,body,1.0,1.0,1.0,1.0,1.0,"Collect
+Store
+Process
+Analyze
+Decide
+Repeat
+","Collect
+Store
+Process
+Analyze
+Decide
+Repeat
+"
+gpt-3-in-sample,6,7,3,images,0.48,0.9,0.64,0.78,0.64,![image An icon of a circle with two arrows chasing each other representing a process with repeat and feedback in a minimalist style](images/placeholder.png),![image An icon of two arrows in a circle chasing each other representing a repeating processes in a minimalist style](images/placeholder.png)
+gpt-3-in-sample,6,7,3,notes,,,,,,,
+gpt-3-in-sample,6,7,3,footer,,,,,,,
+gpt-3-in-sample,6,8,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 8 - Summary
+theme: template","marp: true
+title: 8 - Summary
+theme: template"
+gpt-3-in-sample,6,8,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 8 - Summary
+theme: template","marp: true
+title: 8 - Summary
+theme: template"
+gpt-3-in-sample,6,8,0,class,,,,,,,
+gpt-3-in-sample,6,8,0,title,,,,,,,
+gpt-3-in-sample,6,8,0,body,,,,,,,
+gpt-3-in-sample,6,8,0,images,,,,,,,
+gpt-3-in-sample,6,8,0,notes,,,,,,,
+gpt-3-in-sample,6,8,0,footer,,,,,,,
+gpt-3-in-sample,6,8,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-3-in-sample,6,8,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-3-in-sample,6,8,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,6,8,1,body,,,,,,,
+gpt-3-in-sample,6,8,1,images,,,,,,,
+gpt-3-in-sample,6,8,1,notes,,,,,,,
+gpt-3-in-sample,6,8,1,footer,,,,,,,
+gpt-3-in-sample,6,8,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+
+![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+
+![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,8,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-3-in-sample,6,8,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-3-in-sample,6,8,2,body,1.0,1.0,1.0,1.0,1.0,"Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+","Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+"
+gpt-3-in-sample,6,8,2,images,1.0,1.0,1.0,1.0,1.0,"![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)","![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-3-in-sample,6,8,2,notes,,,,,,,
+gpt-3-in-sample,6,8,2,footer,,,,,,,
+gpt-3-in-sample,7,1,,,,,,,,
+gpt-3-in-sample,7,2,,,,,,,,

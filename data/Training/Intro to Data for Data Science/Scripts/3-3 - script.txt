@@ -1,0 +1,50 @@
+---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 3 - Nominal Data
+
+---
+
+The first type of categorical data that we encounter in data science are nominal data.
+
+---
+
+Nominal data are a type of categorical data.
+
+That is, they are used to represent named qualities.
+
+However, nominal data have no natural rank order to them (i.e. they differ by their name only).
+
+---
+
+For example, the colors red, green, and yellow all describe the color of apples.
+
+However, no one color is greater than or less than another color.
+
+These three colors have no natural rank order to them.
+
+They differ by their name alone.
+
+---
+
+Other examples of nominal data include:
+
+your name, 
+
+your credit card number, 
+
+and the name of the city where you were born.
+
+The key distinction is that nominal values have no natural order to them.
+
+However, they can still be sorted alphabetically.
+
+---
+
+There are a limited number of mathematical operations that we can perform on nominal data.
+
+We can test two nominal values for equality (i.e. determine if they are the same named category).
+
+In addition, we can determine their mode (i.e. the most frequently occurring category in a set of nominal values).
+
+Despite these limitations, nominal data are still quite useful in data science.

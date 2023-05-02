@@ -1,0 +1,45 @@
+---
+course: Intro to Data for Data Science
+module: 7 - Conclusion
+title: 1 - Next Steps
+
+---
+
+Welcome to the final module of this introductory course on data for data science.
+
+Let's wrap things up for this course, so we can begin applying this knowledge in the real world.
+
+---
+
+You might be wondering:
+
+Where should I go next?
+
+---
+
+First, I recommend that you practice to reinforce the information that you've learned.
+
+So please complete all of the quiz questions, and practice exercises for this course before you move on.
+
+---
+
+Next, if you're interested in learning more, I recommend taking the remaining courses in this series on data science.
+
+There's plenty more to learn, so be sure to get started right away!
+
+---
+
+Finally, I encourage you to engage with me and others in this online learning community.
+
+So please be sure to:
+
+rate this course,
+
+ask questions in the discussion board,
+
+leave comments to let me know what you found valuable and what could be improved,
+
+and feel free to send me a message on social media, if you'd like to provide me with feedback in public.
+
+---
+

@@ -1,0 +1,49 @@
+This is the script for the slide templates that you will be using.
+
+---
+course: [course-name]
+module: [module-id] - [module-title]
+title: [section-id] - [section-title]
+---
+
+This is a title slide that contains the title of the presentation. 
+
+---
+
+This is a slide with a title only.
+
+---
+
+This is a slide with a background image and title in the middle-center of the screen.
+
+---
+
+This is a slide with a title and one content area.
+
+---
+
+This is a slide with a title and an image.
+
+---
+
+This is a slide with a title and a table.
+
+---
+
+This is a slide with a title and one content area that is left aligned.
+
+---
+
+This is a slide with a title and two content areas that are left aligned and contain text.
+
+---
+
+This is a slide with a title and two content areas where the first is left aligned and the second is center aligned.
+
+---
+
+This is a slide with two content comparison.
+
+---
+
+This is a slide with a single pane and an image.

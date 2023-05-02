@@ -1,0 +1,34 @@
+---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 1 - Overview
+
+---
+
+Welcome back to this introductory course on data for data science.
+
+I'm Matthew Renze, data science consultant, author, and public speaker.
+
+In this module, we'll learn about data types and how data are represented and stored in computer systems.
+
+---
+
+How do we represent data in a computer?
+
+How does a computer know whether it's dealing with a word, a number, or a date and time?
+
+And how does a computer know what types of operations can be performed on each type of data?
+
+---
+
+To answer these questions, we're going to learn about data types, and how we represent and store data in a computer.
+
+First, we'll learn about data types, binary representations of data used by computer systems.
+
+Next, we'll learn about scalar data types, representations of data that store a single value.
+
+Then, we'll see about a few examples of common scalar data types you'll encounter in data science.
+
+Next, we'll learn about composite data types, representations that store data as a group of related values.
+
+Finally, we'll see about a few examples of common composite data types you'll encounter in data science.

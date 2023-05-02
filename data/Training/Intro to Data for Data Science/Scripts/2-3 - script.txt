@@ -1,0 +1,46 @@
+---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 3 - Information
+
+---
+
+Information is everywhere.
+
+We have information on the menus at our restaurants, in the books in our libraries, and on street signs while we're driving.
+
+But what exactly is information in the context of data science?
+
+---
+
+Information is something that reduces uncertainty about our world.
+
+It is the answer to questions like who, what, where, how many, or how much.
+
+Essentially, information provides clarity about the world we live in.
+
+---
+
+Information is created from data.
+
+We create information by organizing, analyzing, and interpreting data.
+
+Organizing, analyzing, and interpreting data gives it context and meaning.
+
+This additional context and meaning is essentially what distinguishes data from information.
+
+---
+
+For example, imagine that our doctor has a recorded a history of our normal body temperature over the past few years.
+
+They analyze the historical data and computes that our average (or normal) body temperature is 37°C.
+
+This average temperature of 37°C is what we call information.
+
+---
+
+Information is more meaningful than the individual data points that were used to create it.
+
+This makes information quite useful on it's own.
+
+However, information can also be used to create something more powerful -- it can be used to create knowledge.

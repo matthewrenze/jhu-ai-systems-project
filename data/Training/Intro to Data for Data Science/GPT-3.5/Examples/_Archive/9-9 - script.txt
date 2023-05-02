@@ -1,0 +1,137 @@
+---
+course: Intro to Data for Data Science
+module: 9 - Miscellaneous
+title: 9 - Miscellaneous Examples
+---
+
+For example, imagine we have a table of patients at a hospital.
+
+We would have a set of rows (one for each patient) and a set of columns, (one for each attribute of the patient).
+
+Each element of data in a column must be the same data type.
+
+For example, 
+
+ - all of the names must be character strings,
+
+ - all of the genders must be enumerations of male, female, or other genders,
+
+ - all ages must be integers,
+
+ - and so one.
+
+However, the each row contains elements of various data types.
+
+For example, 
+
+ - the name "Bill" is a character string, 
+
+ - the gender "Male" is an enumeration,
+
+ - and the age "21" is an integer,
+
+As we can see, each column contains only a single data type; however, each *row* can contain multiple data types.
+
+---
+
+For example, imagine we're recording vital signs for a patient at a hospital.
+
+Our variables might be:
+
+ - the date and time of the observation,
+
+ - the patients heart rate measured by their pulse, 
+
+ - and their body temperature at the time of the observation.
+
+What is most important, is that all of the elements in a specific column must be of the same data type, scale, and unit of measure.
+
+---
+
+For example:
+
+ - we don't want our dates to be stored using different date formats.
+
+ - we don't want our heart rate data to be stored using two different data types.
+
+ - and we don't want our temperature to use both Celsius and Fahrenheit units of measure.
+
+---
+
+For example, imagine that we have two tables:
+
+First, we have a table of patients.
+
+It contains their names, genders, dates of birth, and more.
+
+Second, we have a table of all of our patient's vital signs.
+
+It contains observations of the patient's temperature, heart rate and more for a specific day.
+
+We could duplicate the patient's name and other personal data for each recording of their vital signs.
+
+However, it's much more efficient to store the patient's data once and then simply refer back to that data from the vital-signs table.
+
+We do this by creating a primary key and a foreign key.
+
+---
+
+Now we can navigate the relationship forward from any patient to get their vital signs.
+
+Or we can navigate the relationship backwards from a vital sign to get the patient's name and information.
+
+Relationships allow us to connect data from table to table in many ways.
+
+However, we'll have to defer these various types of relationships to a more advanced course on data science.
+
+---
+
+For example, let's say we want to answer the question: "What was Bill's average body temperature over the past 5 years".
+
+We could write this question in the form of a SQL query.
+
+The SQL query allows us to express that we want to:
+
+ - select the average temperature
+
+ - from the Vital Signs table
+
+ - where the patient's name is "Bill"
+
+ - and the date is greater than or equal to January 1, 2015 (which we're assuming is five years ago).
+
+I've intentionally kept this query simple for those of you who have never seen a SQL query before.
+
+However, if you've had some experience with SQL, you may see several ways we could improve this query.
+
+---
+
+When we execute this query, 
+
+First, the database will scan all of the records in the Vital Signs table 
+
+Next, it will filter out anyone who is not our patient named Bill.
+
+---
+
+Finally, it will compute the average of the remaining temperature values.
+
+---
+
+The computer will then return this value as a result.
+
+As we can see, the result of executing this query is 37 degrees Celsius.
+
+---
+
+Essentially, this is how we get from a question to an answer, using a query.
+
+We start with a question in our natural language,
+
+ - we construct a SQL query to express that question to the computer, 
+
+ - we execute the query which returns a result, 
+
+ - and then we express that result in the form of an answer to the question.
+
+Queries are the primary tool used for extracting information from data in data science.

@@ -1,0 +1,7 @@
+{
+  "markdown.marp.enableHtml": true,
+  "markdown.marp.themes": [
+    "/Data/Templates/template.css"
+  ]   
+ 
+}

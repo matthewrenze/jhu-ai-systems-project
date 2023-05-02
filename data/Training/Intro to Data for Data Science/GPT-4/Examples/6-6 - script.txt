@@ -1,0 +1,30 @@
+---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 6 - Action
+
+---
+
+The next step in the data lifecycle is action.
+
+---
+
+In data science we use the results of our data analysis to take an action of some kind.
+
+This stage begins with making a decision on what action to take based on the data and our analysis.
+
+Next, we take the appropriate action in order to affect positive change.
+
+Finally, this stage ends with an outcome which is either positive, negative, or resulted in no change at all.
+
+---
+
+Action from data can take on many forms.
+
+For example:
+
+We can make a decision based upon our own data analysis.
+
+We can communicate our findings to a wider audience.
+
+or we can automate a decision-making process, so that the action happens automatically .

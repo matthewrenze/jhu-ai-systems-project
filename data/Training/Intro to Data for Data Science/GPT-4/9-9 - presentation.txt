@@ -1,0 +1,318 @@
+---
+marp: true
+title: 9 - Miscellaneous examples
+theme: template
+---
+
+<!-- _class: title-one-content -->
+
+# Tabular Data
+
+| Name | Gender | Age |
+| ---- | ------ | --- |
+| Bill | Male   | 21  |
+| Miko | Female | 15  |
+| Juan | Other  | 45  |
+
+<!--
+For example, imagine we have a table of patients at a hospital.
+
+We would have a set of rows (one for each patient) and a set of columns, (one for each attribute of the patient).
+
+Each element of data in a column must be the same data type.
+
+For example, 
+
+ - all of the names must be character strings,
+
+ - all of the genders must be enumerations of male, female, or other genders,
+
+ - all ages must be integers,
+
+ - and so one.
+
+However, the each row contains elements of various data types.
+
+For example, 
+
+ - the name "Bill" is a character string, 
+
+ - the gender "Male" is an enumeration,
+
+ - and the age "21" is an integer,
+
+As we can see, each column contains only a single data type; however, each *row* can contain multiple data types.
+-->
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Variables
+
+Value that changes
+On the columns
+Same data type
+
+| Date       | Pulse | Temp. |
+| ---------- | ----- | ----- |
+| 2023-01-01 | 89    | 39.0  |
+| 2023-01-02 | 85    | 38.5  |
+| 2023-01-03 | 80    | 37.2  | 
+
+
+<!--
+For example, imagine we're recording vital signs for a patient at a hospital.
+
+Our variables might be:
+
+ - the date and time of the observation,
+
+ - the patients heart rate measured by their pulse, 
+
+ - and their body temperature at the time of the observation.
+
+What is most important, is that all of the elements in a specific column must be of the same data type, scale, and unit of measure.
+-->
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Variables
+
+Value that changes
+On the columns
+Same data type
+
+| Date         | Pulse      | Temp.     |
+| ------------ | ---------- | --------- |
+| **1/1/2023** | 89         | 39.0      |
+| 2023-01-02   | **Normal** | 38.5      |
+| 2023-01-03   | 80         | **99° F** | 
+
+
+<!--
+For example:
+
+ - we don't want our dates to be stored using different date formats.
+
+ - we don't want our heart rate data to be stored using two different data types.
+
+ - and we don't want our temperature to use both Celsius and Fahrenheit units of measure.
+-->
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Relationships
+
+## Patients
+| Name | Gender | Age |
+| ---- | ------ | --- |
+| Bill | Male   | 21  |
+| Miko | Female | 15  |
+| Juan | Other  | 45  |
+
+
+## Vital Signs
+| Name | Date       | Temp. |
+| ---- | ---------- | ----- |
+| Bill | 2023-01-01 | 37.1  |
+| Miko | 2023-01-01 | 38.1  |
+| Miko | 2023-01-02 | 36.5  |
+
+
+<!--
+For example, imagine that we have two tables:
+
+First, we have a table of patients.
+
+It contains their names, genders, dates of birth, and more.
+
+Second, we have a table of all of our patient's vital signs.
+
+It contains observations of the patient's temperature, heart rate and more for a specific day.
+
+We could duplicate the patient's name and other personal data for each recording of their vital signs.
+
+However, it's much more efficient to store the patient's data once and then simply refer back to that data from the vital-signs table.
+
+We do this by creating a primary key and a foreign key.
+-->
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Relationships
+
+## Patients
+| ID | Name | Gender | Age |
+| -- | ---- | ------ | --- |
+| 1  | Bill | Male   | 21  |
+| 2  | Miko | Female | 15  |
+| 3  | Juan | Other  | 45  |
+
+
+## Vital Signs
+| Patient ID | Date       | Temp. |
+| ---------- | ---------- | ----- |
+| 1          | 2023-01-01 | 37.1  |
+| 2          | 2023-01-01 | 38.1  |
+| 2          | 2023-01-02 | 36.5  |
+
+<!--
+Now we can navigate the relationship forward from any patient to get their vital signs.
+
+Or we can navigate the relationship backwards from a vital sign to get the patient's name and information.
+
+Relationships allow us to connect data from table to table in many ways.
+
+However, we'll have to defer these various types of relationships to a more advanced course on data science.
+-->
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Queries
+
+## Question
+
+What was Bill's average 
+body temperature 
+over the past 5 years?
+
+## SQL Query
+
+select avg([Temperature])
+from [Vital Signs]
+where [Name] = "Bill"
+and [Date] >= "2015-01-01"
+
+<!--
+For example, let's say we want to answer the question: "What was Bill's average body temperature over the past 5 years".
+
+We could write this question in the form of a SQL query.
+
+The SQL query allows us to express that we want to:
+
+ - select the average temperature
+
+ - from the Vital Signs table
+
+ - where the patient's name is "Bill"
+
+ - and the date is greater than or equal to January 1, 2015 (which we're assuming is five years ago).
+
+I've intentionally kept this query simple for those of you who have never seen a SQL query before.
+
+However, if you've had some experience with SQL, you may see several ways we could improve this query.
+-->
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Queries
+
+## SQL Query
+
+select avg([Temperature])
+from [Vital Signs]
+where [Patient Name] = "Bill"
+and [Date] >= "2015-01-01"
+
+## Vital Signs
+
+| Date       | Name | Temp. |
+| ---------- | ---- | ----- |
+| 2010-01-01 | Bill | 37.0  |
+| 2010-01-02 | Miko | 38.5  |
+| 2010-01-03 | Juan | 38.2  | 
+
+
+<!--
+When we execute this query, 
+
+First, the database will scan all of the records in the Vital Signs table 
+
+Next, it will filter out anyone who is not our patient named Bill.
+-->
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Queries
+
+## SQL Query
+
+select avg([Temperature])
+from [Vital Signs]
+where [Patient Name] = "Bill"
+and [Date] >= "2015-01-01"
+
+## Vital Signs
+
+| Temp.  |
+| ------ |
+| 36.9   |
+| 37.1   |
+| &nbsp; | 
+
+<!--
+Finally, it will compute the average of the remaining temperature values.
+-->
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Queries
+
+## SQL Query
+
+select avg([Temperature])
+from [Vital Signs]
+where [Patient Name] = "Bill"
+and [Date] >= "2015-01-01"
+
+## Result
+
+37.0
+
+<!--
+The computer will then return this value as a result.
+
+As we can see, the result of executing this query is 37 degrees Celsius.
+-->
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Queries
+
+## Question
+What was Bill's average body temperature over the past 
+5 years?
+
+## Answer
+It was 37°C.
+
+<!--
+Essentially, this is how we get from a question to an answer, using a query.
+
+We start with a question in our natural language,
+
+ - we construct a SQL query to express that question to the computer, 
+
+ - we execute the query which returns a result, 
+
+ - and then we express that result in the form of an answer to the question.
+
+Queries are the primary tool used for extracting information from data in data science.
+-->

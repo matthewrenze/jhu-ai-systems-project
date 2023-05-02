@@ -1,0 +1,10 @@
+---
+course: Intro to Data for Data Science
+module: 1 - Introduction
+title: 1 - Introduction
+
+---
+
+Hi. I'm Matthew Renze, data science consultant, author, and public speaker.
+Welcome to this introductory course on data for data science.
+In this course, we'll learn about data as a foundation for data science.

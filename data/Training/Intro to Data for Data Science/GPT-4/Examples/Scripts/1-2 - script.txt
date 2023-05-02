@@ -1,0 +1,20 @@
+---
+course: Intro to Data for Data Science
+module: 1 - Introduction
+title: 2 - The Rise of Data
+
+---
+
+Data... a collection of symbols representing the quality or quantity of a physical phenomenon.
+
+---
+
+Humans have likely been using data for as long as we've been counting on our fingers.
+
+---
+
+We have evidence of humans carving notches into wood, bone, and stone to count days, lunar cycles, and animals for at least the past forty-thousand years.
+
+---
+
+A few millennia ago, the Sumerians, Egyptians, and Chinese were recording written counts of items, animals, people, and astronomical observations.

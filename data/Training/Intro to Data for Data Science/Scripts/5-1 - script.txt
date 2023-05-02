@@ -1,0 +1,36 @@
+---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 1 - Overview
+
+---
+
+Hello again.
+
+I'm Matthew Renze, data science consultant, author, and public speaker.
+
+Welcome back to this introductory course on data for data science.
+
+In this module, we'll learn about tabular data and how we can extract information from tables of data using queries.
+
+---
+
+How do we extract information from data?
+
+What's the best way to structure our data to extract information?
+
+And how do we answer our questions once our data has been structured?
+
+---
+
+To answer these questions, we're going to learn about tabular data and how we extract information from tables using queries.
+
+First, we'll learn about tabular data, data that are stored in the rows and columns of a table.
+
+Next, we'll learn about observations, records of observable phenomena, which are stored in the rows.
+
+Then, we'll learn about variables, values that vary for each observation, which are stored in the columns.
+
+Next, we'll learn about relationships that can exist between observations in multiple tables.
+
+Finally, we'll learn about queries, statements that allow a computer to answer a question using a table of data.

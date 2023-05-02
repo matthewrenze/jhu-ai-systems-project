@@ -1,0 +1,79 @@
+This is the script for the slide templates that you will be using.
+
+---
+course: [course-name]
+module: [module-id] - [module-title]
+title: [section-id] - [section-title]
+---
+
+This is a title slide that contains the [course-title] of the presentation. 
+
+It can contain a subtitle and additional information like author, organization, date, and copyright.
+
+---
+
+This is a slide with a title only.
+
+The title is positioned in the middle center of the screen.
+
+---
+
+This is a slide with a background image and title in the middle-center of the screen.
+
+It adds a 20% transparency to the title's background fill.
+
+---
+
+This is a slide with a title and one content area.
+
+By default the text is centered in the content area.
+
+---
+
+This is a slide with a title and an image.
+
+The image is centered in the content area by default.
+
+---
+
+This is a slide with a title and a table.
+
+The table is used to contain tablular data.
+
+---
+
+This is a slide with a title and code.
+
+The code displays syntax highlighting.
+
+---
+
+This is a slide with a title and one content area that is left aligned.
+
+When using this slide template, the text will be aligned to the left side of the content area.
+
+---
+
+This is a slide with a title and two content areas that are left aligned and contain text.
+
+The two content areas are stacked side-by-side horizontally.
+
+---
+
+This is a slide with a title and two content areas where the first is left aligned and the second is center aligned.
+
+This is commonly used for text on the left and an image on the right.
+
+---
+
+This is a slide with two content comparison.
+
+The two items being compared use the heading 2 tag and their properties use the paragraph tag.
+
+---
+
+This is a slide with a single pane and an image.
+
+---
+
+This is a slide with a split pane with an image on the left and text on the right.

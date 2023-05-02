@@ -1,0 +1,2690 @@
+Results ID,Module ID,Section ID,Slide ID,Element Name,BLEU Score,ROUGE-1 f-score,ROUGE-2 f-score,ROUGE-L f-score,Cosine Similarity,Predicted,Reference
+gpt-4-in-sample,1,1,,,,,,,,
+gpt-4-in-sample,1,2,,,,,,,,
+gpt-4-in-sample,1,3,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Overview
+theme: template","marp: true
+title: 3 - Overview
+theme: template"
+gpt-4-in-sample,1,3,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Overview
+theme: template","marp: true
+title: 3 - Overview
+theme: template"
+gpt-4-in-sample,1,3,0,class,,,,,,,
+gpt-4-in-sample,1,3,0,title,,,,,,,
+gpt-4-in-sample,1,3,0,body,,,,,,,
+gpt-4-in-sample,1,3,0,images,,,,,,,
+gpt-4-in-sample,1,3,0,notes,,,,,,,
+gpt-4-in-sample,1,3,0,footer,,,,,,,
+gpt-4-in-sample,1,3,1,slide,0.2,0.5,0.0,0.5,0.34,"<!-- _class: title-slide -->
+
+# Introduction","<!-- _class: section-slide -->
+
+# Overview"
+gpt-4-in-sample,1,3,1,class,0,0.5,0.0,0.5,0.34,title-slide,section-slide
+gpt-4-in-sample,1,3,1,title,0,0.0,0.0,0.0,0.0,Introduction,Overview
+gpt-4-in-sample,1,3,1,body,,,,,,,
+gpt-4-in-sample,1,3,1,images,,,,,,,
+gpt-4-in-sample,1,3,1,notes,,,,,,,
+gpt-4-in-sample,1,3,1,footer,,,,,,,
+gpt-4-in-sample,1,3,2,slide,0.08,0.32,0.12,0.32,0.25,"<!-- _class: title-only -->
+
+# Purpose","<!-- _class: title-one-content -->
+
+# Purpose
+
+To learn about data as a foundation 
+for data science"
+gpt-4-in-sample,1,3,2,class,0,0.4,0.0,0.4,0.26,title-only,title-one-content
+gpt-4-in-sample,1,3,2,title,0.25,1.0,0.0,1.0,1.0,Purpose,Purpose
+gpt-4-in-sample,1,3,2,body,0.0,0.0,0.0,0.0,0.0,,"To learn about data as a foundation 
+for data science
+"
+gpt-4-in-sample,1,3,2,images,,,,,,,
+gpt-4-in-sample,1,3,2,notes,,,,,,,
+gpt-4-in-sample,1,3,2,footer,,,,,,,
+gpt-4-in-sample,1,3,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data
+Types of Data
+Data Types
+Data Structures
+Tabular Data
+Data Life Cycle
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data
+Types of Data
+Data Types
+Data Structures
+Tabular Data
+Data Life Cycle
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,1,3,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,1,3,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-4-in-sample,1,3,3,body,1.0,1.0,1.0,1.0,1.0,"Data
+Types of Data
+Data Types
+Data Structures
+Tabular Data
+Data Life Cycle
+","Data
+Types of Data
+Data Types
+Data Structures
+Tabular Data
+Data Life Cycle
+"
+gpt-4-in-sample,1,3,3,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of a database in a flat minimalist style](images/placeholder.png)
+gpt-4-in-sample,1,3,3,notes,,,,,,,
+gpt-4-in-sample,1,3,3,footer,,,,,,,
+gpt-4-in-sample,1,3,4,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-one-content -->
+
+# Prerequisites
+
+No prerequisite courses
+No required software","<!-- _class: title-one-content -->
+
+# Prerequisites
+
+No prerequisite courses
+No required software"
+gpt-4-in-sample,1,3,4,class,0.25,1.0,1.0,1.0,1.0,title-one-content,title-one-content
+gpt-4-in-sample,1,3,4,title,0.25,1.0,0.0,1.0,1.0,Prerequisites,Prerequisites
+gpt-4-in-sample,1,3,4,body,1.0,1.0,1.0,1.0,1.0,"No prerequisite courses
+No required software
+","No prerequisite courses
+No required software
+"
+gpt-4-in-sample,1,3,4,images,,,,,,,
+gpt-4-in-sample,1,3,4,notes,,,,,,,
+gpt-4-in-sample,1,3,4,footer,,,,,,,
+gpt-4-in-sample,1,3,5,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-one-content -->
+
+# Website
+
+http://matthewrenze.com/courses/intro-to-data","<!-- _class: title-one-content -->
+
+# Website
+
+http://matthewrenze.com/courses/intro-to-data"
+gpt-4-in-sample,1,3,5,class,0.25,1.0,1.0,1.0,1.0,title-one-content,title-one-content
+gpt-4-in-sample,1,3,5,title,0.25,1.0,0.0,1.0,1.0,Website,Website
+gpt-4-in-sample,1,3,5,body,0.25,1.0,1.0,1.0,1.0,"http://matthewrenze.com/courses/intro-to-data
+","http://matthewrenze.com/courses/intro-to-data
+"
+gpt-4-in-sample,1,3,5,images,,,,,,,
+gpt-4-in-sample,1,3,5,notes,,,,,,,
+gpt-4-in-sample,1,3,5,footer,,,,,,,
+gpt-4-in-sample,1,3,6,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-one-content -->
+
+# Learning Outcome
+
+You will understand data 
+in the context of data science","<!-- _class: title-one-content -->
+
+# Learning Outcome
+
+You will understand data 
+in the context of data science"
+gpt-4-in-sample,1,3,6,class,0.25,1.0,1.0,1.0,1.0,title-one-content,title-one-content
+gpt-4-in-sample,1,3,6,title,0.5,1.0,1.0,1.0,1.0,Learning Outcome,Learning Outcome
+gpt-4-in-sample,1,3,6,body,1.0,1.0,1.0,1.0,1.0,"You will understand data 
+in the context of data science
+","You will understand data 
+in the context of data science
+"
+gpt-4-in-sample,1,3,6,images,,,,,,,
+gpt-4-in-sample,1,3,6,notes,,,,,,,
+gpt-4-in-sample,1,3,6,footer,,,,,,,
+gpt-4-in-sample,2,1,,,,,,,,
+gpt-4-in-sample,2,2,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Data
+theme: template","marp: true
+title: 2 - Data
+theme: template"
+gpt-4-in-sample,2,2,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Data
+theme: template","marp: true
+title: 2 - Data
+theme: template"
+gpt-4-in-sample,2,2,0,class,,,,,,,
+gpt-4-in-sample,2,2,0,title,,,,,,,
+gpt-4-in-sample,2,2,0,body,,,,,,,
+gpt-4-in-sample,2,2,0,images,,,,,,,
+gpt-4-in-sample,2,2,0,notes,,,,,,,
+gpt-4-in-sample,2,2,0,footer,,,,,,,
+gpt-4-in-sample,2,2,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Data","<!-- _class: title-only -->
+
+# Data"
+gpt-4-in-sample,2,2,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,2,2,1,title,0.25,1.0,0.0,1.0,1.0,Data,Data
+gpt-4-in-sample,2,2,1,body,,,,,,,
+gpt-4-in-sample,2,2,1,images,,,,,,,
+gpt-4-in-sample,2,2,1,notes,,,,,,,
+gpt-4-in-sample,2,2,1,footer,,,,,,,
+gpt-4-in-sample,2,2,2,slide,0.83,0.98,0.94,0.98,0.96,"<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Describe observations
+Qualities
+Quantities
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Describe observations
+Qualities
+Quantities
+
+![image Icon of a database in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,2,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,2,2,title,0.25,1.0,0.0,1.0,1.0,Data,Data
+gpt-4-in-sample,2,2,2,body,1.0,1.0,1.0,1.0,1.0,"Describe observations
+Qualities
+Quantities
+","Describe observations
+Qualities
+Quantities
+"
+gpt-4-in-sample,2,2,2,images,0.7,0.96,0.88,0.96,0.92,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image Icon of a database in a flat minimalist style](images/placeholder.png)
+gpt-4-in-sample,2,2,2,notes,,,,,,,
+gpt-4-in-sample,2,2,2,footer,,,,,,,
+gpt-4-in-sample,2,2,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Represented as symbols
+Qualities using words
+Quantities using numbers
+
+![image An icon of a database in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Represented as symbols
+Qualities using words
+Quantities using numbers
+
+![image An icon of a database in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,2,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,2,3,title,0.25,1.0,0.0,1.0,1.0,Data,Data
+gpt-4-in-sample,2,2,3,body,1.0,1.0,1.0,1.0,1.0,"Represented as symbols
+Qualities using words
+Quantities using numbers
+","Represented as symbols
+Qualities using words
+Quantities using numbers
+"
+gpt-4-in-sample,2,2,3,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database in a minimalist style](images/placeholder.png),![image An icon of a database in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,2,2,3,notes,,,,,,,
+gpt-4-in-sample,2,2,3,footer,,,,,,,
+gpt-4-in-sample,2,2,4,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor holding a thermometer](images/placeholder.png)","<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor holding a thermometer](images/placeholder.png)"
+gpt-4-in-sample,2,2,4,class,0.25,1.0,1.0,1.0,1.0,one-pane,one-pane
+gpt-4-in-sample,2,2,4,title,,,,,,,
+gpt-4-in-sample,2,2,4,body,,,,,,,
+gpt-4-in-sample,2,2,4,images,1.0,1.0,1.0,1.0,1.0,![bg contain A photo of a doctor holding a thermometer](images/placeholder.png),![bg contain A photo of a doctor holding a thermometer](images/placeholder.png)
+gpt-4-in-sample,2,2,4,notes,,,,,,,
+gpt-4-in-sample,2,2,4,footer,,,,,,,
+gpt-4-in-sample,2,2,5,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Datum (singular)
+Data (plural)
+Used to create information
+
+![image An icon of a database in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Datum (singular)
+Data (plural)
+Used to create information
+
+![image An icon of a database in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,2,5,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,2,5,title,0.25,1.0,0.0,1.0,1.0,Data,Data
+gpt-4-in-sample,2,2,5,body,1.0,1.0,1.0,1.0,1.0,"Datum (singular)
+Data (plural)
+Used to create information
+","Datum (singular)
+Data (plural)
+Used to create information
+"
+gpt-4-in-sample,2,2,5,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database in a minimalist style](images/placeholder.png),![image An icon of a database in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,2,2,5,notes,,,,,,,
+gpt-4-in-sample,2,2,5,footer,,,,,,,
+gpt-4-in-sample,2,3,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Information
+theme: template","marp: true
+title: 3 - Information
+theme: template"
+gpt-4-in-sample,2,3,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Information
+theme: template","marp: true
+title: 3 - Information
+theme: template"
+gpt-4-in-sample,2,3,0,class,,,,,,,
+gpt-4-in-sample,2,3,0,title,,,,,,,
+gpt-4-in-sample,2,3,0,body,,,,,,,
+gpt-4-in-sample,2,3,0,images,,,,,,,
+gpt-4-in-sample,2,3,0,notes,,,,,,,
+gpt-4-in-sample,2,3,0,footer,,,,,,,
+gpt-4-in-sample,2,3,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Information","<!-- _class: title-only -->
+
+# Information"
+gpt-4-in-sample,2,3,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,2,3,1,title,0.25,1.0,0.0,1.0,1.0,Information,Information
+gpt-4-in-sample,2,3,1,body,,,,,,,
+gpt-4-in-sample,2,3,1,images,,,,,,,
+gpt-4-in-sample,2,3,1,notes,,,,,,,
+gpt-4-in-sample,2,3,1,footer,,,,,,,
+gpt-4-in-sample,2,3,2,slide,0.57,0.8,0.67,0.77,0.71,"<!-- _class: title-two-content-left-center -->
+
+# Information
+
+Reduces uncertainty
+Answers questions
+Provides clarity
+
+![image An icon of a magnifying glass with a question mark inside the lens, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Information
+
+Reduces uncertainty
+Answers questions
+Provides clarity
+
+![image An icon of info (an ""i"" inside a circle) in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,3,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,3,2,title,0.25,1.0,0.0,1.0,1.0,Information,Information
+gpt-4-in-sample,2,3,2,body,1.0,1.0,1.0,1.0,1.0,"Reduces uncertainty
+Answers questions
+Provides clarity
+","Reduces uncertainty
+Answers questions
+Provides clarity
+"
+gpt-4-in-sample,2,3,2,images,0.24,0.67,0.43,0.62,0.54,"![image An icon of a magnifying glass with a question mark inside the lens, in a minimalist style](images/placeholder.png)","![image An icon of info (an ""i"" inside a circle) in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,3,2,notes,,,,,,,
+gpt-4-in-sample,2,3,2,footer,,,,,,,
+gpt-4-in-sample,2,3,3,slide,0.41,0.78,0.62,0.78,0.55,"<!-- _class: title-two-content-left-center -->
+
+# Information
+
+Created from data
+Organizing
+Analyzing
+Interpreting
+
+![image An icon of a database with an arrow pointing to a document, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Information
+
+Created from data
+Organize, analyze, interpret
+Context and meaning
+
+![image An icon of info (an ""i"" inside a circle) in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,3,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,3,3,title,0.25,1.0,0.0,1.0,1.0,Information,Information
+gpt-4-in-sample,2,3,3,body,0.16,0.8,0.77,0.8,0.26,"Created from data
+Organizing
+Analyzing
+Interpreting
+","Created from data
+Organize, analyze, interpret
+Context and meaning
+"
+gpt-4-in-sample,2,3,3,images,0.25,0.68,0.44,0.68,0.57,"![image An icon of a database with an arrow pointing to a document, in a minimalist style](images/placeholder.png)","![image An icon of info (an ""i"" inside a circle) in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,3,3,notes,,,,,,,
+gpt-4-in-sample,2,3,3,footer,,,,,,,
+gpt-4-in-sample,2,3,4,slide,0.23,0.56,0.45,0.5,0.41,"<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor holding a clipboard with a patient's medical history](images/placeholder.png)","<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor holding a patient record on a clip board with the numbers 37°C written 3 times from top to bottom with the average of the three values written below](images/placeholder.png)"
+gpt-4-in-sample,2,3,4,class,0.25,1.0,1.0,1.0,1.0,one-pane,one-pane
+gpt-4-in-sample,2,3,4,title,,,,,,,
+gpt-4-in-sample,2,3,4,body,,,,,,,
+gpt-4-in-sample,2,3,4,images,0.15,0.52,0.39,0.45,0.37,![bg contain A photo of a doctor holding a clipboard with a patient's medical history](images/placeholder.png),![bg contain A photo of a doctor holding a patient record on a clip board with the numbers 37°C written 3 times from top to bottom with the average of the three values written below](images/placeholder.png)
+gpt-4-in-sample,2,3,4,notes,,,,,,,
+gpt-4-in-sample,2,3,4,footer,,,,,,,
+gpt-4-in-sample,2,3,5,slide,0.54,0.84,0.68,0.81,0.72,"<!-- _class: title-two-content-left-center -->
+
+# Information
+
+More meaningful
+Useful on its own
+Creates knowledge
+
+![image An icon of a lightbulb with a checkmark inside, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Information
+
+More meaningful
+Useful on its own
+Used to create knowledge
+
+![image An icon of info (an ""i"" inside a circle) in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,3,5,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,3,5,title,0.25,1.0,0.0,1.0,1.0,Information,Information
+gpt-4-in-sample,2,3,5,body,0.57,0.89,0.75,0.89,0.65,"More meaningful
+Useful on its own
+Creates knowledge
+","More meaningful
+Useful on its own
+Used to create knowledge
+"
+gpt-4-in-sample,2,3,5,images,0.29,0.74,0.48,0.69,0.65,"![image An icon of a lightbulb with a checkmark inside, in a minimalist style](images/placeholder.png)","![image An icon of info (an ""i"" inside a circle) in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,3,5,notes,,,,,,,
+gpt-4-in-sample,2,3,5,footer,,,,,,,
+gpt-4-in-sample,2,4,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Knowledge
+theme: template","marp: true
+title: 4 - Knowledge
+theme: template"
+gpt-4-in-sample,2,4,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Knowledge
+theme: template","marp: true
+title: 4 - Knowledge
+theme: template"
+gpt-4-in-sample,2,4,0,class,,,,,,,
+gpt-4-in-sample,2,4,0,title,,,,,,,
+gpt-4-in-sample,2,4,0,body,,,,,,,
+gpt-4-in-sample,2,4,0,images,,,,,,,
+gpt-4-in-sample,2,4,0,notes,,,,,,,
+gpt-4-in-sample,2,4,0,footer,,,,,,,
+gpt-4-in-sample,2,4,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Knowledge","<!-- _class: title-only -->
+
+# Knowledge"
+gpt-4-in-sample,2,4,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,2,4,1,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-4-in-sample,2,4,1,body,,,,,,,
+gpt-4-in-sample,2,4,1,images,,,,,,,
+gpt-4-in-sample,2,4,1,notes,,,,,,,
+gpt-4-in-sample,2,4,1,footer,,,,,,,
+gpt-4-in-sample,2,4,2,slide,0.47,0.79,0.69,0.76,0.62,"<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Understanding
+Explain observations
+Predict behavior
+
+![image An icon of a lightbulb with rays of light emanating from it in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Understanding of our world
+Explains observations
+Predicts behavior
+
+![image An icon of an open book in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,4,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,4,2,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-4-in-sample,2,4,2,body,0.05,0.77,0.55,0.77,0.32,"Understanding
+Explain observations
+Predict behavior
+","Understanding of our world
+Explains observations
+Predicts behavior
+"
+gpt-4-in-sample,2,4,2,images,0.34,0.67,0.59,0.67,0.58,![image An icon of a lightbulb with rays of light emanating from it in a flat minimalist style](images/placeholder.png),![image An icon of an open book in a flat minimalist style](images/placeholder.png)
+gpt-4-in-sample,2,4,2,notes,,,,,,,
+gpt-4-in-sample,2,4,2,footer,,,,,,,
+gpt-4-in-sample,2,4,3,slide,0.47,0.78,0.66,0.78,0.6,"<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Created from information
+Solve problems
+Make decisions
+
+![image An icon of a stack of books with a graduation cap on top in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Created from information
+Used to solve problems
+Used to make decisions
+
+![image An icon of an open book in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,4,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,4,3,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-4-in-sample,2,4,3,body,0.17,0.78,0.5,0.78,0.55,"Created from information
+Solve problems
+Make decisions
+","Created from information
+Used to solve problems
+Used to make decisions
+"
+gpt-4-in-sample,2,4,3,images,0.32,0.7,0.57,0.7,0.58,![image An icon of a stack of books with a graduation cap on top in a flat minimalist style](images/placeholder.png),![image An icon of an open book in a flat minimalist style](images/placeholder.png)
+gpt-4-in-sample,2,4,3,notes,,,,,,,
+gpt-4-in-sample,2,4,3,footer,,,,,,,
+gpt-4-in-sample,2,4,4,slide,0.4,0.68,0.53,0.64,0.48,"<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor holding a clipboard and talking to a patient](images/placeholder.png)","<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor with a patient and the text 39°C -> infection -> rest at the bottom](images/placeholder.png)"
+gpt-4-in-sample,2,4,4,class,0.25,1.0,1.0,1.0,1.0,one-pane,one-pane
+gpt-4-in-sample,2,4,4,title,,,,,,,
+gpt-4-in-sample,2,4,4,body,,,,,,,
+gpt-4-in-sample,2,4,4,images,0.28,0.63,0.46,0.59,0.42,![bg contain A photo of a doctor holding a clipboard and talking to a patient](images/placeholder.png),![bg contain A photo of a doctor with a patient and the text 39°C -> infection -> rest at the bottom](images/placeholder.png)
+gpt-4-in-sample,2,4,4,notes,,,,,,,
+gpt-4-in-sample,2,4,4,footer,,,,,,,
+gpt-4-in-sample,2,4,5,slide,0.38,0.72,0.55,0.66,0.59,"<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Combination of:
+Existing knowledge
+New information
+
+![image An icon of a puzzle piece connected to another puzzle piece in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Knowledge alone is not enough
+Knowledge + new information
+Combination leads to solution
+
+![image An icon of an open book in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,4,5,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,4,5,title,0.25,1.0,0.0,1.0,1.0,Knowledge,Knowledge
+gpt-4-in-sample,2,4,5,body,0.02,0.44,0.25,0.33,0.39,"Combination of:
+Existing knowledge
+New information
+","Knowledge alone is not enough
+Knowledge + new information
+Combination leads to solution
+"
+gpt-4-in-sample,2,4,5,images,0.37,0.69,0.61,0.69,0.5,![image An icon of a puzzle piece connected to another puzzle piece in a flat minimalist style](images/placeholder.png),![image An icon of an open book in a flat minimalist style](images/placeholder.png)
+gpt-4-in-sample,2,4,5,notes,,,,,,,
+gpt-4-in-sample,2,4,5,footer,,,,,,,
+gpt-4-in-sample,2,5,,,,,,,,
+gpt-4-in-sample,2,6,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Process
+theme: template","marp: true
+title: 6 - Process
+theme: template"
+gpt-4-in-sample,2,6,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Process
+theme: template","marp: true
+title: 6 - Process
+theme: template"
+gpt-4-in-sample,2,6,0,class,,,,,,,
+gpt-4-in-sample,2,6,0,title,,,,,,,
+gpt-4-in-sample,2,6,0,body,,,,,,,
+gpt-4-in-sample,2,6,0,images,,,,,,,
+gpt-4-in-sample,2,6,0,notes,,,,,,,
+gpt-4-in-sample,2,6,0,footer,,,,,,,
+gpt-4-in-sample,2,6,1,slide,0.51,0.55,0.44,0.55,0.41,"<!-- _class: title-only -->
+
+# Data-Driven Decision Making","<!-- _class: title-only -->
+
+# Process"
+gpt-4-in-sample,2,6,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,2,6,1,title,0,0.0,0.0,0.0,0.0,Data-Driven Decision Making,Process
+gpt-4-in-sample,2,6,1,body,,,,,,,
+gpt-4-in-sample,2,6,1,images,,,,,,,
+gpt-4-in-sample,2,6,1,notes,,,,,,,
+gpt-4-in-sample,2,6,1,footer,,,,,,,
+gpt-4-in-sample,2,6,2,slide,0.1,0.47,0.18,0.38,0.3,"<!-- _class: title-two-content-left-center -->
+
+# Example
+
+Investor
+Apples
+Goal: Profit
+
+![image An icon of a stack of coins with an upward arrow indicating an increase in value, in a minimalist style](images/placeholder.png)","<!-- _class: title-one-content -->
+
+# Process
+
+![bg contain An icon of an apple and a dollar sign ($) inside a circle with an arrow pointing from the apple to the dollar sign](images/placeholder.png)"
+gpt-4-in-sample,2,6,2,class,0,0.5,0.0,0.5,0.36,title-two-content-left-center,title-one-content
+gpt-4-in-sample,2,6,2,title,0,0.0,0.0,0.0,0.0,Example,Process
+gpt-4-in-sample,2,6,2,body,0.0,0.0,0.0,0.0,0.0,"Investor
+Apples
+Goal: Profit
+",
+gpt-4-in-sample,2,6,2,images,0.09,0.46,0.2,0.38,0.32,"![image An icon of a stack of coins with an upward arrow indicating an increase in value, in a minimalist style](images/placeholder.png)",![bg contain An icon of an apple and a dollar sign ($) inside a circle with an arrow pointing from the apple to the dollar sign](images/placeholder.png)
+gpt-4-in-sample,2,6,2,notes,,,,,,,
+gpt-4-in-sample,2,6,2,footer,,,,,,,
+gpt-4-in-sample,2,6,3,slide,0.29,0.63,0.46,0.6,0.41,"<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Price of apples
+$2 per kilogram
+
+![image An icon of a price tag with the number ""2"" on it, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Process
+
+Data - price of apples
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+![image An icon of an apple with the text $2 per kg under the apple](images/placeholder.png)"
+gpt-4-in-sample,2,6,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,6,3,title,0,0.0,0.0,0.0,0.0,Data,Process
+gpt-4-in-sample,2,6,3,body,0.06,0.4,0.31,0.4,0.15,"Price of apples
+$2 per kilogram
+","Data - price of apples
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+"
+gpt-4-in-sample,2,6,3,images,0.18,0.53,0.33,0.53,0.4,"![image An icon of a price tag with the number ""2"" on it, in a minimalist style](images/placeholder.png)",![image An icon of an apple with the text $2 per kg under the apple](images/placeholder.png)
+gpt-4-in-sample,2,6,3,notes,,,,,,,
+gpt-4-in-sample,2,6,3,footer,,,,,,,
+gpt-4-in-sample,2,6,4,slide,0.25,0.59,0.42,0.56,0.44,"<!-- _class: title-two-content-left-center -->
+
+# Information
+
+Price increase
+$1 per kilogram
+
+![image An icon of an upward arrow with the number ""1"" on it, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Process
+
+Data - price of apples
+Information - price increase
+<br/>
+<br/>
+<br/>
+<br/>
+
+![image An icon of an apple with the text $3 per kg under the apple](images/placeholder.png)"
+gpt-4-in-sample,2,6,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,6,4,title,0,0.0,0.0,0.0,0.0,Information,Process
+gpt-4-in-sample,2,6,4,body,0.01,0.25,0.14,0.25,0.18,"Price increase
+$1 per kilogram
+","Data - price of apples
+Information - price increase
+<br/>
+<br/>
+<br/>
+<br/>
+"
+gpt-4-in-sample,2,6,4,images,0.25,0.53,0.39,0.53,0.44,"![image An icon of an upward arrow with the number ""1"" on it, in a minimalist style](images/placeholder.png)",![image An icon of an apple with the text $3 per kg under the apple](images/placeholder.png)
+gpt-4-in-sample,2,6,4,notes,,,,,,,
+gpt-4-in-sample,2,6,4,footer,,,,,,,
+gpt-4-in-sample,2,6,5,slide,0.08,0.48,0.34,0.43,0.4,"<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Price relationship
+Apple cider
+
+![image An icon of a glass of apple cider, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Process
+
+Data - price of apples
+Information - price increase
+Knowledge - price relationship
+<br/>
+<br/>
+<br/>
+
+![image An icon of an apple with the text ""↑ $1 per kg"", an icon of a jug with the text ""↑ $1.50 per L"" and an arrow pointing from the apple to the jug](images/placeholder.png)"
+gpt-4-in-sample,2,6,5,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,6,5,title,0,0.0,0.0,0.0,0.0,Knowledge,Process
+gpt-4-in-sample,2,6,5,body,0.0,0.35,0.13,0.24,0.26,"Price relationship
+Apple cider
+","Data - price of apples
+Information - price increase
+Knowledge - price relationship
+<br/>
+<br/>
+<br/>
+"
+gpt-4-in-sample,2,6,5,images,0.06,0.38,0.24,0.34,0.34,"![image An icon of a glass of apple cider, in a minimalist style](images/placeholder.png)","![image An icon of an apple with the text ""↑ $1 per kg"", an icon of a jug with the text ""↑ $1.50 per L"" and an arrow pointing from the apple to the jug](images/placeholder.png)"
+gpt-4-in-sample,2,6,5,notes,,,,,,,
+gpt-4-in-sample,2,6,5,footer,,,,,,,
+gpt-4-in-sample,2,6,6,slide,0.19,0.59,0.39,0.53,0.35,"<!-- _class: title-two-content-left-center -->
+
+# Decision
+
+Invest in apple cider
+
+![image An icon of a check mark inside a circle, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Process
+
+Data - price of apples
+Information - price increase
+Knowledge - price relationship
+Decision - decide to invest
+<br/>
+<br/>
+
+![image An icon of a jug with a check mark on top of it](images/placeholder.png)"
+gpt-4-in-sample,2,6,6,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,6,6,title,0,0.0,0.0,0.0,0.0,Decision,Process
+gpt-4-in-sample,2,6,6,body,0,0.2,0.0,0.1,0.06,"Invest in apple cider
+","Data - price of apples
+Information - price increase
+Knowledge - price relationship
+Decision - decide to invest
+<br/>
+<br/>
+"
+gpt-4-in-sample,2,6,6,images,0.38,0.65,0.5,0.59,0.49,"![image An icon of a check mark inside a circle, in a minimalist style](images/placeholder.png)",![image An icon of a jug with a check mark on top of it](images/placeholder.png)
+gpt-4-in-sample,2,6,6,notes,,,,,,,
+gpt-4-in-sample,2,6,6,footer,,,,,,,
+gpt-4-in-sample,2,6,7,slide,0.15,0.55,0.41,0.55,0.44,"<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Invest in commodities market
+
+![image An icon of a hand holding a stack of coins, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Process
+
+Data - price of apples
+Information - price increase
+Knowledge - price relationship
+Decision - decide to invest
+Action - invest in apple cider
+<br/>
+
+![image An icon of a hand holding a bag of money with a dollar sign ($) on the side of the bag](images/placeholder.png)"
+gpt-4-in-sample,2,6,7,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,6,7,title,0,0.0,0.0,0.0,0.0,Action,Process
+gpt-4-in-sample,2,6,7,body,0.0,0.17,0.09,0.17,0.17,"Invest in commodities market
+","Data - price of apples
+Information - price increase
+Knowledge - price relationship
+Decision - decide to invest
+Action - invest in apple cider
+<br/>
+"
+gpt-4-in-sample,2,6,7,images,0.31,0.62,0.45,0.62,0.45,"![image An icon of a hand holding a stack of coins, in a minimalist style](images/placeholder.png)",![image An icon of a hand holding a bag of money with a dollar sign ($) on the side of the bag](images/placeholder.png)
+gpt-4-in-sample,2,6,7,notes,,,,,,,
+gpt-4-in-sample,2,6,7,footer,,,,,,,
+gpt-4-in-sample,2,6,8,slide,0.16,0.47,0.29,0.42,0.34,"<!-- _class: title-two-content-left-center -->
+
+# Goal
+
+Capture profit
+
+![image An icon of a stack of coins with an upward arrow indicating an increase in value, in a minimalist style","<!-- _class: title-two-content-left-center -->
+
+# Process
+
+Data - price of apples
+Information - price increase
+Knowledge - price relationship
+Decision - decide to invest
+Action - invest in apple cider
+Goal - profit!
+
+![image An icon of a dollar sign ($) inside of a circle](images/placeholder.png)"
+gpt-4-in-sample,2,6,8,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,2,6,8,title,0,0.0,0.0,0.0,0.0,Goal,Process
+gpt-4-in-sample,2,6,8,body,0.01,0.18,0.0,0.14,0.11,"Capture profit
+![image An icon of a stack of coins with an upward arrow indicating an increase in value, in a minimalist style
+","Data - price of apples
+Information - price increase
+Knowledge - price relationship
+Decision - decide to invest
+Action - invest in apple cider
+Goal - profit!
+"
+gpt-4-in-sample,2,6,8,images,0.0,0.0,0.0,0.0,0.0,,![image An icon of a dollar sign ($) inside of a circle](images/placeholder.png)
+gpt-4-in-sample,2,6,8,notes,,,,,,,
+gpt-4-in-sample,2,6,8,footer,,,,,,,
+gpt-4-in-sample,2,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,2,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,2,7,0,class,,,,,,,
+gpt-4-in-sample,2,7,0,title,,,,,,,
+gpt-4-in-sample,2,7,0,body,,,,,,,
+gpt-4-in-sample,2,7,0,images,,,,,,,
+gpt-4-in-sample,2,7,0,notes,,,,,,,
+gpt-4-in-sample,2,7,0,footer,,,,,,,
+gpt-4-in-sample,2,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-4-in-sample,2,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,2,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,2,7,1,body,,,,,,,
+gpt-4-in-sample,2,7,1,images,,,,,,,
+gpt-4-in-sample,2,7,1,notes,,,,,,,
+gpt-4-in-sample,2,7,1,footer,,,,,,,
+gpt-4-in-sample,2,7,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left -->
+
+# Summary
+
+Data
+Information
+Knowledge
+Purpose
+Process
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left -->
+
+# Summary
+
+Data
+Information
+Knowledge
+Purpose
+Process
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,2,7,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left,title-two-content-left
+gpt-4-in-sample,2,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,2,7,2,body,1.0,1.0,1.0,1.0,1.0,"Data
+Information
+Knowledge
+Purpose
+Process
+","Data
+Information
+Knowledge
+Purpose
+Process
+"
+gpt-4-in-sample,2,7,2,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of a database in a flat minimalist style](images/placeholder.png)
+gpt-4-in-sample,2,7,2,notes,,,,,,,
+gpt-4-in-sample,2,7,2,footer,,,,,,,
+gpt-4-in-sample,3,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,3,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,3,1,0,class,,,,,,,
+gpt-4-in-sample,3,1,0,title,,,,,,,
+gpt-4-in-sample,3,1,0,body,,,,,,,
+gpt-4-in-sample,3,1,0,images,,,,,,,
+gpt-4-in-sample,3,1,0,notes,,,,,,,
+gpt-4-in-sample,3,1,0,footer,,,,,,,
+gpt-4-in-sample,3,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Types of Data","<!-- _class: title-slide -->
+
+# Types of Data"
+gpt-4-in-sample,3,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-4-in-sample,3,1,1,title,0.79,1.0,1.0,1.0,1.0,Types of Data,Types of Data
+gpt-4-in-sample,3,1,1,body,,,,,,,
+gpt-4-in-sample,3,1,1,images,,,,,,,
+gpt-4-in-sample,3,1,1,notes,,,,,,,
+gpt-4-in-sample,3,1,1,footer,,,,,,,
+gpt-4-in-sample,3,1,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# What types of data exist?","<!-- _class: title-only -->
+
+# What types of data exist?"
+gpt-4-in-sample,3,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,3,1,2,title,1.0,1.0,1.0,1.0,1.0,What types of data exist?,What types of data exist?
+gpt-4-in-sample,3,1,2,body,,,,,,,
+gpt-4-in-sample,3,1,2,images,,,,,,,
+gpt-4-in-sample,3,1,2,notes,,,,,,,
+gpt-4-in-sample,3,1,2,footer,,,,,,,
+gpt-4-in-sample,3,1,3,slide,0.21,0.64,0.37,0.61,0.4,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Categorical
+Numerical
+Nominal
+Ordinal
+Interval
+Ratio
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+
+![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,3,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-4-in-sample,3,1,3,body,0.04,0.47,0.0,0.47,0.19,"Categorical
+Numerical
+Nominal
+Ordinal
+Interval
+Ratio
+","Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+"
+gpt-4-in-sample,3,1,3,images,0.13,0.59,0.36,0.54,0.45,![image An icon of a database in a flat minimalist style](images/placeholder.png),"![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,3,1,3,notes,,,,,,,
+gpt-4-in-sample,3,1,3,footer,,,,,,,
+gpt-4-in-sample,3,2,,,,,,,,
+gpt-4-in-sample,3,3,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Nominal Data
+theme: template","marp: true
+title: 3 - Nominal Data
+theme: template"
+gpt-4-in-sample,3,3,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Nominal Data
+theme: template","marp: true
+title: 3 - Nominal Data
+theme: template"
+gpt-4-in-sample,3,3,0,class,,,,,,,
+gpt-4-in-sample,3,3,0,title,,,,,,,
+gpt-4-in-sample,3,3,0,body,,,,,,,
+gpt-4-in-sample,3,3,0,images,,,,,,,
+gpt-4-in-sample,3,3,0,notes,,,,,,,
+gpt-4-in-sample,3,3,0,footer,,,,,,,
+gpt-4-in-sample,3,3,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Nominal Data","<!-- _class: title-only -->
+
+# Nominal Data"
+gpt-4-in-sample,3,3,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,3,3,1,title,0.5,1.0,1.0,1.0,1.0,Nominal Data,Nominal Data
+gpt-4-in-sample,3,3,1,body,,,,,,,
+gpt-4-in-sample,3,3,1,images,,,,,,,
+gpt-4-in-sample,3,3,1,notes,,,,,,,
+gpt-4-in-sample,3,3,1,footer,,,,,,,
+gpt-4-in-sample,3,3,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Nominal Data
+
+Categorical data
+Named qualities
+No rank order
+
+![image A set of three icons containing a circle, a square, and a triangle arranged in a triangular pattern in a flat minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Nominal Data
+
+Categorical data
+Named qualities
+No rank order
+
+![image A set of three icons containing a circle, a square, and a triangle arranged in a triangular pattern in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,3,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,3,2,title,0.5,1.0,1.0,1.0,1.0,Nominal Data,Nominal Data
+gpt-4-in-sample,3,3,2,body,1.0,1.0,1.0,1.0,1.0,"Categorical data
+Named qualities
+No rank order
+","Categorical data
+Named qualities
+No rank order
+"
+gpt-4-in-sample,3,3,2,images,1.0,1.0,1.0,1.0,1.0,"![image A set of three icons containing a circle, a square, and a triangle arranged in a triangular pattern in a flat minimalistic style](images/placeholder.png)","![image A set of three icons containing a circle, a square, and a triangle arranged in a triangular pattern in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,3,2,notes,,,,,,,
+gpt-4-in-sample,3,3,2,footer,,,,,,,
+gpt-4-in-sample,3,3,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Nominal Data
+
+red
+green
+yellow
+
+![image A set of three icons, one red apple, one green apple, and one yellow apple arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Nominal Data
+
+red
+green
+yellow
+
+![image A set of three icons, one red apple, one green apple, and one yellow apple arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,3,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,3,3,title,0.5,1.0,1.0,1.0,1.0,Nominal Data,Nominal Data
+gpt-4-in-sample,3,3,3,body,0.79,1.0,1.0,1.0,1.0,"red
+green
+yellow
+","red
+green
+yellow
+"
+gpt-4-in-sample,3,3,3,images,1.0,1.0,1.0,1.0,1.0,"![image A set of three icons, one red apple, one green apple, and one yellow apple arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)","![image A set of three icons, one red apple, one green apple, and one yellow apple arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,3,3,notes,,,,,,,
+gpt-4-in-sample,3,3,3,footer,,,,,,,
+gpt-4-in-sample,3,3,4,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Nominal Data
+
+Name
+Card number
+City of birth
+
+
+![image An icon of an employee ID badge in a flat minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Nominal Data
+
+Name
+Card number
+City of birth
+
+
+![image An icon of an employee ID badge in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,3,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,3,4,title,0.5,1.0,1.0,1.0,1.0,Nominal Data,Nominal Data
+gpt-4-in-sample,3,3,4,body,1.0,1.0,1.0,1.0,1.0,"Name
+Card number
+City of birth
+","Name
+Card number
+City of birth
+"
+gpt-4-in-sample,3,3,4,images,1.0,1.0,1.0,1.0,1.0,![image An icon of an employee ID badge in a flat minimalistic style](images/placeholder.png),![image An icon of an employee ID badge in a flat minimalistic style](images/placeholder.png)
+gpt-4-in-sample,3,3,4,notes,,,,,,,
+gpt-4-in-sample,3,3,4,footer,,,,,,,
+gpt-4-in-sample,3,3,5,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-one-content -->
+
+| Operation         | Nominal | Ordinal | Interval | Ratio |
+| ----------------- | ------- | ------- | -------- | ----- |
+| Equality          | X       |         |          |       |
+| Order             |         |         |          |       |
+| Add / subtract    |         |         |          |       |
+| Multiply / divide |         |         |          |       |
+| Mode              | X       |         |          |       |
+| Median            |         |         |          |       |
+| Arithmetic mean   |         |         |          |       |
+| Geometric mean    |         |         |          |       |","<!-- _class: title-one-content -->
+
+| Operation         | Nominal | Ordinal | Interval | Ratio |
+| ----------------- | ------- | ------- | -------- | ----- |
+| Equality          | X       |         |          |       |
+| Order             |         |         |          |       |
+| Add / subtract    |         |         |          |       |
+| Multiply / divide |         |         |          |       |
+| Mode              | X       |         |          |       |
+| Median            |         |         |          |       |
+| Arithmetic mean   |         |         |          |       |
+| Geometric mean    |         |         |          |       |"
+gpt-4-in-sample,3,3,5,class,0.25,1.0,1.0,1.0,1.0,title-one-content,title-one-content
+gpt-4-in-sample,3,3,5,title,,,,,,,
+gpt-4-in-sample,3,3,5,body,,,,,,,
+gpt-4-in-sample,3,3,5,images,,,,,,,
+gpt-4-in-sample,3,3,5,notes,,,,,,,
+gpt-4-in-sample,3,3,5,footer,,,,,,,
+gpt-4-in-sample,3,4,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Ordinal Data
+theme: template","marp: true
+title: 4 - Ordinal Data
+theme: template"
+gpt-4-in-sample,3,4,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Ordinal Data
+theme: template","marp: true
+title: 4 - Ordinal Data
+theme: template"
+gpt-4-in-sample,3,4,0,class,,,,,,,
+gpt-4-in-sample,3,4,0,title,,,,,,,
+gpt-4-in-sample,3,4,0,body,,,,,,,
+gpt-4-in-sample,3,4,0,images,,,,,,,
+gpt-4-in-sample,3,4,0,notes,,,,,,,
+gpt-4-in-sample,3,4,0,footer,,,,,,,
+gpt-4-in-sample,3,4,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Ordinal Data","<!-- _class: title-only -->
+
+# Ordinal Data"
+gpt-4-in-sample,3,4,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,3,4,1,title,0.5,1.0,1.0,1.0,1.0,Ordinal Data,Ordinal Data
+gpt-4-in-sample,3,4,1,body,,,,,,,
+gpt-4-in-sample,3,4,1,images,,,,,,,
+gpt-4-in-sample,3,4,1,notes,,,,,,,
+gpt-4-in-sample,3,4,1,footer,,,,,,,
+gpt-4-in-sample,3,4,2,slide,0.56,0.87,0.69,0.87,0.72,"<!-- _class: title-two-content-left-center -->
+
+# Ordinal Data
+
+Categorical data
+Named qualities
+Natural rank order
+
+![image A set of three icons containing a small, medium, and large circle arranged in a triangular pattern in a flat minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Ordinal Data
+
+Categorical data
+Named qualities
+Rank order
+
+![image A set of three icons: one small circle, one medium circle, and one large circle in a triangular layout in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,4,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,4,2,title,0.5,1.0,1.0,1.0,1.0,Ordinal Data,Ordinal Data
+gpt-4-in-sample,3,4,2,body,0.48,0.92,0.73,0.92,0.87,"Categorical data
+Named qualities
+Natural rank order
+","Categorical data
+Named qualities
+Rank order
+"
+gpt-4-in-sample,3,4,2,images,0.41,0.81,0.58,0.81,0.63,"![image A set of three icons containing a small, medium, and large circle arranged in a triangular pattern in a flat minimalistic style](images/placeholder.png)","![image A set of three icons: one small circle, one medium circle, and one large circle in a triangular layout in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,4,2,notes,,,,,,,
+gpt-4-in-sample,3,4,2,footer,,,,,,,
+gpt-4-in-sample,3,4,3,slide,0.58,0.91,0.81,0.91,0.84,"<!-- _class: title-two-content-left-center -->
+
+# Ordinal Data
+
+Small
+Medium
+Large
+
+![image A set of three icons, one small apple, one medium apple, and one large apple arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Ordinal Data
+
+small
+medium
+large
+
+![image A set of three icons: a small apple, a medium apple, and a large apple in a triangular layout in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,4,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,4,3,title,0.5,1.0,1.0,1.0,1.0,Ordinal Data,Ordinal Data
+gpt-4-in-sample,3,4,3,body,0,1.0,1.0,1.0,1.0,"Small
+Medium
+Large
+","small
+medium
+large
+"
+gpt-4-in-sample,3,4,3,images,0.59,0.88,0.73,0.88,0.78,"![image A set of three icons, one small apple, one medium apple, and one large apple arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)","![image A set of three icons: a small apple, a medium apple, and a large apple in a triangular layout in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,4,3,notes,,,,,,,
+gpt-4-in-sample,3,4,3,footer,,,,,,,
+gpt-4-in-sample,3,4,4,slide,0.28,0.67,0.4,0.56,0.4,"<!-- _class: title-two-content-left-center -->
+
+# Ordinal Data
+
+Bronze
+Silver
+Gold
+
+![image A set of three icons, one bronze medal, one silver medal, and one gold medal arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Ordinal Data
+
+Medals
+Grades
+Fan speeds
+
+![image An icon of a medal with a star in the center in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,4,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,4,4,title,0.5,1.0,1.0,1.0,1.0,Ordinal Data,Ordinal Data
+gpt-4-in-sample,3,4,4,body,0,0.0,0.0,0.0,0.0,"Bronze
+Silver
+Gold
+","Medals
+Grades
+Fan speeds
+"
+gpt-4-in-sample,3,4,4,images,0.17,0.61,0.3,0.49,0.39,"![image A set of three icons, one bronze medal, one silver medal, and one gold medal arranged in a triangular layout in a flat minimalistic style](images/placeholder.png)",![image An icon of a medal with a star in the center in a flat minimalistic style](images/placeholder.png)
+gpt-4-in-sample,3,4,4,notes,,,,,,,
+gpt-4-in-sample,3,4,4,footer,,,,,,,
+gpt-4-in-sample,3,4,5,slide,0.98,1.0,1.0,1.0,1.0,"<!-- _class: title-one-content -->
+
+| Operation         | Nominal | Ordinal | Interval | Ratio |
+| ----------------- | ------- | ------- | -------- | ----- |
+| Equality          | X       | X       |          |       |
+| Order             |         | X       |          |       |
+| Add / subtract    |         |         |          |       |
+| Multiply / divide |         |         |          |       |
+| Mode              | X       | X       |          |       |
+| Median            |         | X       |          |       |
+| Arithmetic mean   |         |         |          |       |
+| Geometric mean    |         |         |","<!-- _class: title-one-content -->
+
+| Operation         | Nominal | Ordinal | Interval | Ratio |
+| ----------------- | ------- | ------- | -------- | ----- |
+| Equality          | X       | X       |          |       |
+| Order             |         | X       |          |       |
+| Add / subtract    |         |         |          |       |
+| Multiply / divide |         |         |          |       |
+| Mode              | X       | X       |          |       |
+| Median            |         | X       |          |       |
+| Arithmetic mean   |         |         |          |       |
+| Geometric mean    |         |         |          |       |"
+gpt-4-in-sample,3,4,5,class,0.25,1.0,1.0,1.0,1.0,title-one-content,title-one-content
+gpt-4-in-sample,3,4,5,title,,,,,,,
+gpt-4-in-sample,3,4,5,body,,,,,,,
+gpt-4-in-sample,3,4,5,images,,,,,,,
+gpt-4-in-sample,3,4,5,notes,,,,,,,
+gpt-4-in-sample,3,4,5,footer,,,,,,,
+gpt-4-in-sample,3,5,,,,,,,,
+gpt-4-in-sample,3,6,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Ratio Data
+theme: template","marp: true
+title: 6 - Ratio Data
+theme: template"
+gpt-4-in-sample,3,6,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Ratio Data
+theme: template","marp: true
+title: 6 - Ratio Data
+theme: template"
+gpt-4-in-sample,3,6,0,class,,,,,,,
+gpt-4-in-sample,3,6,0,title,,,,,,,
+gpt-4-in-sample,3,6,0,body,,,,,,,
+gpt-4-in-sample,3,6,0,images,,,,,,,
+gpt-4-in-sample,3,6,0,notes,,,,,,,
+gpt-4-in-sample,3,6,0,footer,,,,,,,
+gpt-4-in-sample,3,6,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Ratio Data","<!-- _class: title-only -->
+
+# Ratio Data"
+gpt-4-in-sample,3,6,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,3,6,1,title,0.5,1.0,1.0,1.0,1.0,Ratio Data,Ratio Data
+gpt-4-in-sample,3,6,1,body,,,,,,,
+gpt-4-in-sample,3,6,1,images,,,,,,,
+gpt-4-in-sample,3,6,1,notes,,,,,,,
+gpt-4-in-sample,3,6,1,footer,,,,,,,
+gpt-4-in-sample,3,6,2,slide,0.36,0.67,0.52,0.65,0.53,"<!-- _class: title-two-content-left-center -->
+
+# Ratio Data
+
+Numerical data
+Measured quantities
+Natural zero point
+
+![image An icon of a balance scale with two plates, one containing a single apple and the other containing two apples, in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left -->
+
+# Ratio Data
+
+Numerical data
+Difference and ratio
+Natural zero point
+
+![image An icon of a ruler with an unidirectional arrow on top pointing in one direction in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,6,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left-center,title-two-content-left
+gpt-4-in-sample,3,6,2,title,0.5,1.0,1.0,1.0,1.0,Ratio Data,Ratio Data
+gpt-4-in-sample,3,6,2,body,0.29,0.67,0.46,0.67,0.51,"Numerical data
+Measured quantities
+Natural zero point
+","Numerical data
+Difference and ratio
+Natural zero point
+"
+gpt-4-in-sample,3,6,2,images,0.21,0.57,0.43,0.57,0.35,"![image An icon of a balance scale with two plates, one containing a single apple and the other containing two apples, in a flat minimalist style](images/placeholder.png)",![image An icon of a ruler with an unidirectional arrow on top pointing in one direction in a flat minimalistic style](images/placeholder.png)
+gpt-4-in-sample,3,6,2,notes,,,,,,,
+gpt-4-in-sample,3,6,2,footer,,,,,,,
+gpt-4-in-sample,3,6,3,slide,0.07,0.43,0.18,0.34,0.26,"<!-- _class: title-two-content-left-center -->
+
+# Ratio Data
+
+100g apple
+200g apple
+
+![image An icon of two apples, one smaller and one larger, in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content -->
+
+# Ratio Data
+
+![bg contain A vector image with two apples, one small one with the text ""100 grams"" underneath and a second larger apple with the text ""200 grams"" underneath and a bar chart with 100g on the first bar and a second bar that's twice as tall with 200g on the second bar](images/placeholder.png)"
+gpt-4-in-sample,3,6,3,class,0,0.75,0.67,0.75,0.66,title-two-content-left-center,title-two-content
+gpt-4-in-sample,3,6,3,title,0.5,1.0,1.0,1.0,1.0,Ratio Data,Ratio Data
+gpt-4-in-sample,3,6,3,body,0.0,0.0,0.0,0.0,0.0,"100g apple
+200g apple
+",
+gpt-4-in-sample,3,6,3,images,0.01,0.29,0.11,0.27,0.18,"![image An icon of two apples, one smaller and one larger, in a flat minimalist style](images/placeholder.png)","![bg contain A vector image with two apples, one small one with the text ""100 grams"" underneath and a second larger apple with the text ""200 grams"" underneath and a bar chart with 100g on the first bar and a second bar that's twice as tall with 200g on the second bar](images/placeholder.png)"
+gpt-4-in-sample,3,6,3,notes,,,,,,,
+gpt-4-in-sample,3,6,3,footer,,,,,,,
+gpt-4-in-sample,3,6,4,slide,0.5,0.72,0.62,0.72,0.59,"<!-- _class: title-two-content-left-center -->
+
+# Ratio Data
+
+Distance
+Income
+Elapsed time
+
+![image An icon of a stopwatch with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Ratio Data
+
+Distance
+Income
+Elapsed time
+
+![image An icon of two place markers and an arrow between them measuring distance in a flat minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,3,6,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,3,6,4,title,0.5,1.0,1.0,1.0,1.0,Ratio Data,Ratio Data
+gpt-4-in-sample,3,6,4,body,1.0,1.0,1.0,1.0,1.0,"Distance
+Income
+Elapsed time
+","Distance
+Income
+Elapsed time
+"
+gpt-4-in-sample,3,6,4,images,0.19,0.56,0.39,0.56,0.38,![image An icon of a stopwatch with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png),![image An icon of two place markers and an arrow between them measuring distance in a flat minimalistic style](images/placeholder.png)
+gpt-4-in-sample,3,6,4,notes,,,,,,,
+gpt-4-in-sample,3,6,4,footer,,,,,,,
+gpt-4-in-sample,3,6,5,slide,0.71,0.75,0.58,0.75,0.96,"<!-- _class: title-one-content -->
+
+| Operation         | Nominal | Ordinal | Interval | Ratio |
+| ----------------- | ------- | ------- | -------- | ----- |
+| Equality          | X       |         |          |       |
+| Order             |         |         |          |       |
+| Add / subtract    |         |         |          |       |
+| Multiply / divide |         |         |          | X     |
+| Mode              | X       |         |          |       |
+| Median            |         |         |          |       |
+| Arithmetic mean   |         |         |          |       |
+| Geometric mean    |         |         |          | X     |","<!-- _class: title-one-content-left -->
+
+| Operation         | Nominal | Ordinal | Interval | Ratio |
+| ----------------- | ------- | ------- | -------- | ----- |
+| Equality          | X       | X       | X        | X     |
+| Order             |         | X       | X        | X     |
+| Add / subtract    |         |         | X        | X     |
+| Multiply / divide |         |         |          | X     |
+| Mode              | X       | X       | X        | X     |
+| Median            |         | X       | X        | X     |
+| Arithmetic mean   |         |         | X        | X     |
+| Geometric mean    |         |         |          | X     |"
+gpt-4-in-sample,3,6,5,class,0,0.86,0.8,0.86,0.78,title-one-content,title-one-content-left
+gpt-4-in-sample,3,6,5,title,,,,,,,
+gpt-4-in-sample,3,6,5,body,,,,,,,
+gpt-4-in-sample,3,6,5,images,,,,,,,
+gpt-4-in-sample,3,6,5,notes,,,,,,,
+gpt-4-in-sample,3,6,5,footer,,,,,,,
+gpt-4-in-sample,3,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,3,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,3,7,0,class,,,,,,,
+gpt-4-in-sample,3,7,0,title,,,,,,,
+gpt-4-in-sample,3,7,0,body,,,,,,,
+gpt-4-in-sample,3,7,0,images,,,,,,,
+gpt-4-in-sample,3,7,0,notes,,,,,,,
+gpt-4-in-sample,3,7,0,footer,,,,,,,
+gpt-4-in-sample,3,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-4-in-sample,3,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,3,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,3,7,1,body,,,,,,,
+gpt-4-in-sample,3,7,1,images,,,,,,,
+gpt-4-in-sample,3,7,1,notes,,,,,,,
+gpt-4-in-sample,3,7,1,footer,,,,,,,
+gpt-4-in-sample,3,7,2,slide,0.36,0.72,0.55,0.69,0.73,"<!-- _class: title-two-content-left -->
+
+# Summary
+
+Categorical Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+
+![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,3,7,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left,title-two-content-left-center
+gpt-4-in-sample,3,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,3,7,2,body,0.79,0.86,0.84,0.86,0.91,"Categorical Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+","Types of Data
+Nominal Data
+Ordinal Data
+Interval Data
+Ratio Data
+"
+gpt-4-in-sample,3,7,2,images,0.13,0.59,0.36,0.54,0.45,![image An icon of a database in a flat minimalist style](images/placeholder.png),"![image A set of icons containing a square, a triangle, a circle, and a pentagon arranged in four quadrants in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,3,7,2,notes,,,,,,,
+gpt-4-in-sample,3,7,2,footer,,,,,,,
+gpt-4-in-sample,4,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,4,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,4,1,0,class,,,,,,,
+gpt-4-in-sample,4,1,0,title,,,,,,,
+gpt-4-in-sample,4,1,0,body,,,,,,,
+gpt-4-in-sample,4,1,0,images,,,,,,,
+gpt-4-in-sample,4,1,0,notes,,,,,,,
+gpt-4-in-sample,4,1,0,footer,,,,,,,
+gpt-4-in-sample,4,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Data Types","<!-- _class: title-slide -->
+
+# Data Types"
+gpt-4-in-sample,4,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-4-in-sample,4,1,1,title,0.5,1.0,1.0,1.0,1.0,Data Types,Data Types
+gpt-4-in-sample,4,1,1,body,,,,,,,
+gpt-4-in-sample,4,1,1,images,,,,,,,
+gpt-4-in-sample,4,1,1,notes,,,,,,,
+gpt-4-in-sample,4,1,1,footer,,,,,,,
+gpt-4-in-sample,4,1,2,slide,0.31,0.44,0.25,0.44,0.32,"<!-- _class: title-only -->
+
+# What are data types?","<!-- _class: title-only -->
+
+# How do we represent data in a computer?"
+gpt-4-in-sample,4,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,4,1,2,title,0.03,0.17,0.0,0.17,0.11,What are data types?,How do we represent data in a computer?
+gpt-4-in-sample,4,1,2,body,,,,,,,
+gpt-4-in-sample,4,1,2,images,,,,,,,
+gpt-4-in-sample,4,1,2,notes,,,,,,,
+gpt-4-in-sample,4,1,2,footer,,,,,,,
+gpt-4-in-sample,4,1,3,slide,0.53,0.79,0.64,0.79,0.74,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data Types
+Scalar Data Types
+Examples
+Composite Data Types
+Examples
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,4,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-4-in-sample,4,1,3,body,0.23,0.67,0.38,0.67,0.76,"Data Types
+Scalar Data Types
+Examples
+Composite Data Types
+Examples
+","Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+"
+gpt-4-in-sample,4,1,3,images,0.37,0.76,0.59,0.76,0.63,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,4,1,3,notes,,,,,,,
+gpt-4-in-sample,4,1,3,footer,,,,,,,
+gpt-4-in-sample,4,2,,,,,,,,
+gpt-4-in-sample,4,3,,,,,,,,
+gpt-4-in-sample,4,4,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Scalar Data Type Examples
+theme: template","marp: true
+title: 4 - Scalar Data Type Examples
+theme: template"
+gpt-4-in-sample,4,4,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 4 - Scalar Data Type Examples
+theme: template","marp: true
+title: 4 - Scalar Data Type Examples
+theme: template"
+gpt-4-in-sample,4,4,0,class,,,,,,,
+gpt-4-in-sample,4,4,0,title,,,,,,,
+gpt-4-in-sample,4,4,0,body,,,,,,,
+gpt-4-in-sample,4,4,0,images,,,,,,,
+gpt-4-in-sample,4,4,0,notes,,,,,,,
+gpt-4-in-sample,4,4,0,footer,,,,,,,
+gpt-4-in-sample,4,4,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Scalar Data Type Examples","<!-- _class: title-only -->
+
+# Scalar Data Type Examples"
+gpt-4-in-sample,4,4,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,4,4,1,title,1.0,1.0,1.0,1.0,1.0,Scalar Data Type Examples,Scalar Data Type Examples
+gpt-4-in-sample,4,4,1,body,,,,,,,
+gpt-4-in-sample,4,4,1,images,,,,,,,
+gpt-4-in-sample,4,4,1,notes,,,,,,,
+gpt-4-in-sample,4,4,1,footer,,,,,,,
+gpt-4-in-sample,4,4,2,slide,0.7,0.88,0.79,0.88,0.94,"<!-- _class: title-two-content-left-center -->
+
+# Categorical Data Types
+
+Character
+Boolean
+Enumeration
+
+![image An icon of the letters ""ABC"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Categorical Data Types
+
+Character: ABC
+Boolean: True/False
+Enumeration: 1-A, 2-B, 3-C
+
+![image An icon of the letters ""ABC"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,4,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,4,4,2,title,0.79,1.0,1.0,1.0,1.0,Categorical Data Types,Categorical Data Types
+gpt-4-in-sample,4,4,2,body,0,0.4,0.0,0.4,0.58,"Character
+Boolean
+Enumeration
+","Character: ABC
+Boolean: True/False
+Enumeration: 1-A, 2-B, 3-C
+"
+gpt-4-in-sample,4,4,2,images,1.0,1.0,1.0,1.0,1.0,"![image An icon of the letters ""ABC"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)","![image An icon of the letters ""ABC"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,4,2,notes,,,,,,,
+gpt-4-in-sample,4,4,2,footer,,,,,,,
+gpt-4-in-sample,4,4,3,slide,0.7,0.89,0.81,0.89,0.94,"<!-- _class: title-two-content-left-center -->
+
+# Numerical Data Types
+
+Integer
+Decimal
+Float
+
+![image An icon of the numbers ""123"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Numerical Data Types
+
+Integer: 123
+Decimal: 1.23
+Float: 1.2 x 10^3
+
+![image An icon of the numbers ""123"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,4,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,4,4,3,title,0.79,1.0,1.0,1.0,1.0,Numerical Data Types,Numerical Data Types
+gpt-4-in-sample,4,4,3,body,0,0.43,0.0,0.43,0.58,"Integer
+Decimal
+Float
+","Integer: 123
+Decimal: 1.23
+Float: 1.2 x 10^3
+"
+gpt-4-in-sample,4,4,3,images,1.0,1.0,1.0,1.0,1.0,"![image An icon of the numbers ""123"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)","![image An icon of the numbers ""123"" inside of a square with rounded corners in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,4,3,notes,,,,,,,
+gpt-4-in-sample,4,4,3,footer,,,,,,,
+gpt-4-in-sample,4,4,4,slide,0.7,0.74,0.67,0.74,0.44,"<!-- _class: title-two-content-left-center -->
+
+# Temporal Data Types
+
+Date
+Time
+Date/time
+Date-time with time-zone
+
+![image An icon of a clock face with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Temporal Data Types
+
+Date: 2001-02-03
+Time: 01:02:03
+Date/time: 2023-01-02 01:02:03
+2023-01-02T01:02:03-04:00
+
+![image An icon of a clock face with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,4,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,4,4,4,title,0.79,1.0,1.0,1.0,1.0,Temporal Data Types,Temporal Data Types
+gpt-4-in-sample,4,4,4,body,0,0.25,0.07,0.25,0.22,"Date
+Time
+Date/time
+Date-time with time-zone
+","Date: 2001-02-03
+Time: 01:02:03
+Date/time: 2023-01-02 01:02:03
+2023-01-02T01:02:03-04:00
+"
+gpt-4-in-sample,4,4,4,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a clock face with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png),![image An icon of a clock face with the hands pointing at 12 and 3 in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,4,4,4,notes,,,,,,,
+gpt-4-in-sample,4,4,4,footer,,,,,,,
+gpt-4-in-sample,4,5,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Composite Data Type
+theme: template","marp: true
+title: 5 - Composite Data Type
+theme: template"
+gpt-4-in-sample,4,5,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Composite Data Type
+theme: template","marp: true
+title: 5 - Composite Data Type
+theme: template"
+gpt-4-in-sample,4,5,0,class,,,,,,,
+gpt-4-in-sample,4,5,0,title,,,,,,,
+gpt-4-in-sample,4,5,0,body,,,,,,,
+gpt-4-in-sample,4,5,0,images,,,,,,,
+gpt-4-in-sample,4,5,0,notes,,,,,,,
+gpt-4-in-sample,4,5,0,footer,,,,,,,
+gpt-4-in-sample,4,5,1,slide,0.83,1.0,1.0,1.0,0.72,"<!-- _class: title-only -->
+
+# Composite Data Type","<!-- _class: title-only -->
+
+# Composite Data Types"
+gpt-4-in-sample,4,5,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,4,5,1,title,0.32,1.0,1.0,1.0,0.5,Composite Data Type,Composite Data Types
+gpt-4-in-sample,4,5,1,body,,,,,,,
+gpt-4-in-sample,4,5,1,images,,,,,,,
+gpt-4-in-sample,4,5,1,notes,,,,,,,
+gpt-4-in-sample,4,5,1,footer,,,,,,,
+gpt-4-in-sample,4,5,2,slide,0.31,0.63,0.5,0.63,0.45,"<!-- _class: title-two-content-left-center -->
+
+# Composite Data Type
+
+Logical container
+Organize related data
+Store and access information
+
+![image An icon of a folder containing various types of files, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Organize data
+Store and access
+Provide context
+
+![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,5,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,4,5,2,title,0.32,1.0,1.0,1.0,0.5,Composite Data Type,Composite Data Types
+gpt-4-in-sample,4,5,2,body,0.34,0.63,0.43,0.63,0.47,"Logical container
+Organize related data
+Store and access information
+","Organize data
+Store and access
+Provide context
+"
+gpt-4-in-sample,4,5,2,images,0.15,0.5,0.39,0.5,0.29,"![image An icon of a folder containing various types of files, in a minimalist style](images/placeholder.png)",![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,4,5,2,notes,,,,,,,
+gpt-4-in-sample,4,5,2,footer,,,,,,,
+gpt-4-in-sample,4,5,3,slide,0.39,0.62,0.52,0.6,0.46,"<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Homogenous
+Tabular
+Semi-structured
+Multi-media
+
+![image An icon of a set of four squares arranged in a square pattern, each containing a different type of data, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Homogenous
+Tabular
+Semi-structured
+Multimedia
+
+![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,5,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,4,5,3,title,0.79,1.0,1.0,1.0,1.0,Composite Data Types,Composite Data Types
+gpt-4-in-sample,4,5,3,body,0.52,0.73,0.67,0.73,0.58,"Homogenous
+Tabular
+Semi-structured
+Multi-media
+","Homogenous
+Tabular
+Semi-structured
+Multimedia
+"
+gpt-4-in-sample,4,5,3,images,0.19,0.48,0.36,0.45,0.33,"![image An icon of a set of four squares arranged in a square pattern, each containing a different type of data, in a minimalist style](images/placeholder.png)",![image An icon with four hash tags inside of a square with round corners organized into four quadrants with horizontal and vertical dividers in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,4,5,3,notes,,,,,,,
+gpt-4-in-sample,4,5,3,footer,,,,,,,
+gpt-4-in-sample,4,6,,,,,,,,
+gpt-4-in-sample,4,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,4,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,4,7,0,class,,,,,,,
+gpt-4-in-sample,4,7,0,title,,,,,,,
+gpt-4-in-sample,4,7,0,body,,,,,,,
+gpt-4-in-sample,4,7,0,images,,,,,,,
+gpt-4-in-sample,4,7,0,notes,,,,,,,
+gpt-4-in-sample,4,7,0,footer,,,,,,,
+gpt-4-in-sample,4,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-4-in-sample,4,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,4,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,4,7,1,body,,,,,,,
+gpt-4-in-sample,4,7,1,images,,,,,,,
+gpt-4-in-sample,4,7,1,notes,,,,,,,
+gpt-4-in-sample,4,7,1,footer,,,,,,,
+gpt-4-in-sample,4,7,2,slide,0.49,0.75,0.6,0.75,0.64,"<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data Types
+Scalar Data Types
+Composite Data Types
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+
+![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,4,7,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,4,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,4,7,2,body,0.21,0.5,0.29,0.5,0.53,"Data Types
+Scalar Data Types
+Composite Data Types
+","Data Types
+Scalar
+Scalar Examples
+Composite
+Composite Examples
+"
+gpt-4-in-sample,4,7,2,images,0.37,0.76,0.59,0.76,0.63,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of the hash symbol (hashtag) in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,4,7,2,notes,,,,,,,
+gpt-4-in-sample,4,7,2,footer,,,,,,,
+gpt-4-in-sample,5,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,5,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,5,1,0,class,,,,,,,
+gpt-4-in-sample,5,1,0,title,,,,,,,
+gpt-4-in-sample,5,1,0,body,,,,,,,
+gpt-4-in-sample,5,1,0,images,,,,,,,
+gpt-4-in-sample,5,1,0,notes,,,,,,,
+gpt-4-in-sample,5,1,0,footer,,,,,,,
+gpt-4-in-sample,5,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Tabular Data","<!-- _class: title-slide -->
+
+# Tabular Data"
+gpt-4-in-sample,5,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-4-in-sample,5,1,1,title,0.5,1.0,1.0,1.0,1.0,Tabular Data,Tabular Data
+gpt-4-in-sample,5,1,1,body,,,,,,,
+gpt-4-in-sample,5,1,1,images,,,,,,,
+gpt-4-in-sample,5,1,1,notes,,,,,,,
+gpt-4-in-sample,5,1,1,footer,,,,,,,
+gpt-4-in-sample,5,1,2,slide,0.3,0.67,0.46,0.67,0.41,"<!-- _class: title-only -->
+
+# Extracting Information","<!-- _class: title-only -->
+
+# How do we extract information from data?"
+gpt-4-in-sample,5,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,5,1,2,title,0,0.44,0.29,0.44,0.16,Extracting Information,How do we extract information from data?
+gpt-4-in-sample,5,1,2,body,,,,,,,
+gpt-4-in-sample,5,1,2,images,,,,,,,
+gpt-4-in-sample,5,1,2,notes,,,,,,,
+gpt-4-in-sample,5,1,2,footer,,,,,,,
+gpt-4-in-sample,5,1,3,slide,0.68,0.91,0.68,0.84,0.78,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a table with rows and columns in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)"
+gpt-4-in-sample,5,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,5,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-4-in-sample,5,1,3,body,1.0,1.0,1.0,1.0,1.0,"Tabular Data
+Observations
+Variables
+Relationships
+Queries
+","Tabular Data
+Observations
+Variables
+Relationships
+Queries
+"
+gpt-4-in-sample,5,1,3,images,0.39,0.84,0.44,0.74,0.65,![image An icon of a table with rows and columns in a flat minimalist style](images/placeholder.png),![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)
+gpt-4-in-sample,5,1,3,notes,,,,,,,
+gpt-4-in-sample,5,1,3,footer,,,,,,,
+gpt-4-in-sample,5,2,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Tabular Data
+theme: template","marp: true
+title: 2 - Tabular Data
+theme: template"
+gpt-4-in-sample,5,2,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Tabular Data
+theme: template","marp: true
+title: 2 - Tabular Data
+theme: template"
+gpt-4-in-sample,5,2,0,class,,,,,,,
+gpt-4-in-sample,5,2,0,title,,,,,,,
+gpt-4-in-sample,5,2,0,body,,,,,,,
+gpt-4-in-sample,5,2,0,images,,,,,,,
+gpt-4-in-sample,5,2,0,notes,,,,,,,
+gpt-4-in-sample,5,2,0,footer,,,,,,,
+gpt-4-in-sample,5,2,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Tabular Data","<!-- _class: title-only -->
+
+# Tabular Data"
+gpt-4-in-sample,5,2,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,5,2,1,title,0.5,1.0,1.0,1.0,1.0,Tabular Data,Tabular Data
+gpt-4-in-sample,5,2,1,body,,,,,,,
+gpt-4-in-sample,5,2,1,images,,,,,,,
+gpt-4-in-sample,5,2,1,notes,,,,,,,
+gpt-4-in-sample,5,2,1,footer,,,,,,,
+gpt-4-in-sample,5,2,2,slide,0.23,0.71,0.43,0.66,0.58,"<!-- _class: title-two-content-left-center -->
+
+# Tabular Data
+
+Organized into a table
+Homogenous columns
+Heterogenous rows
+
+![image An icon of a table with rows and columns in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left -->
+
+# Tabular Data
+
+Data organized into a table
+Table is a grid of data
+Column must be same type
+Row can contain many types
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)"
+gpt-4-in-sample,5,2,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left-center,title-two-content-left
+gpt-4-in-sample,5,2,2,title,0.5,1.0,1.0,1.0,1.0,Tabular Data,Tabular Data
+gpt-4-in-sample,5,2,2,body,0.04,0.41,0.22,0.41,0.19,"Organized into a table
+Homogenous columns
+Heterogenous rows
+","Data organized into a table
+Table is a grid of data
+Column must be same type
+Row can contain many types
+"
+gpt-4-in-sample,5,2,2,images,0.39,0.84,0.44,0.74,0.65,![image An icon of a table with rows and columns in a flat minimalist style](images/placeholder.png),![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)
+gpt-4-in-sample,5,2,2,notes,,,,,,,
+gpt-4-in-sample,5,2,2,footer,,,,,,,
+gpt-4-in-sample,5,2,3,slide,0.95,0.92,0.8,0.92,0.85,"<!-- _class: title-two-content-left -->
+
+# Tabular Data
+
+| Name | Gender | Age |
+| ---- | ------ | --- |
+| Bill | Male   | 21  |
+| Miko | Female | 15  |
+| Juan | Other  | 45  |","<!-- _class: title-one-content -->
+
+# Tabular Data
+
+| Name | Gender | Age |
+| ---- | ------ | --- |
+| Bill | Male   | 21  |
+| Miko | Female | 15  |
+| Juan | Other  | 45  |"
+gpt-4-in-sample,5,2,3,class,0,0.57,0.0,0.57,0.41,title-two-content-left,title-one-content
+gpt-4-in-sample,5,2,3,title,0.5,1.0,1.0,1.0,1.0,Tabular Data,Tabular Data
+gpt-4-in-sample,5,2,3,body,,,,,,,
+gpt-4-in-sample,5,2,3,images,,,,,,,
+gpt-4-in-sample,5,2,3,notes,,,,,,,
+gpt-4-in-sample,5,2,3,footer,,,,,,,
+gpt-4-in-sample,5,2,4,slide,0.3,0.71,0.45,0.71,0.53,"<!-- _class: title-two-content-left-center -->
+
+# Components
+
+Observations: Rows
+Variables: Columns
+Relationships: Tables
+
+![image An icon of a table with rows and columns connected by arrows in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Tabular Data
+
+Observations
+Variables
+Relationships
+
+![image An icon of a set of 6 database tables with primary and foreign key relationships in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,5,2,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,5,2,4,title,0,0.0,0.0,0.0,0.0,Components,Tabular Data
+gpt-4-in-sample,5,2,4,body,0,0.67,0.0,0.67,0.58,"Observations: Rows
+Variables: Columns
+Relationships: Tables
+","Observations
+Variables
+Relationships
+"
+gpt-4-in-sample,5,2,4,images,0.28,0.68,0.48,0.68,0.48,![image An icon of a table with rows and columns connected by arrows in a flat minimalist style](images/placeholder.png),![image An icon of a set of 6 database tables with primary and foreign key relationships in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,5,2,4,notes,,,,,,,
+gpt-4-in-sample,5,2,4,footer,,,,,,,
+gpt-4-in-sample,5,3,,,,,,,,
+gpt-4-in-sample,5,4,,,,,,,,
+gpt-4-in-sample,5,5,,,,,,,,
+gpt-4-in-sample,5,6,,,,,,,,
+gpt-4-in-sample,5,7,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,5,7,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 7 - Summary
+theme: template","marp: true
+title: 7 - Summary
+theme: template"
+gpt-4-in-sample,5,7,0,class,,,,,,,
+gpt-4-in-sample,5,7,0,title,,,,,,,
+gpt-4-in-sample,5,7,0,body,,,,,,,
+gpt-4-in-sample,5,7,0,images,,,,,,,
+gpt-4-in-sample,5,7,0,notes,,,,,,,
+gpt-4-in-sample,5,7,0,footer,,,,,,,
+gpt-4-in-sample,5,7,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-4-in-sample,5,7,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,5,7,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,5,7,1,body,,,,,,,
+gpt-4-in-sample,5,7,1,images,,,,,,,
+gpt-4-in-sample,5,7,1,notes,,,,,,,
+gpt-4-in-sample,5,7,1,footer,,,,,,,
+gpt-4-in-sample,5,7,2,slide,0.56,0.81,0.67,0.81,0.65,"<!-- _class: title-two-content-left -->
+
+# Summary
+
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)"
+gpt-4-in-sample,5,7,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left,title-two-content-left-center
+gpt-4-in-sample,5,7,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,5,7,2,body,1.0,1.0,1.0,1.0,1.0,"Tabular Data
+Observations
+Variables
+Relationships
+Queries
+","Tabular Data
+Observations
+Variables
+Relationships
+Queries
+"
+gpt-4-in-sample,5,7,2,images,0.34,0.71,0.5,0.71,0.49,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of a database table with three columns and three rows in a minimalist format](images/placeholder.png)
+gpt-4-in-sample,5,7,2,notes,,,,,,,
+gpt-4-in-sample,5,7,2,footer,,,,,,,
+gpt-4-in-sample,6,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,6,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Overview
+theme: template","marp: true
+title: 1 - Overview
+theme: template"
+gpt-4-in-sample,6,1,0,class,,,,,,,
+gpt-4-in-sample,6,1,0,title,,,,,,,
+gpt-4-in-sample,6,1,0,body,,,,,,,
+gpt-4-in-sample,6,1,0,images,,,,,,,
+gpt-4-in-sample,6,1,0,notes,,,,,,,
+gpt-4-in-sample,6,1,0,footer,,,,,,,
+gpt-4-in-sample,6,1,1,slide,0.66,0.91,0.67,0.91,0.85,"<!-- _class: title-slide -->
+
+# Data Life Cycle","<!-- _class: title-slide -->
+
+# Life Cycle"
+gpt-4-in-sample,6,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-4-in-sample,6,1,1,title,0.32,0.8,0.67,0.8,0.71,Data Life Cycle,Life Cycle
+gpt-4-in-sample,6,1,1,body,,,,,,,
+gpt-4-in-sample,6,1,1,images,,,,,,,
+gpt-4-in-sample,6,1,1,notes,,,,,,,
+gpt-4-in-sample,6,1,1,footer,,,,,,,
+gpt-4-in-sample,6,1,2,slide,0.31,0.67,0.37,0.67,0.53,"<!-- _class: title-only -->
+
+# Data Collection to Action","<!-- _class: title-only -->
+
+# How do we get from data to action?"
+gpt-4-in-sample,6,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,6,1,2,title,0.03,0.5,0.2,0.5,0.37,Data Collection to Action,How do we get from data to action?
+gpt-4-in-sample,6,1,2,body,,,,,,,
+gpt-4-in-sample,6,1,2,images,,,,,,,
+gpt-4-in-sample,6,1,2,notes,,,,,,,
+gpt-4-in-sample,6,1,2,footer,,,,,,,
+gpt-4-in-sample,6,1,3,slide,0.29,0.68,0.39,0.68,0.4,"<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data Collection
+Data Storage
+Data Processing
+Data Analysis
+Taking Action
+Optimization
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+
+![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,6,1,3,title,0.25,1.0,0.0,1.0,1.0,Overview,Overview
+gpt-4-in-sample,6,1,3,body,0.04,0.59,0.0,0.59,0.3,"Data Collection
+Data Storage
+Data Processing
+Data Analysis
+Taking Action
+Optimization
+","Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+"
+gpt-4-in-sample,6,1,3,images,0.12,0.59,0.4,0.59,0.45,![image An icon of a database in a flat minimalist style](images/placeholder.png),"![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,1,3,notes,,,,,,,
+gpt-4-in-sample,6,1,3,footer,,,,,,,
+gpt-4-in-sample,6,2,,,,,,,,
+gpt-4-in-sample,6,3,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Storage
+theme: template","marp: true
+title: 3 - Storage
+theme: template"
+gpt-4-in-sample,6,3,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 3 - Storage
+theme: template","marp: true
+title: 3 - Storage
+theme: template"
+gpt-4-in-sample,6,3,0,class,,,,,,,
+gpt-4-in-sample,6,3,0,title,,,,,,,
+gpt-4-in-sample,6,3,0,body,,,,,,,
+gpt-4-in-sample,6,3,0,images,,,,,,,
+gpt-4-in-sample,6,3,0,notes,,,,,,,
+gpt-4-in-sample,6,3,0,footer,,,,,,,
+gpt-4-in-sample,6,3,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Storage","<!-- _class: title-only -->
+
+# Storage"
+gpt-4-in-sample,6,3,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,6,3,1,title,0.25,1.0,0.0,1.0,1.0,Storage,Storage
+gpt-4-in-sample,6,3,1,body,,,,,,,
+gpt-4-in-sample,6,3,1,images,,,,,,,
+gpt-4-in-sample,6,3,1,notes,,,,,,,
+gpt-4-in-sample,6,3,1,footer,,,,,,,
+gpt-4-in-sample,6,3,2,slide,0.55,0.87,0.72,0.87,0.75,"<!-- _class: title-two-content-left-center -->
+
+# Data Storage
+
+Volatile storage
+Persistent storage
+Retrieval
+
+![image An icon of a hard drive in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Storage
+
+Volatile storage
+Persistent storage
+Retrieve as needed
+
+![image An icon of a database in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,3,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,6,3,2,title,0.17,0.67,0.0,0.67,0.58,Data Storage,Storage
+gpt-4-in-sample,6,3,2,body,0.46,0.83,0.8,0.83,0.62,"Volatile storage
+Persistent storage
+Retrieval
+","Volatile storage
+Persistent storage
+Retrieve as needed
+"
+gpt-4-in-sample,6,3,2,images,0.47,0.86,0.69,0.86,0.72,![image An icon of a hard drive in a flat minimalist style](images/placeholder.png),![image An icon of a database in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,6,3,2,notes,,,,,,,
+gpt-4-in-sample,6,3,2,footer,,,,,,,
+gpt-4-in-sample,6,3,3,slide,0.42,0.85,0.53,0.82,0.75,"<!-- _class: title-two-content-left-center -->
+
+# Data Storage Formats
+
+File-based
+Web-based
+Transactional
+Analytical
+Big Data
+
+![image An icon of a stack of files in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Storage
+
+File-based formats
+Web-based formats
+Transactional databases
+Analytical databases
+Big Data platforms
+
+![image An icon of a database in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,3,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,6,3,3,title,0.11,0.5,0.0,0.5,0.45,Data Storage Formats,Storage
+gpt-4-in-sample,6,3,3,body,0.09,0.76,0.32,0.76,0.6,"File-based
+Web-based
+Transactional
+Analytical
+Big Data
+","File-based formats
+Web-based formats
+Transactional databases
+Analytical databases
+Big Data platforms
+"
+gpt-4-in-sample,6,3,3,images,0.43,0.83,0.67,0.83,0.73,![image An icon of a stack of files in a flat minimalist style](images/placeholder.png),![image An icon of a database in a minimalist style](images/placeholder.png)
+gpt-4-in-sample,6,3,3,notes,,,,,,,
+gpt-4-in-sample,6,3,3,footer,,,,,,,
+gpt-4-in-sample,6,4,,,,,,,,
+gpt-4-in-sample,6,5,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Analysis
+theme: template","marp: true
+title: 5 - Analysis
+theme: template"
+gpt-4-in-sample,6,5,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 5 - Analysis
+theme: template","marp: true
+title: 5 - Analysis
+theme: template"
+gpt-4-in-sample,6,5,0,class,,,,,,,
+gpt-4-in-sample,6,5,0,title,,,,,,,
+gpt-4-in-sample,6,5,0,body,,,,,,,
+gpt-4-in-sample,6,5,0,images,,,,,,,
+gpt-4-in-sample,6,5,0,notes,,,,,,,
+gpt-4-in-sample,6,5,0,footer,,,,,,,
+gpt-4-in-sample,6,5,1,slide,0.68,0.89,0.57,0.89,0.82,"<!-- _class: title-only -->
+
+# Data Analysis","<!-- _class: title-only -->
+
+# Analysis"
+gpt-4-in-sample,6,5,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,6,5,1,title,0.17,0.67,0.0,0.67,0.58,Data Analysis,Analysis
+gpt-4-in-sample,6,5,1,body,,,,,,,
+gpt-4-in-sample,6,5,1,images,,,,,,,
+gpt-4-in-sample,6,5,1,notes,,,,,,,
+gpt-4-in-sample,6,5,1,footer,,,,,,,
+gpt-4-in-sample,6,5,2,slide,0.54,0.81,0.69,0.81,0.71,"<!-- _class: title-two-content-left-center -->
+
+# Data Analysis
+
+Support decisions
+Explain observations
+Discover patterns
+
+![image An icon of a magnifying glass over a bar chart in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Analysis
+
+Support decisions
+Explain observations
+Discover information
+
+![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,5,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,6,5,2,title,0.17,0.67,0.0,0.67,0.58,Data Analysis,Analysis
+gpt-4-in-sample,6,5,2,body,0.76,0.83,0.8,0.83,0.72,"Support decisions
+Explain observations
+Discover patterns
+","Support decisions
+Explain observations
+Discover information
+"
+gpt-4-in-sample,6,5,2,images,0.43,0.76,0.65,0.76,0.66,![image An icon of a magnifying glass over a bar chart in a flat minimalist style](images/placeholder.png),"![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,5,2,notes,,,,,,,
+gpt-4-in-sample,6,5,2,footer,,,,,,,
+gpt-4-in-sample,6,5,3,slide,0.34,0.69,0.56,0.69,0.54,"<!-- _class: title-two-content-left-center -->
+
+# Analysis Methods
+
+Reports
+Dashboards
+Interactive
+Data Mining
+Machine Learning
+AI
+
+![image An icon of a computer screen displaying a bar chart and a line chart in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Analysis
+
+Reports
+Dashboards
+Analytics
+Data mining
+Machine learning
+Artificial intelligence
+
+![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,5,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,6,5,3,title,0.17,0.67,0.0,0.67,0.58,Analysis Methods,Analysis
+gpt-4-in-sample,6,5,3,body,0.1,0.71,0.53,0.71,0.55,"Reports
+Dashboards
+Interactive
+Data Mining
+Machine Learning
+AI
+","Reports
+Dashboards
+Analytics
+Data mining
+Machine learning
+Artificial intelligence
+"
+gpt-4-in-sample,6,5,3,images,0.3,0.61,0.51,0.61,0.45,![image An icon of a computer screen displaying a bar chart and a line chart in a flat minimalist style](images/placeholder.png),"![image An icon of a magnifying glass with a bar chart in the center of the circle of glass, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,5,3,notes,,,,,,,
+gpt-4-in-sample,6,5,3,footer,,,,,,,
+gpt-4-in-sample,6,6,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Action
+theme: template","marp: true
+title: 6 - Action
+theme: template"
+gpt-4-in-sample,6,6,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 6 - Action
+theme: template","marp: true
+title: 6 - Action
+theme: template"
+gpt-4-in-sample,6,6,0,class,,,,,,,
+gpt-4-in-sample,6,6,0,title,,,,,,,
+gpt-4-in-sample,6,6,0,body,,,,,,,
+gpt-4-in-sample,6,6,0,images,,,,,,,
+gpt-4-in-sample,6,6,0,notes,,,,,,,
+gpt-4-in-sample,6,6,0,footer,,,,,,,
+gpt-4-in-sample,6,6,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Action","<!-- _class: title-only -->
+
+# Action"
+gpt-4-in-sample,6,6,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,6,6,1,title,0.25,1.0,0.0,1.0,1.0,Action,Action
+gpt-4-in-sample,6,6,1,body,,,,,,,
+gpt-4-in-sample,6,6,1,images,,,,,,,
+gpt-4-in-sample,6,6,1,notes,,,,,,,
+gpt-4-in-sample,6,6,1,footer,,,,,,,
+gpt-4-in-sample,6,6,2,slide,0.08,0.36,0.16,0.36,0.35,"<!-- _class: title-one-content -->
+
+# Action
+
+Decision
+Taking action
+Outcome","<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decision
+Action
+Outcome
+
+![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,6,2,class,0,0.5,0.0,0.5,0.36,title-one-content,title-two-content-left-center
+gpt-4-in-sample,6,6,2,title,0.25,1.0,0.0,1.0,1.0,Action,Action
+gpt-4-in-sample,6,6,2,body,0.1,0.86,0.4,0.86,0.78,"Decision
+Taking action
+Outcome
+","Decision
+Action
+Outcome
+"
+gpt-4-in-sample,6,6,2,images,0.0,0.0,0.0,0.0,0.0,,"![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,6,2,notes,,,,,,,
+gpt-4-in-sample,6,6,2,footer,,,,,,,
+gpt-4-in-sample,6,6,3,slide,0.33,0.65,0.49,0.65,0.53,"<!-- _class: title-two-content-left-center -->
+
+# Action Examples
+
+Personal decision
+Communicate findings
+Automate process
+
+![image An icon of a person standing at a fork in the road with two arrows pointing in opposite directions, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decide
+Communicate
+Automate
+
+![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,6,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,6,6,3,title,0.17,0.67,0.0,0.67,0.58,Action Examples,Action
+gpt-4-in-sample,6,6,3,body,0.05,0.44,0.0,0.44,0.32,"Personal decision
+Communicate findings
+Automate process
+","Decide
+Communicate
+Automate
+"
+gpt-4-in-sample,6,6,3,images,0.3,0.6,0.49,0.6,0.45,"![image An icon of a person standing at a fork in the road with two arrows pointing in opposite directions, in a minimalist style](images/placeholder.png)","![image An icon of a person running with streaks behind them representing speed, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,6,3,notes,,,,,,,
+gpt-4-in-sample,6,6,3,footer,,,,,,,
+gpt-4-in-sample,6,7,,,,,,,,
+gpt-4-in-sample,6,8,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 8 - Summary
+theme: template","marp: true
+title: 8 - Summary
+theme: template"
+gpt-4-in-sample,6,8,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 8 - Summary
+theme: template","marp: true
+title: 8 - Summary
+theme: template"
+gpt-4-in-sample,6,8,0,class,,,,,,,
+gpt-4-in-sample,6,8,0,title,,,,,,,
+gpt-4-in-sample,6,8,0,body,,,,,,,
+gpt-4-in-sample,6,8,0,images,,,,,,,
+gpt-4-in-sample,6,8,0,notes,,,,,,,
+gpt-4-in-sample,6,8,0,footer,,,,,,,
+gpt-4-in-sample,6,8,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-4-in-sample,6,8,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,6,8,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,6,8,1,body,,,,,,,
+gpt-4-in-sample,6,8,1,images,,,,,,,
+gpt-4-in-sample,6,8,1,notes,,,,,,,
+gpt-4-in-sample,6,8,1,footer,,,,,,,
+gpt-4-in-sample,6,8,2,slide,0.15,0.66,0.34,0.66,0.38,"<!-- _class: title-two-content-left -->
+
+# Summary
+
+Data Collection
+Data Storage
+Data Processing
+Data Analysis
+Taking Action
+Optimization
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+
+![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,8,2,class,0,0.89,0.86,0.89,0.82,title-two-content-left,title-two-content-left-center
+gpt-4-in-sample,6,8,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,6,8,2,body,0.04,0.59,0.0,0.59,0.3,"Data Collection
+Data Storage
+Data Processing
+Data Analysis
+Taking Action
+Optimization
+","Collection
+Storage
+Processing
+Analysis
+Action
+Repeat
+"
+gpt-4-in-sample,6,8,2,images,0.12,0.59,0.4,0.59,0.45,![image An icon of a database in a flat minimalist style](images/placeholder.png),"![image An icon containing three arrows in a circle chasing each other (like the recycle symbol), in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,6,8,2,notes,,,,,,,
+gpt-4-in-sample,6,8,2,footer,,,,,,,
+gpt-4-in-sample,7,1,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Next Steps
+theme: template","marp: true
+title: 1 - Next Steps
+theme: template"
+gpt-4-in-sample,7,1,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 1 - Next Steps
+theme: template","marp: true
+title: 1 - Next Steps
+theme: template"
+gpt-4-in-sample,7,1,0,class,,,,,,,
+gpt-4-in-sample,7,1,0,title,,,,,,,
+gpt-4-in-sample,7,1,0,body,,,,,,,
+gpt-4-in-sample,7,1,0,images,,,,,,,
+gpt-4-in-sample,7,1,0,notes,,,,,,,
+gpt-4-in-sample,7,1,0,footer,,,,,,,
+gpt-4-in-sample,7,1,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-slide -->
+
+# Conclusion","<!-- _class: title-slide -->
+
+# Conclusion"
+gpt-4-in-sample,7,1,1,class,0.25,1.0,1.0,1.0,1.0,title-slide,title-slide
+gpt-4-in-sample,7,1,1,title,0.25,1.0,0.0,1.0,1.0,Conclusion,Conclusion
+gpt-4-in-sample,7,1,1,body,,,,,,,
+gpt-4-in-sample,7,1,1,images,,,,,,,
+gpt-4-in-sample,7,1,1,notes,,,,,,,
+gpt-4-in-sample,7,1,1,footer,,,,,,,
+gpt-4-in-sample,7,1,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Where should I go next?","<!-- _class: title-only -->
+
+# Where should I go next?"
+gpt-4-in-sample,7,1,2,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,7,1,2,title,1.0,1.0,1.0,1.0,1.0,Where should I go next?,Where should I go next?
+gpt-4-in-sample,7,1,2,body,,,,,,,
+gpt-4-in-sample,7,1,2,images,,,,,,,
+gpt-4-in-sample,7,1,2,notes,,,,,,,
+gpt-4-in-sample,7,1,2,footer,,,,,,,
+gpt-4-in-sample,7,1,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Practice
+
+Quizzes
+Exercises
+
+![image An icon of a check-list with check marks beside each line item and a pencil sitting beside the check-list, in a minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Practice
+
+Quizzes
+Exercises
+
+![image An icon of a check-list with check marks beside each line item and a pencil sitting beside the check-list, in a minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,7,1,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,7,1,3,title,0.25,1.0,0.0,1.0,1.0,Practice,Practice
+gpt-4-in-sample,7,1,3,body,0.5,1.0,1.0,1.0,1.0,"Quizzes
+Exercises
+","Quizzes
+Exercises
+"
+gpt-4-in-sample,7,1,3,images,1.0,1.0,1.0,1.0,1.0,"![image An icon of a check-list with check marks beside each line item and a pencil sitting beside the check-list, in a minimalistic style](images/placeholder.png)","![image An icon of a check-list with check marks beside each line item and a pencil sitting beside the check-list, in a minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,7,1,3,notes,,,,,,,
+gpt-4-in-sample,7,1,3,footer,,,,,,,
+gpt-4-in-sample,7,1,4,slide,0.95,0.98,0.98,0.98,0.99,"<!-- _class: title-two-content-left-center -->
+
+# Learn More
+
+Data Science: The Big Picture
+Deep Learning: The Big Picture
+AI: The Big Picture
+Data Science with R
+
+
+
+![image An icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Learn More
+
+Data Science: The Big Picture
+Deep Learning: The Big Picture
+AI: The Big Picture
+Data Science with R
+EDA with R
+
+
+
+![image An icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,7,1,4,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,7,1,4,title,0.5,1.0,1.0,1.0,1.0,Learn More,Learn More
+gpt-4-in-sample,7,1,4,body,0.85,0.92,0.92,0.92,0.97,"Data Science: The Big Picture
+Deep Learning: The Big Picture
+AI: The Big Picture
+Data Science with R
+","Data Science: The Big Picture
+Deep Learning: The Big Picture
+AI: The Big Picture
+Data Science with R
+EDA with R
+"
+gpt-4-in-sample,7,1,4,images,1.0,1.0,1.0,1.0,1.0,"![image An icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)","![image An icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,7,1,4,notes,,,,,,,
+gpt-4-in-sample,7,1,4,footer,,,,,,,
+gpt-4-in-sample,7,1,5,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Engage the Community
+
+Rating
+Questions
+Comments
+Feedback
+
+![image An icon of a message bubble with three lines representing text inside of the bubble, in a minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Engage the Community
+
+Rating
+Questions
+Comments
+Feedback
+
+![image An icon of a message bubble with three lines representing text inside of the bubble, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,7,1,5,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,7,1,5,title,0.79,1.0,1.0,1.0,1.0,Engage the Community,Engage the Community
+gpt-4-in-sample,7,1,5,body,1.0,1.0,1.0,1.0,1.0,"Rating
+Questions
+Comments
+Feedback
+","Rating
+Questions
+Comments
+Feedback
+"
+gpt-4-in-sample,7,1,5,images,1.0,1.0,1.0,1.0,1.0,"![image An icon of a message bubble with three lines representing text inside of the bubble, in a minimalist style](images/placeholder.png)","![image An icon of a message bubble with three lines representing text inside of the bubble, in a minimalist style](images/placeholder.png)"
+gpt-4-in-sample,7,1,5,notes,,,,,,,
+gpt-4-in-sample,7,1,5,footer,,,,,,,
+gpt-4-in-sample,7,1,6,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# https://matthewrenze.com/
+
+<!-- 
+All of my online courses and social media handles can be found on my website at the following URL. 
+-->","<!-- _class: title-only -->
+
+# https://matthewrenze.com/
+
+<!-- 
+All of my online courses and social media handles can be found on my website at the following URL. 
+-->"
+gpt-4-in-sample,7,1,6,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,7,1,6,title,0.25,1.0,1.0,1.0,1.0,https://matthewrenze.com/,https://matthewrenze.com/
+gpt-4-in-sample,7,1,6,body,1.0,1.0,1.0,1.0,1.0,"<!-- 
+All of my online courses and social media handles can be found on my website at the following URL. 
+","<!-- 
+All of my online courses and social media handles can be found on my website at the following URL. 
+"
+gpt-4-in-sample,7,1,6,images,,,,,,,
+gpt-4-in-sample,7,1,6,notes,,,,,,,
+gpt-4-in-sample,7,1,6,footer,,,,,,,
+gpt-4-in-sample,7,2,0,slide,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Summary
+theme: template","marp: true
+title: 2 - Summary
+theme: template"
+gpt-4-in-sample,7,2,0,header,1.0,1.0,1.0,1.0,1.0,"marp: true
+title: 2 - Summary
+theme: template","marp: true
+title: 2 - Summary
+theme: template"
+gpt-4-in-sample,7,2,0,class,,,,,,,
+gpt-4-in-sample,7,2,0,title,,,,,,,
+gpt-4-in-sample,7,2,0,body,,,,,,,
+gpt-4-in-sample,7,2,0,images,,,,,,,
+gpt-4-in-sample,7,2,0,notes,,,,,,,
+gpt-4-in-sample,7,2,0,footer,,,,,,,
+gpt-4-in-sample,7,2,1,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+# Summary","<!-- _class: title-only -->
+
+# Summary"
+gpt-4-in-sample,7,2,1,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,7,2,1,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,7,2,1,body,,,,,,,
+gpt-4-in-sample,7,2,1,images,,,,,,,
+gpt-4-in-sample,7,2,1,notes,,,,,,,
+gpt-4-in-sample,7,2,1,footer,,,,,,,
+gpt-4-in-sample,7,2,2,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data
+Types of Data
+Data Types
+Tabular Data
+Data Life Cycle
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data
+Types of Data
+Data Types
+Tabular Data
+Data Life Cycle
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)"
+gpt-4-in-sample,7,2,2,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,7,2,2,title,0.25,1.0,0.0,1.0,1.0,Summary,Summary
+gpt-4-in-sample,7,2,2,body,1.0,1.0,1.0,1.0,1.0,"Data
+Types of Data
+Data Types
+Tabular Data
+Data Life Cycle
+","Data
+Types of Data
+Data Types
+Tabular Data
+Data Life Cycle
+"
+gpt-4-in-sample,7,2,2,images,1.0,1.0,1.0,1.0,1.0,![image An icon of a database in a flat minimalist style](images/placeholder.png),![image An icon of a database in a flat minimalist style](images/placeholder.png)
+gpt-4-in-sample,7,2,2,notes,,,,,,,
+gpt-4-in-sample,7,2,2,footer,,,,,,,
+gpt-4-in-sample,7,2,3,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-two-content-left-center -->
+
+# Thank You!
+
+Matthew Renze
+Data Science Consultant
+Renze Consulting
+Twitter: @matthewrenze
+Website: matthewrenze.com
+
+![image A professional headshot of Matthew Renze -- who is a data science consultant, author, and public speaker](images/placeholder.png)","<!-- _class: title-two-content-left-center -->
+
+# Thank You!
+
+Matthew Renze
+Data Science Consultant
+Renze Consulting
+Twitter: @matthewrenze
+Website: matthewrenze.com
+
+![image A professional headshot of Matthew Renze -- who is a data science consultant, author, and public speaker](images/placeholder.png)"
+gpt-4-in-sample,7,2,3,class,0.25,1.0,1.0,1.0,1.0,title-two-content-left-center,title-two-content-left-center
+gpt-4-in-sample,7,2,3,title,0.5,1.0,1.0,1.0,1.0,Thank You!,Thank You!
+gpt-4-in-sample,7,2,3,body,1.0,1.0,1.0,1.0,1.0,"Matthew Renze
+Data Science Consultant
+Renze Consulting
+Twitter: @matthewrenze
+Website: matthewrenze.com
+","Matthew Renze
+Data Science Consultant
+Renze Consulting
+Twitter: @matthewrenze
+Website: matthewrenze.com
+"
+gpt-4-in-sample,7,2,3,images,1.0,1.0,1.0,1.0,1.0,"![image A professional headshot of Matthew Renze -- who is a data science consultant, author, and public speaker](images/placeholder.png)","![image A professional headshot of Matthew Renze -- who is a data science consultant, author, and public speaker](images/placeholder.png)"
+gpt-4-in-sample,7,2,3,notes,,,,,,,
+gpt-4-in-sample,7,2,3,footer,,,,,,,
+gpt-4-in-sample,7,2,4,slide,1.0,1.0,1.0,1.0,1.0,"<!-- _class: title-only -->
+
+![bg contain The logo of Renze Consulting -- an icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)
+
+# http://matthewrenze.com/","<!-- _class: title-only -->
+
+![bg contain The logo of Renze Consulting -- an icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)
+
+# http://matthewrenze.com/"
+gpt-4-in-sample,7,2,4,class,0.25,1.0,1.0,1.0,1.0,title-only,title-only
+gpt-4-in-sample,7,2,4,title,0.25,1.0,1.0,1.0,1.0,http://matthewrenze.com/,http://matthewrenze.com/
+gpt-4-in-sample,7,2,4,body,,,,,,,
+gpt-4-in-sample,7,2,4,images,1.0,1.0,1.0,1.0,1.0,"![bg contain The logo of Renze Consulting -- an icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)","![bg contain The logo of Renze Consulting -- an icon of a laboratory flask with the binary characters ""0101"" and ""0010"" superimposed on top of the flask and stacked one on top of the other, in a minimalistic style](images/placeholder.png)"
+gpt-4-in-sample,7,2,4,notes,,,,,,,
+gpt-4-in-sample,7,2,4,footer,,,,,,,

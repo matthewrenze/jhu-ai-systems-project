@@ -1,0 +1,21 @@
+---
+marp: true
+title: 1 - Introduction
+theme: template
+---
+
+<!-- _class: title-slide -->
+
+# Intro to Data 
+for Data Science
+
+![image](images/541-6.png)
+
+<!--
+Hi. I'm Matthew Renze, data science consultant, author, and public speaker.
+Welcome to this introductory course on data for data science.
+In this course, we'll learn about data as a foundation for data science.
+We'll learn what data is, why it's important, and how it is used within data science.
+In addition, we'll learn about data types, data structures, tabular data, and the data life cycle, all from the perspective of data science.
+But first, let's begin with a quick story.
+-->

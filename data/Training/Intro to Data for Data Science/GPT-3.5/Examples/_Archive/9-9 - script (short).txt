@@ -1,0 +1,73 @@
+---
+course: Intro to Data for Data Science
+module: 9 - Miscellaneous
+title: 9 - Miscellaneous Examples
+---
+
+For example, imagine we're recording vital signs for a patient at a hospital.
+
+Our variables might be:
+
+ - the date and time of the observation,
+
+ - the patients heart rate measured by their pulse, 
+
+ - and their body temperature at the time of the observation.
+
+What is most important, is that all of the elements in a specific column must be of the same data type, scale, and unit of measure.
+
+---
+
+For example:
+
+ - we don't want our dates to be stored using different date formats.
+
+ - we don't want our heart rate data to be stored using two different data types.
+
+ - and we don't want our temperature to use both Celsius and Fahrenheit units of measure.
+
+---
+
+For example, imagine that we have two tables:
+
+First, we have a table of patients.
+
+It contains their names, genders, dates of birth, and more.
+
+Second, we have a table of all of our patient's vital signs.
+
+It contains observations of the patient's temperature, heart rate and more for a specific day.
+
+We could duplicate the patient's name and other personal data for each recording of their vital signs.
+
+However, it's much more efficient to store the patient's data once and then simply refer back to that data from the vital-signs table.
+
+We do this by creating a primary key and a foreign key.
+
+---
+
+Now we can navigate the relationship forward from any patient to get their vital signs.
+
+Or we can navigate the relationship backwards from a vital sign to get the patient's name and information.
+
+Relationships allow us to connect data from table to table in many ways.
+
+However, we'll have to defer these various types of relationships to a more advanced course on data science.
+
+---
+
+When we execute this query, 
+
+First, the database will scan all of the records in the Vital Signs table 
+
+Next, it will filter out anyone who is not our patient named Bill.
+
+---
+
+Finally, it will compute the average of the remaining temperature values.
+
+---
+
+The computer will then return this value as a result.
+
+As we can see, the result of executing this query is 37 degrees Celsius.

@@ -1,0 +1,392 @@
+/*
+@theme template
+*/
+
+
+/* Defaults */
+
+section {
+    background-color: white;
+    width: 1280px;
+    height: 720px;
+    padding-left: 88px;
+    padding-right: 88px;
+    padding-top: 38px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 28pt;
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+}
+
+section p, ul, ol {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+footer {    
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+    background-color: rgba(255,255, 255, 0.80);
+    color: #7F7F7F
+}
+
+h1 {
+    height: 140px;
+    width: 1104px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44pt;;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 32pt;
+}
+
+img {
+    max-height: 720px;
+    max-width: 1280px;
+}
+
+table {
+    margin-top: 188px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    border-color: gray;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #5B9BD5;
+    color: white;
+    font-weight: normal;
+}
+
+/* Title Slide */
+section.title-slide,
+section.section-slide {
+    flex-direction: column;
+    background-color:#5B9BD5;
+  }
+
+section.title-slide h1,
+section.section-slide h1 {
+    width: 960px;
+    display: flex;
+    font-size: 60px;
+    color: white;
+    justify-content: center;
+    align-items: end;
+  }
+
+ section.title-slide p,
+ section.section-slide p {
+    color: white;
+}
+
+/* Title Only */
+section.title-only h1 {
+    background-color: rgba(255,255, 255, 0.80);
+}
+
+/* Title With Content (Base Style) */
+section.title-one-content,
+section.title-one-content-left,
+section.title-two-content,
+section.title-two-content-left,
+section.title-two-content-left-center,
+section.title-two-content-comparison,
+section.title-three-content,
+section.title-four-content,
+section.title-five-content {
+    flex-direction: row;
+}
+
+section.title-one-content h1,
+section.title-one-content-left h1,
+section.title-two-content h1,
+section.title-two-content-left h1,
+section.title-two-content-left-center h1,
+section.title-two-content-comparison h1,
+section.title-three-content h1,
+section.title-four-content h1,
+section.title-five-content h1 {
+    position: absolute;
+    top: 38px;
+    margin: auto;
+}
+
+section.title-one-content p, ul, ol,
+section.title-one-content-left p, ul, ol,
+section.title-two-content p, ul, ol,
+section.title-two-content-left p, ul, ol,
+section.title-two-content-left-center p, ul, ol,
+section.title-two-content-comparison p, ul, ol,
+section.title-three-content p, ul, ol,
+section.title-four-content p, ul, ol {
+    margin-top: 188px;
+    height: 457px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.title-five-content p {
+
+}
+
+/* Title With One Content (Base Style) */
+section.title-one-content p, ul, ol,
+section.title-one-content-left p, ul, ol{
+    width: 1104px;
+}
+
+section.title-one-content img,
+section.title-one-content-left img {
+    max-height: 457px;
+    max-width: 1104px;
+}
+
+section.title-one-content code,
+section.title-one-content-left code {
+    width: 1104px;
+}
+
+/* Title With One Content (Left Aligned) */
+section.title-one-content-left p, ul, ol {
+    justify-content: left;
+    text-align: left;
+}
+
+/* Title with Two Content (Base Style) */
+section.title-two-content,
+section.title-two-content-left,
+section.title-two-content-left-center,
+section.title-two-content-comparison,
+section.title-three-content,
+section.title-four-content,
+section.title-five-content {
+    column-gap: 16px;
+}
+
+section.title-two-content p,
+section.title-two-content-left p,
+section.title-two-content-left-center p,
+section.title-two-content-comparison p {
+    width: 500px;
+}
+
+section.title-two-content code,
+section.title-two-content-left code,
+section.title-two-content-left-center code,
+section.title-two-content-comparison code {
+    width: 500px;
+}
+
+section.title-two-content img,
+section.title-two-content-left img,
+section.title-two-content-left-center img,
+section.title-two-content-comparison img {
+    max-height: 457px;
+    max-width: 524px;
+}
+
+/* Title with Two Content (Both Left Aligned) */
+section.title-two-content-left p {
+    justify-content: left;
+    text-align: left;
+}
+
+/* Title with Two Content (Left + Center Aligned) */
+section.title-two-content-left-center p:nth-child(2) {
+    justify-self: left;
+    justify-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+/* Title with Two Content Comparision */
+section.title-two-content-comparison {
+
+}
+
+section.title-two-content-comparison h2:nth-child(2) {
+    position: absolute;
+    top: 176px;
+    left: 125px;
+    width: 500px;
+}
+
+section.title-two-content-comparison h2:nth-child(4) {
+    position: absolute;
+    top: 176px;
+    left: 648px;
+    width: 500px;
+}
+
+/* Title with Three Content */
+section.title-three-content p {
+    width: 357px;
+}
+
+section.title-three-content img {
+    max-height: 457px;
+    max-width: 357px;
+}
+
+/* Title with Four Content */
+section.title-four-content p {
+    width: 264px;
+}
+
+section.title-four-content img {
+    max-height: 457px;
+    max-width: 264px;
+}
+
+
+/* Code Syntax Highlighting */
+
+section code {
+    display: block;
+    position: absolute;
+    height: 457px;
+    top: 188px;
+    left: 88px;
+    padding: 20px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+section code {
+    width: 1104px;    
+}
+
+/* Storage modifier import */
+.hljs,
+.hljs-subst {
+    color: #c9d1d9;
+    
+}
+
+/* Keyword */
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
+    color: #ff7b72;
+}
+
+/* Entity */
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+    color: #d2a8ff;
+}
+
+/* Constant */
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-variable {
+    color: #79c0ff;
+}
+
+/* String */
+.hljs-meta .hljs-string,
+.hljs-regexp,
+.hljs-string {
+    color: #a5d6ff;
+}
+
+/* Variable */
+.hljs-built_in,
+.hljs-symbol {
+    color: #ffa657;
+}
+
+/* Comment */
+.hljs-code,
+.hljs-comment,
+.hljs-formula {
+    color: #8b949e;
+}
+
+/* Entity tag */
+.hljs-name,
+.hljs-quote,
+.hljs-selector-pseudo,
+.hljs-selector-tag {
+    color: #7ee787;
+}
+
+/* Markup heading */
+.hljs-section {
+    color: #1f6feb;
+    font-weight: 700
+}
+
+/* Markup list */
+.hljs-bullet {
+    color: #f2cc60;
+}
+
+/* Markup italics */
+.hljs-emphasis {
+    color: #c9d1d9;
+    font-style: italic
+}
+
+/* Markup bold */
+.hljs-strong {
+    color: #c9d1d9;
+    font-weight: 700
+}
+
+/* Markup inserted text */
+.hljs-addition {
+    background-color: #033a16;
+    color: #aff5b4;
+}
+
+/* Markup deleted text */
+.hljs-deletion {
+    background-color: #ffdcd7;
+    color: #67060c;
+}

@@ -1,0 +1,48 @@
+---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 4 - Scalar Data Type Examples
+
+---
+
+In data science, we have several common scalar data types.
+
+We're going to learn at the ones that you're most likely to encounter.
+
+---
+
+First, we have categorical data types.
+
+We typically encounter three categorical data types in data science.
+
+First, we have a character, which represents a single letter, digit, or symbol.
+
+Second, we have a Boolean, which represents either a true or a false value.
+
+Third, we have an Enumeration, which represents a set of named categories.
+
+---
+
+Next, we have numerical data types.
+
+We typically encounter three numerical data types in data science.
+
+First, we have an integer, which represents a whole number.
+
+Second, we have a decimal, which represents a decimal fraction.
+
+Third, we have a float, which represents numbers using scientific notation.
+
+---
+
+Finally, we have temporal data types.
+
+We typically encounter four temporal data types in data science.
+
+First, we have a date, which represents time as a calendar day.
+
+Second, we have a time data type, which represents a time of day.
+
+Third, we have a date-time data type, which represents both a date and a time of day.
+
+Fourth, we have a date-time with time-zone offset.

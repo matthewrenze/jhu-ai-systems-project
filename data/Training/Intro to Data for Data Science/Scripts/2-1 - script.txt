@@ -1,0 +1,44 @@
+---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 1 - Overview
+
+---
+
+Hello again. 
+
+And welcome back to this introductory course on data for data science.
+
+I'm Matthew Renze - data science consultant, author, and public speaker.
+
+In this module, we'll learn about data.
+
+We'll learn what it is, and why it's important for data science.
+
+---
+
+What is data?
+
+... or technically, the more grammatically correct question is, ...
+
+---
+
+... "what *are* data?"
+
+More importantly, what is the purpose of data?
+
+And why is it important or useful to us in data science?
+
+---
+
+To answer these questions, we're going to learn about data and how it is used in data science.
+
+First, we'll learn about data... what it is, and why it's important.
+
+Next, we'll learn about information and how we can extract information from data.
+
+Then, we'll learn about knowledge and how we can create knowledge from information.
+
+Next, we'll learn about the purpose of data and how it leads to intelligent decision making.
+
+Finally, we'll learn about the process of transforming raw data into actionable insight.

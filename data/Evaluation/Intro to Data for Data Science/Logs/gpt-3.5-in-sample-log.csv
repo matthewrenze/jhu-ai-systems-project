@@ -1,0 +1,3972 @@
+Date-Time,Module ID,Section ID,Prompt Tokens,Completion Tokens,Total Tokens,Start Date-Time,End Date-Time,Duration (s),Input Script,Output Slides,Error Message
+2023-04-04 11:17:35,1,1,3091,151,3242,2023-04-04 11:17:28,2023-04-04 11:17:35,6.318338,"---
+course: Intro to Data for Data Science
+module: 1 - Introduction
+title: 1 - Introduction
+
+---
+
+Hi. I'm Matthew Renze, data science consultant, author, and public speaker.
+Welcome to this introductory course on data for data science.
+In this course, we'll learn about data as a foundation for data science.
+We'll learn what data is, why it's important, and how it is used within data science.
+In addition, we'll learn about data types, data structures, tabular data, and the data life cycle, all from the perspective of data science.
+But first, let's begin with a quick story.","---
+marp: true
+title: 1 - Introduction
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Introduction
+
+---
+
+<!-- _class: one-pane -->
+
+# Meet Matthew Renze
+
+Data Science Consultant
+Author
+Public Speaker
+
+![bg contain A photo of Matthew Renze](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Course Overview
+
+Data
+Importance
+Data Science
+Data Types
+Data Structures
+Tabular Data
+Data Life Cycle
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: one-pane -->
+
+# A Quick Story
+
+![bg contain A photo of a person reading a book](images/placeholder.png)",
+2023-04-04 11:17:41,1,2,3620,163,3783,2023-04-04 11:17:35,2023-04-04 11:17:41,6.594513,"---
+course: Intro to Data for Data Science
+module: 1 - Introduction
+title: 2 - The Rise of Data
+
+---
+
+Data... a collection of symbols representing the quality or quantity of a physical phenomenon.
+
+---
+
+Humans have likely been using data for as long as we've been counting on our fingers.
+
+---
+
+We have evidence of humans carving notches into wood, bone, and stone to count days, lunar cycles, and animals for at least the past forty-thousand years.
+
+---
+
+A few millennia ago, the Sumerians, Egyptians, and Chinese were recording written counts of items, animals, people, and astronomical observations.
+
+---
+
+They recorded these data using clay tablets, papyrus, and parchment, using early writing systems like cuneiform, hieroglyphics, and logographs.
+
+---
+
+A few centuries ago, data were collected by governments for census and taxation, or by businesses for accounting, inventory, and transactions.
+
+---
+
+Data at this point in history were recorded largely using quill pens in paper ledgers.
+
+---
+
+In the 1800s, mechanical computers radically sped up data processing and ushered in a new area of data analysis.
+
+---
+
+For example, the 1880 US census took over 7 years to process and analyze without a computer.
+
+---
+
+However, the 1890 US census, took only 18 months thanks to Herman Hollerith's punch-card-based ""Tabulating Machine"".
+
+---
+
+In the 1900s, electrical computers dramatically increased both data storage and processing capabilities.
+
+---
+
+By the mid-1900s, digital computers allowed us to store and analyze data as bits of information encoded as ones and zeros.
+
+---
+
+In the 1980s, the emergence of relational databases allowed us to efficiently store and process transactional data.
+
+---
+
+We also saw the emergence of programming languages like structured query language which allow us to rapidly query and analyze data.
+
+---
+
+In the 1990s, data warehouses, data marts, and data cubes were used to store and analyze ever-larger growing sets of data.
+
+---
+
+We also saw the emergence of data mining to allow us to discover patterns of interest in large data sets.
+
+---
+
+In the 2000s, big-data platforms emerged to handle very large data sets by spreading data and processing across several computers in a cluster.
+
+---
+
+We also saw the rise of machine learning - training computer algorithms on large sets of data to classify new data and make predictions.
+
+---
+
+In the 2010s, cloud-scale distributed computing platforms emerged to handle storing and processing of data across thousands of computers in a data center.
+
+---
+
+This decade also ushered in the era of deep learning - training deep neural networks on very large data sets to classify and predict much more complex patterns of data.
+
+---
+
+As we move into 2020s, the explosion of data from the internet of things is leading to a need for new methods to store and process data.
+
+---
+
+In addition, the demand for modern data analysis has made data science one of the most in-demand professions of the 21st century.
+
+---
+
+In the next decade and beyond, the field of data science will continue to grow and will likely evolve into data-driven artificial intelligence.
+
+A new era of data that will almost certainly change our world in more ways than we could possibly imagine.","---
+marp: true
+title: 2 - The Rise of Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# The Rise of Data
+
+---
+
+<!-- _class: title-only -->
+
+# Data
+
+A collection of symbols
+
+---
+
+<!-- _class: title-only -->
+
+# History of Data
+
+Notches
+Written counts
+Mechanical computers
+Electrical computers
+Digital computers
+Relational databases
+Data mining
+Big-data platforms
+Machine learning
+Cloud-scale distributed computing
+Deep learning
+
+---
+
+<!-- _class: title-only -->
+
+# The Future of Data
+
+Internet of things
+Data science
+Data-driven artificial intelligence
+
+---
+
+<!-- _class: title-only -->
+
+# The Future of Data
+
+A new era of data that will almost certainly change our world in more ways than we could possibly imagine.",
+2023-04-04 11:17:52,1,3,3398,270,3668,2023-04-04 11:17:41,2023-04-04 11:17:52,10.875835,"---
+course: Intro to Data for Data Science
+module: 1 - Introduction
+title: 3 - Overview
+
+---
+
+
+
+---
+
+The purpose of this course is to learn about data as a foundation for data science.
+
+It might seem obvious, but half of data science is data, so as you can imagine, it's really important to have a thorough understanding of data to be successful with data science. 
+
+This course was designed to provide you with that foundational knowledge.
+
+---
+
+As an overview of this course:
+
+First, we'll learn about data. 
+
+We'll learn what it is, and why it's important for data science.
+
+Next we'll learn about the various types of data we encounter in data science, including categorical and numerical data.
+
+Then we'll learn about data types, and how we represent and store various kinds of data in a computer.
+
+Next, we'll learn about data structures, and how providing structure to data gives it additional context and meaning.
+
+Then, we'll learn about tabular data, tables of data organized into rows and columns that allow us to perform queries.
+
+Finally, we'll learn about the data life cycle.
+
+We'll learn about the journey of data as we move from raw data to actionable insight.
+
+---
+
+There are no prerequisites for this course.
+
+We will assume you are new to data, data science, and computer programming throughout this entire course.
+
+In addition, you won't need to install any software on your computer to complete this course.
+
+We'll keep everything in this course as simple and easy to understand as possible.
+
+---
+
+All of the content for this course can be found at the following URL.
+
+This includes videos, slides, quizzes, exercises, and more.
+
+If you haven't already done so, please visit this webpage now and bookmark it for future reference.
+
+---
+
+By the end of this course, you will understand data in the context of data science.
+
+You'll understand data types, data structures, tabular data, and the data life cycle.
+
+This foundational knowledge will help you to understand all of the concepts in the remaining courses in this series on data science.
+
+Alright. We've got a lot to cover in this course -- so let's get started!","---
+marp: true
+title: 3 - Overview
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Overview
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Course Overview
+
+Data
+Types of Data
+Data Types
+Data Structures
+Tabular Data
+Data Life Cycle
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Prerequisites
+
+No prerequisites
+New to data, data science, and computer programming
+No software installation required
+
+![image An icon of a computer screen in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Course Content
+
+Videos, slides, quizzes, exercises, and more
+Visit [URL] to access all content
+Foundational knowledge for data science
+
+![image An icon of a computer screen in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Course Goals
+
+Understand data in data science
+Data types, structures, tabular data, and data life cycle
+Foundational knowledge for data science
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-only -->
+
+# Let's Get Started!",
+2023-04-04 11:18:00,2,1,3199,215,3414,2023-04-04 11:17:52,2023-04-04 11:18:00,8.209254,"---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 1 - Overview
+
+---
+
+Hello again. 
+
+And welcome back to this introductory course on data for data science.
+
+I'm Matthew Renze - data science consultant, author, and public speaker.
+
+In this module, we'll learn about data.
+
+We'll learn what it is, and why it's important for data science.
+
+---
+
+What is data?
+
+... or technically, the more grammatically correct question is, ...
+
+---
+
+... ""what *are* data?""
+
+More importantly, what is the purpose of data?
+
+And why is it important or useful to us in data science?
+
+---
+
+To answer these questions, we're going to learn about data and how it is used in data science.
+
+First, we'll learn about data... what it is, and why it's important.
+
+Next, we'll learn about information and how we can extract information from data.
+
+Then, we'll learn about knowledge and how we can create knowledge from information.
+
+Next, we'll learn about the purpose of data and how it leads to intelligent decision making.
+
+Finally, we'll learn about the process of transforming raw data into actionable insight.","---
+marp: true
+title: 1 - Overview
+theme: template
+---
+
+<!-- _class: title-slide -->
+
+# Data
+
+---
+
+<!-- _class: title-only -->
+
+# What is Data?
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data
+Information
+Knowledge
+Purpose
+Process
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: one-pane -->
+
+![bg contain A photo of Matthew Renze](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data
+- Raw and unorganized facts
+- Record observations of the world
+
+Information
+- Organized, analyzed, and interpreted data
+- Provides additional context and meaning
+
+Knowledge
+- Collection of information
+- Used to solve problems in a specific domain
+
+Purpose
+- Make intelligent, rational decisions
+- Achieve a goal
+
+Process
+- Transform raw data into actionable insight
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:18:07,2,2,3355,184,3539,2023-04-04 11:18:00,2023-04-04 11:18:07,7.089206,"---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 2 - Data
+
+---
+
+When we think of data we might imagine:
+
+ - a bunch of ones-and-zeros sitting inside of a computer, 
+
+ - the stats from our favorite sports team, 
+
+ - or the medical records at our local hospital.
+
+But what exactly are data?
+
+---
+
+Data are a collection of symbols that describe observations of the world around us.
+
+They record facts about the natural world that we live in.
+
+These include descriptions of the qualities of things in our world, for example, colors, shapes, and textures.
+
+In addition, they include measurements of quantities of things in our world, for example: size, weight, and velocity.
+
+---
+
+Data are represented using symbols.
+
+This includes representing qualities of things using words, for example, the color of an apple is red.
+
+In addition, this includes representing quantities of things using numbers, for example, the apple has a mass of 100 grams.
+
+---
+
+Imagine we're feeling sick and we go to see our doctor.
+
+Our doctor takes a measurement of our body temperature using a thermometer.
+
+The thermometer reads 39 degrees Celsius
+
+which is 102 degrees Fahrenheit -- for those of us who've yet to switch to the metric system
+
+Based on this temperature, it's clear that we're running a fever.
+
+---
+
+This temperature value of 39 degrees Celsius is what we refer to as a ""datum"" (i.e. a single piece of data).
+
+The word ""data"" is actually the plural form of the word ""datum"".
+
+So when we have more than one ""datum"", we have ""data"".
+
+However, most people now use the term ""data"" in both the singular and plural form, interchangeably.
+
+The term ""datum"" is now rarely, if ever, used.
+
+Data can be used to create information.
+
+However, in order to create information, we first need to organize, analyze, and interpret the data.","---
+marp: true
+title: 2 - Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Data
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Describe observations
+Qualities
+Quantities
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Represented as symbols
+Qualities using words
+Quantities using numbers
+
+![image An icon of a database in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor holding a thermometer](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data
+
+Datum (singular)
+Data (plural)
+Used to create information
+
+![image An icon of a database in a minimalist style](images/placeholder.png)",
+2023-04-04 11:18:16,2,3,3222,202,3424,2023-04-04 11:18:07,2023-04-04 11:18:16,8.425917,"---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 3 - Information
+
+---
+
+Information is everywhere.
+
+We have information on the menus at our restaurants, in the books in our libraries, and on street signs while we're driving.
+
+But what exactly is information in the context of data science?
+
+---
+
+Information is something that reduces uncertainty about our world.
+
+It is the answer to questions like who, what, where, how many, or how much.
+
+Essentially, information provides clarity about the world we live in.
+
+---
+
+Information is created from data.
+
+We create information by organizing, analyzing, and interpreting data.
+
+Organizing, analyzing, and interpreting data gives it context and meaning.
+
+This additional context and meaning is essentially what distinguishes data from information.
+
+---
+
+For example, imagine that our doctor has a recorded a history of our normal body temperature over the past few years.
+
+They analyze the historical data and computes that our average (or normal) body temperature is 37°C.
+
+This average temperature of 37°C is what we call information.
+
+---
+
+Information is more meaningful than the individual data points that were used to create it.
+
+This makes information quite useful on it's own.
+
+However, information can also be used to create something more powerful -- it can be used to create knowledge.","---
+marp: true
+title: 3 - Information
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Information
+
+---
+
+<!-- _class: title-only -->
+
+# What is Information?
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Information
+
+Reduces uncertainty
+Answers questions
+Provides clarity
+
+![image An icon of a lightbulb in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Information
+
+Created from data
+Organized
+Analyzed
+Interpreted
+Context and meaning
+
+![image An icon of a database in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: one-pane -->
+
+![bg contain A photo of a thermometer](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Information
+
+More meaningful
+Useful on its own
+Used to create knowledge
+
+![image An icon of a lightbulb in a minimalist style](images/placeholder.png)",
+2023-04-04 11:18:24,2,4,3344,194,3538,2023-04-04 11:18:16,2023-04-04 11:18:24,7.766073,"---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 4 - Knowledge
+
+---
+
+Sir Francis Bacon famously said that ""knowledge is power"";
+
+But what makes knowledge so powerful?
+
+And what exactly is knowledge in the first place?
+
+---
+
+Knowledge is a theoretical or practical understanding of the natural world around us.
+
+It explains the observations that we see and why things behave the way they do.
+
+In addition, it allows us to predict the behavior of phenomena in our world.
+
+Both of which, are quite beneficial to our survival and our ability to thrive in the world.
+
+---
+
+Knowledge is created from information.
+
+It is essentially a collection of information that has been organized to provide a consistent and cohesive understanding of a specific topic.
+
+From a more pragmatic standpoint, knowledge is used to solve problems within a specific domain.
+
+Knowledge allows us to make decisions so that we can take an action that leads us to a goal of some kind.
+
+---
+
+For example, imagine that our doctor knows that when a person's body temperature rises to 39°C, that they are likely fighting an infection.
+
+This relationship between an increase in body temperature and the presence of an infection is what we refer to as knowledge.
+
+In the case of our example, our doctor would use this knowledge to decide that we are most likely fighting an infection. 
+
+As a result of this knowledge, they would likely take the action of recommending that we get plenty of rest, drink lots of fluids, and potentially get further testing if necessary.
+
+---
+
+Knowledge alone isn't enough to solve problems.
+
+In order to solve real-world problems, we need to use knowledge in combination with new information.
+
+It's this combination of existing knowledge and new information that leads to a solution to a problem.
+
+For example, our doctor used a combination of their existing medical knowledge and new information about our current body temperature to decide that we were likely fighting an infection and recommend a course of treatment.","---
+marp: true
+title: 4 - Knowledge
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Knowledge
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Understanding of the world
+Explains observations
+Predicts behavior
+
+![image An icon of a lightbulb in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Created from information
+Collection of organized information
+Solves problems in a specific domain
+
+![image An icon of a lightbulb in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: one-pane -->
+
+![bg contain A photo of a doctor holding a thermometer](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Knowledge
+
+Existing knowledge + new information
+Leads to a solution
+
+![image An icon of a lightbulb in a minimalist style](images/placeholder.png)",
+2023-04-04 11:18:31,2,5,3235,188,3423,2023-04-04 11:18:24,2023-04-04 11:18:31,7.646638,"---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 5 - Purpose
+
+---
+
+What is the purpose of collecting data, creating information, and acquiring knowledge?
+
+Essentially, what makes data so important in data science?
+
+---
+
+Data, on it's own, is useless. 
+
+However, it can be a stepping stone to achieve a goal or an objective of some kind.
+
+In order to achieve our goal we need to transform data into something that is actionable.
+
+We need to transform our data into actionable insight.
+
+---
+
+We do this through the following process:
+
+First, we collect data by observing the world and recording our observations.
+
+Next, we organize, analyze, and interpret our data to create information.
+
+Then, we combine this information with other information to create knowledge.
+
+Next, we use this knowledge and new information to make an informed decision about which action to take.
+
+Then, we can take action with the confidence that we have increased the likelihood of achieving our goal.
+
+---
+
+In data science, we refer to this process as ""transforming data into actionable insight"".
+
+In the world of business, this is often referred to as ""data-driven decision making"".
+
+In our daily lives, we simply refer to this process as ""intelligence"" -- the use of knowledge and new information to make rational decisions about actions that will maximize our chances of achieving a goal.","---
+marp: true
+title: 5 - Purpose
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Purpose
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Transforming Data into Actionable Insight
+
+Collect data
+Organize, analyze, and interpret data
+Create information
+Combine information to create knowledge
+Make informed decisions
+Take action
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data-Driven Decision Making
+
+Transforming data into actionable insight
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Intelligence
+
+Use of knowledge and new information
+Make rational decisions
+Maximize chances of achieving a goal
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:18:39,2,6,3456,195,3651,2023-04-04 11:18:31,2023-04-04 11:18:39,8.111845,"---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 6 - Process
+
+---
+
+Let's take a look at a simple example of intelligent data-driven decision making in action.
+
+---
+
+Imagine that we're an investor.
+
+We're considering making an investment in apples -- the edible kind -- not the iPod kind.
+
+Our goal, obviously, is to make a profit.
+
+However, we want to make our investment using a data-driven decision-making process.
+
+---
+
+First, we learn that the price of apples has been holding steady for the past year at $2 per kilogram (which is about $2 for 6 apples).
+
+We create data when we observe and record the current price of apples at $2 per kilogram.
+
+---
+
+Next we learn that the price of apples has risen this month from $2 per kilogram to $3 per kilogram.
+
+This price increase was caused by a rapid, unexpected increase in consumer demand.
+
+We create information when we analyze the historical price data and discover the $1 increase in the price of apples this month.
+
+---
+
+Then, from many years of observation, we've learned that when the price of apples goes up by $1 per kilogram, then price of apple cider will likely rise by $1.50 per liter in the following month.
+
+We acquired knowledge when we learned about the relationship between an increase in the price of apples and an increase in the price of apple cider.
+
+---
+
+Next, based on our existing knowledge and the new information about the price increase, we make a decision.
+
+We decide it would be smart to invest in apple cider now, before the price of apple cider rises by an extra $1.50 per liter next month.
+
+---
+
+Then, based on our decision, we take action.
+
+We invest in apple cider on the commodities market at it's current (discounted) price, in anticipation of an increase in price, and thus an increase in the value of our investment.
+
+---
+
+Finally, if everything worked out in our favor, and the price of apple cider rises as predicted, we will have achieved our goal of capturing a profit on our investment.
+
+However, achieving our goal is entirely dependent upon having correct data, information, knowledge, decisions, actions -- and the apple-cider market working in our favor! : )
+
+While this has been an overly simplified example of how data-driven decision making works, hopefully it helped to demonstrate to you how we use data to achieve a goal with data science.","---
+marp: true
+title: 6 - Process
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Process
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Intelligent Data-Driven Decision Making
+
+Investor
+Goal: Profit
+Data
+Information
+Knowledge
+Decision
+Action
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Example
+
+Price of Apples
+$2/kg -> $3/kg
+Price of Apple Cider
+$1.50/L increase
+Invest in Apple Cider
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Achieving the Goal
+
+Correct
+Data
+Information
+Knowledge
+Decision
+Action
+Market
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:18:42,2,7,3159,69,3228,2023-04-04 11:18:39,2023-04-04 11:18:42,3.039476,"---
+course: Intro to Data for Data Science
+module: 2 - Data
+title: 7 - Summary
+
+---
+
+In this module we learned about data. 
+We learned what it is and why it's important.
+
+---
+
+First, we learned that data are raw and unorganized facts created from recording observations of the world around us.
+
+Next, we learned that information is data that has been organized, analyzed, and interpreted to provide it with additional context and meaning.
+
+Then, we learned that knowledge is a collection of information that can be used to solve problems in a specific domain.
+
+Next, we learned that the purpose of data is to make intelligent, rational decisions that lead to actions that achieve a goal of some kind.
+
+Finally, we learned that the data-driven decision-making process involves transforming data, into information, into knowledge, to a decision, and finally, to an action that achieves a goal.
+
+In the next module, we're learn about data types and how data are stored in computer systems.","---
+marp: true
+title: 7 - Summary
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Summary
+
+---
+
+<!-- _class: title-two-content-left -->
+
+# Summary
+
+Data
+Information
+Knowledge
+Purpose
+Process
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:18:46,3,1,3192,90,3282,2023-04-04 11:18:42,2023-04-04 11:18:46,4.042776,"---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 1 - Overview
+
+---
+
+Hello, and welcome back to this introductory course on data for data science.
+
+I'm Matthew Renze, data science consultant, author, and public speaker.
+
+In this module, we'll learn about the various types of data that we will encounter in data science.
+
+---
+
+What types of data exist in data science?
+
+How do we conceptually divide data into groups based on what they represent?
+
+And what are the limitations of each of these types of data?
+
+---
+
+To answer these questions, we're going to learn about the various types of data that exist in data science and their various capabilities and limitations.
+
+First, we'll learn about the two most common types of data: categorical and numerical data.
+
+Next, we'll learn about nominal data, named categories without a natural rank order.
+
+Then we'll learn about ordinal data, named categories that do have a natural rank order.
+
+Next, we'll learn about interval data, numerical measures with an arbitrary zero point.
+
+Finally, we'll learn about ratio data, numerical measures with a natural zero point.","---
+marp: true
+title: 1 - Overview
+theme: template
+---
+
+<!-- _class: title-slide -->
+
+# Types of Data
+
+---
+
+<!-- _class: title-only -->
+
+# Overview
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Types of Data
+
+Categorical
+Numerical
+Nominal
+Ordinal
+Interval
+Ratio
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:18:54,3,2,3403,186,3589,2023-04-04 11:18:46,2023-04-04 11:18:54,7.881607,"---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 2 - Types of Data
+
+---
+
+What types of data exist in data science and how do we classify them?
+
+---
+
+In data science, there are two main types of data: categorical data and numerical data.
+
+These are the two most common types of data you will encounter in data science and the most common way of classifying or grouping the various types of data.
+
+You'll encounter them quite frequently in data science, so it's important that you clearly understand the distinction between the two.
+
+So, let's spend some time learning about each of them in more detail.
+
+---
+
+Categorical data represent named qualities of an observed phenomenon.
+
+This includes using words to describe the names or properties of objects, like their color, shape, and texture.
+
+For example, the color of an apple is red. 
+
+The word ""red"" describes the quality of the color of the apple.
+
+In data science, we refer to categorical data as ""qualitative data"" since they describe the quality of the thing they represent.
+
+However, most beginners more intuitively understand the term ""categorical"" rather than ""qualitative"", so we'll continue referring to this type of data as ""categorical"" data.
+
+---
+
+Numerical data represents measured quantities of an observed phenomenon.
+
+This includes using numbers to describe the measurement of objects like their size, weight, and velocity.
+
+For example, the price of 6 apples is $2.00.
+
+""Six"" represents the quantity of apples, and ""$2.00"" represents the price of the apples.
+
+In data science, we refer to numerical data as ""quantitative data"" since they describe the quantity of the thing they represent.
+
+However, because most beginners often confuse the terms ""qualitative"" and ""quantitative"" we're going to continue referring to this type of data as ""numerical"" data.
+
+---
+
+Categorical and numerical data can be further divided into four subtypes.
+
+---
+
+Categorical data can be divided into nominal and ordinal data.
+
+And numerical data can be divided into interval and ratio data.
+
+Let's take a look at each of these four subtypes of data, next.","---
+marp: true
+title: 2 - Types of Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Types of Data
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Categorical Data
+
+Named qualities
+Described using words
+Color, shape, texture
+
+![image An icon of a pie chart in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Numerical Data
+
+Measured quantities
+Described using numbers
+Size, weight, velocity
+
+![image An icon of a bar chart in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Subtypes of Data
+
+## Categorical
+- Nominal
+- Ordinal
+
+## Numerical
+- Interval
+- Ratio
+
+![image An icon of a Venn diagram in a minimalist style](images/placeholder.png)",
+2023-04-04 11:19:01,3,3,3227,171,3398,2023-04-04 11:18:54,2023-04-04 11:19:01,7.132363,"---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 3 - Nominal Data
+
+---
+
+The first type of categorical data that we encounter in data science are nominal data.
+
+---
+
+Nominal data are a type of categorical data.
+
+That is, they are used to represent named qualities.
+
+However, nominal data have no natural rank order to them (i.e. they differ by their name only).
+
+---
+
+For example, the colors red, green, and yellow all describe the color of apples.
+
+However, no one color is greater than or less than another color.
+
+These three colors have no natural rank order to them.
+
+They differ by their name alone.
+
+---
+
+Other examples of nominal data include:
+
+your name, 
+
+your credit card number, 
+
+and the name of the city where you were born.
+
+The key distinction is that nominal values have no natural order to them.
+
+However, they can still be sorted alphabetically.
+
+---
+
+There are a limited number of mathematical operations that we can perform on nominal data.
+
+We can test two nominal values for equality (i.e. determine if they are the same named category).
+
+In addition, we can determine their mode (i.e. the most frequently occurring category in a set of nominal values).
+
+Despite these limitations, nominal data are still quite useful in data science.","---
+marp: true
+title: 3 - Nominal Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Nominal Data
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Nominal Data
+
+Type of categorical data
+Named qualities
+No natural rank order
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Examples
+
+Colors
+- Red
+- Green
+- Yellow
+
+Names
+Credit card numbers
+City names
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Operations
+
+Equality
+Mode
+
+Limited mathematical operations
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:19:08,3,4,3266,166,3432,2023-04-04 11:19:01,2023-04-04 11:19:08,6.290237,"---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 4 - Ordinal Data
+
+---
+
+The second type of categorical data that we encounter in data science are ordinal data.
+
+---
+
+Ordinal data are a type of categorical data.
+
+That is, they describe named qualities of things.
+
+However, ordinal data do have a natural rank order to them.
+
+So they can be sorted in order by their rank.
+
+---
+
+For example, we could group apples into small, medium, and large sizes. 
+
+Medium apples are larger than small apples, and large apples are larger than medium apples, so they do have a natural rank order.
+
+---
+
+Other examples of ordinal data include:  
+
+bronze, silver, and gold medals in the Olympics, 
+
+assigning letter grades for student test scores, 
+
+and low, medium, and high speeds on a portable fan.
+
+The key distinction is that ordinal values do have a natural order to them -- so we can sort them in a natural way.
+
+---
+
+We can perform a few more mathematical operations on ordinal data than on nominal data.
+
+In addition to testing for both equality and determining the mode.
+
+We can also test two ordinal values for their order (by determining if one value is ranked greater than or less than another).
+
+In addition, we can determine the median (i.e. the middle most value in a list of sorted values).
+
+Ordinal data are a bit more powerful than nominal data, in terms of mathematical operations, but still not as powerful as interval and ratio data.","---
+marp: true
+title: 4 - Ordinal Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Ordinal Data
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Ordinal Data
+
+Categorical data
+Natural rank order
+Sorted in order
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Examples
+
+Bronze, Silver, Gold
+Letter grades
+Low, Medium, High
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Operations
+
+Equality
+Mode
+Order
+Median
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:19:17,3,5,3469,227,3696,2023-04-04 11:19:08,2023-04-04 11:19:17,9.037838,"---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 5 - Interval Data
+
+---
+
+The first type of numerical data that we encounter in data science are interval data.
+
+---
+
+Interval data are a type of numerical data.
+
+That is, they represent measured quantities of things.
+
+Interval data allow for a degree of difference between two values 
+
+(i.e. we can add or subtract the values in meaningful ways).
+
+However, interval scales have an arbitrary zero point on their scale 
+
+(i.e. the place were zero appears on the scale was chosen for convenience -- not because it represents a true absence of the thing being measured.
+
+So there is no concept of a ratio between two numbers or the ability to multiply or divide two numbers in any meaningful way.
+
+---
+
+For example, imagine a thermometer measuring outdoor temperature.
+
+The zero point on a Celsius thermometer represents the temperature where water freezes.
+
+This is simply for convenience -- zero on this scale does not represent absolute zero heat, like it does on the Kelvin scale.
+
+The difference between 20°C and 30°C (which is a 10° change) is the same difference in temperature as a change from 40° to 50° (also a 10° change).
+
+So we can perform addition and subtraction with this interval scale.
+
+---
+
+However, it doesn't make sense to say that 20°C is half as hot as 40°C -- or that 40°C is twice as hot as 20°C.
+
+This is because 0°C isn't the absence of all heat -- but rather was an arbitrarily chosen point on the scale where water freezes.
+
+---
+
+So it simply doesn't make sense to discuss ratios, multiplication, or division with the Celsius temperature scale... or other interval scales.
+
+---
+
+Other examples of interval data include: 
+
+dates on a calendar, 
+
+IQ scores, 
+
+and longitudes on a map.
+
+The key distinction is that the zero point on an interval scale is arbitrarily chosen; it doesn't represent a natural minimum quantity of the thing being measured.
+
+---
+
+We can perform a few more mathematical operations on interval data than we can on nominal and ordinal data.
+
+In addition to testing for equality, sorting by order, and determining both the mode and the median.
+
+We can also add or subtract interval data.
+
+In addition, we can also determine the arithmetic mean (i.e. average value in a set of interval values).
+
+Interval data are a bit more powerful than nominal and ordinal data in terms of mathematical operations, but still not as powerful as ratio data.","---
+marp: true
+title: 5 - Interval Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Interval Data
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Interval Data
+
+Numerical data
+Degree of difference
+Arbitrary zero point
+No ratios
+
+![image A thermometer measuring temperature](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Celsius Scale
+
+Zero point at water freezing
+20°C to 30°C = 10° change
+40°C to 50°C = 10° change
+Addition and subtraction
+
+![image A thermometer measuring temperature in Celsius](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Other Examples
+
+Dates on a calendar
+IQ scores
+Longitudes on a map
+Arbitrary zero point
+
+![image A calendar with dates marked](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Mathematical Operations
+
+Equality
+Order
+Mode
+Median
+Addition
+Subtraction
+Arithmetic mean
+
+![image A calculator](images/placeholder.png)",
+2023-04-04 11:19:23,3,6,3361,181,3542,2023-04-04 11:19:17,2023-04-04 11:19:23,6.646437,"---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 6 - Ratio Data
+
+---
+
+The second type of numerical data that we encounter in data science are ratio data.
+
+---
+
+Ratio data are a type of numerical data.
+
+That is, they represent measured quantities of things.
+
+Ratio data allow for a degree of difference between two values, just like interval data.
+
+However, unlike interval data, ratio scales do have a natural (non-arbitrarily chosen) zero point. 
+
+So the concept of a ratio, and multiplying or dividing two values make perfect sense.
+
+---
+
+For example, imagine we have two apples:
+
+One has a mass of 100 grams
+
+And the other has a mass of 200 grams
+
+Unlike an interval scale, it make perfect sense to say that a 100 gram apple is half the mass of a 200 gram apple.
+
+This is because zero grams on this scale represents a natural minimum quantity (i.e. no mass at all).
+
+So 200 grams of mass is twice as much mass as 100 grams of mass.
+
+---
+
+Other examples of ratio data include: 
+
+the distance between two points, 
+
+income from your job, 
+
+and elapsed time.
+
+The key distinction (once again) between interval and ratio scales is that the zero point on a ratio scale represents a natural zero quantity of the thing being measured.
+
+It can be difficult to recognize the subtle yet important difference between interval scales and ratio scales, so if you're having difficulty understanding, you may want to research this topic further.
+
+---
+
+We can perform a few more mathematical operations on ratio data than we can on nominal, ordinal, and interval data.
+
+In addition to all of the operations we've seen so far.
+
+We can also multiply and divide ratio data.
+
+In addition, we can determine the geometric mean, which is a method of averaging used for values with widely varying ranges.
+
+Ratio data are the most powerful type of data we encounter in data science in terms of mathematical operations.","---
+marp: true
+title: 6 - Ratio Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Ratio Data
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Ratio Data
+
+Numerical data
+Degree of difference
+Natural zero point
+
+![image An icon of a scale in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Ratio Data
+
+Examples:
+- Mass
+- Distance
+- Income
+- Elapsed time
+
+![image An icon of a scale in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Ratio Data
+
+Mathematical operations:
+- All operations from nominal, ordinal, and interval data
+- Multiply and divide
+- Geometric mean
+
+![image An icon of a calculator in a minimalist style](images/placeholder.png)",
+2023-04-04 11:19:27,3,7,3114,78,3192,2023-04-04 11:19:23,2023-04-04 11:19:27,3.158892,"---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 7 - Summary
+
+---
+
+In this module, we learned about the various types of data that we encounter in data science.
+
+---
+
+First, we learned that data are divided conceptually into two main types: categorical data and numerical data.
+
+Next, we learned about nominal data, named categories without an natural rank order.
+
+Then, we learned about ordinal data, named categories with a natural rank order.
+
+Next, we learned about interval data, numerical measurements with an arbitrary zero point.
+
+Finally, we learned about ratio data, numerical measurements with a natural zero point.
+
+In the next module, we'll learn about data types and how we store these various types of data in a computer.","---
+marp: true
+title: 7 - Summary
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Summary
+
+---
+
+<!-- _class: title-two-content-left -->
+
+# Summary
+
+Types of Data
+Categorical
+Numerical
+Nominal
+Ordinal
+Interval
+Ratio
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:19:30,4,1,3210,86,3296,2023-04-04 11:19:27,2023-04-04 11:19:30,3.523759,"---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 1 - Overview
+
+---
+
+Welcome back to this introductory course on data for data science.
+
+I'm Matthew Renze, data science consultant, author, and public speaker.
+
+In this module, we'll learn about data types and how data are represented and stored in computer systems.
+
+---
+
+How do we represent data in a computer?
+
+How does a computer know whether it's dealing with a word, a number, or a date and time?
+
+And how does a computer know what types of operations can be performed on each type of data?
+
+---
+
+To answer these questions, we're going to learn about data types, and how we represent and store data in a computer.
+
+First, we'll learn about data types, binary representations of data used by computer systems.
+
+Next, we'll learn about scalar data types, representations of data that store a single value.
+
+Then, we'll see about a few examples of common scalar data types you'll encounter in data science.
+
+Next, we'll learn about composite data types, representations that store data as a group of related values.
+
+Finally, we'll see about a few examples of common composite data types you'll encounter in data science.","---
+marp: true
+title: 1 - Overview
+theme: template
+---
+
+<!-- _class: title-slide -->
+
+# Data Types
+
+---
+
+<!-- _class: title-only -->
+
+# Overview
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Overview
+
+Data types
+Binary representations
+Scalar data types
+Composite data types
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:19:41,4,2,3486,290,3776,2023-04-04 11:19:30,2023-04-04 11:19:41,10.920579,"---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 2 - Data Types
+
+---
+
+How do we represent data in a computer?
+
+---
+
+All data inside of modern computers are stored as a series of ones and zeros.
+
+We call this binary data.
+
+The ones and zeros are called binary digits (or ""bits"" for short).
+
+In modern computers, data are stored in small blocks of eight bits called a ""byte"".
+
+We can combine two, four, eight, or more bytes together to create larger blocks of binary data.
+
+However, the computer needs to understand what each of these blocks of ones and zeros represent - is it a word, a number, a date and time, or something else?
+
+This is where data types come into play... not to be confused with the ""types of data"" we discussed previously.
+
+---
+
+A data type is an attribute of data that tells the computer what a group of binary data represents.
+
+They tell the computer how to interpret the bits of data - either as a character, a number, a date, or something else.
+
+They determine what operations can be performed on the data like addition, subtraction, and multiplication.
+
+They specify how the data are stored and the size of the data by the number of bytes they require.
+
+And they instruct the computer on how to display the data in a human-readable format.
+
+---
+
+For example:
+
+We represent the letter A as a byte of binary digits using a sequence containing a zero, a one, five zeros, and a one.
+
+We represent the digit one in binary as two zeros, two ones, three zeros, and a one.
+
+And we represent the percent symbol as two zeros, a one, two more zeros, a one, a zero, and a one.
+
+Essentially, we can represent anything that can be typed into a computer as a sequence of ones and zeros using data types.
+
+---
+
+In data science, there are two main divisions of data types:
+
+First, we have scalar data types, also known as primitive data types, basic data types, or built-in data types.
+
+Scalar data types represent the most basic building blocks of data by storing letters, numbers, and symbols in a computer as binary data.
+
+Next, we have composite data types, also known as aggregate data types, compound data types, or more commonly, data structures.
+
+Composite data types are composed of a set of scalar data types.
+
+They organize the scalar data types and provide them with structure so that they can be worked with as a collection of values.
+
+We're going to discuss both scalar data types, followed by composite data types, next.","---
+marp: true
+title: 2 - Data Types
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Data Types
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Binary Data
+
+Ones and zeros
+Binary digits (bits)
+Blocks of eight bits (bytes)
+
+![image An icon of a computer chip in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Types
+
+Attribute of data
+Tells the computer what binary data represents
+Interpretation, operations, storage, display
+
+![image An icon of a database in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Types
+
+Represent anything that can be typed into a computer
+Sequence of ones and zeros
+Scalar and composite data types
+
+![image An icon of a keyboard in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Scalar Data Types
+
+Basic building blocks
+Letters, numbers, symbols
+Primitive, basic, built-in
+
+![image An icon of a brick in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Composite Data Types
+
+Set of scalar data types
+Organize and structure
+Aggregate, compound, data structures
+
+![image An icon of a folder in a minimalist style](images/placeholder.png)",
+2023-04-04 11:19:47,4,3,3211,164,3375,2023-04-04 11:19:41,2023-04-04 11:19:47,6.199819,"---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 3 - Scalar Data Types
+
+---
+
+The most basic building block of data in data science is a scalar data type.
+
+---
+
+Scalar data types store a single unit of data.
+
+This can be a letter, a number, a date, a time, or something else.
+
+We refer to them as scalar data types because a scalar variable in mathematics can hold one and only one value at a time.
+
+Scalar data types are also the most basic unit of storage for data in a computer.
+
+Everything from a small text document to a giant distributed database are composed of these single units of storage.
+
+Scalar data types provide a set of operations that can be performed on the data they contain.
+
+All of the processing that occurs in a computer is essentially the result of these operations being executed on scalar data types.
+
+---
+
+There are several scalar data types commonly used across various computers, programming languages, and data-science tools.
+
+The most common data types you will encounter in data science can be divided into three main groups: 
+
+categorical data types,
+
+numerical data types.
+
+and temporal data
+
+Let's take a look at a few of the most common data types we encounter in data science.","---
+marp: true
+title: 3 - Scalar Data Types
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Scalar Data Types
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Scalar Data Types
+
+Single unit of data
+Letter, number, date, time
+Basic unit of storage
+Set of operations
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Common Scalar Data Types
+
+Categorical
+- Boolean
+- Ordinal
+- Nominal
+
+Numerical
+- Integer
+- Float
+- Double
+- Decimal
+
+Temporal
+- Date
+- Time
+- Datetime
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:19:56,4,4,3546,208,3754,2023-04-04 11:19:47,2023-04-04 11:19:56,8.596275,"---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 4 - Scalar Data Type Examples
+
+---
+
+In data science, we have several common scalar data types.
+
+We're going to learn at the ones that you're most likely to encounter.
+
+---
+
+First, we have categorical data types.
+
+We typically encounter three categorical data types in data science.
+
+First, we have a character, which represents a single letter, digit, or symbol.
+
+We can string together a sequence of characters (called a character string) to represent words, numbers, and bodies of text.
+
+Character strings are very flexible for storing data, but they are not very efficient in terms of data processing and storage space.
+
+Second, we have a Boolean, which represents either a true or a false value (and only a true or a false value).
+
+Booleans allow us to efficiently store and process data composed of either yes or no answers.
+
+Third, we have an Enumeration, which represents a set of named categories.
+
+Enumerations allow us to efficiently store and process lists of named categories that contain a high degree of duplication.
+
+---
+
+Next, we have numerical data types.
+
+We typically encounter three numerical data types in data science.
+
+First, we have an integer, which represents a whole number.
+
+Integers work well for storing and processing numbers that do not contain fractional values.
+
+Second, we have a decimal, which represents a decimal fraction.
+
+Decimals work well when we're dealing with fractional values (like money) that require perfectly accurate decimal arithmetic.
+
+Third, we have a float, which represents numbers using a binary-equivalent of scientific notation.
+
+Floats work well when we're dealing with very large or very small values but perfectly accurate measurements and arithmetic are not required.
+
+---
+
+Finally, we have temporal data types.
+
+We typically encounter four temporal data types in data science.
+
+First, we have a date, which represents time as a calendar day.
+
+A Date data type works well when we just need to specify a year, a month, and a day but nothing more.
+
+Second, we have a time data type, which represents a time of day.
+
+A time data type is used when we just need to represent an hour, a minute, a second, and milliseconds but not a date.
+
+Third, we have a date-time data type, which represents both a date and a time of day.
+
+This data type is used when we need to represent time across days.
+
+Fourth, we have a date-time with time-zone offset.
+
+This data type is used when we need to represent dates and times across multiple time-zones around the world.
+
+We could represent temporal data using numerical data types, however, it's often more efficient and convenient to use these specialized temporal data types instead.
+
+There are several other scalar data types you may encounter in data science. 
+
+However, the data types you've seen here are ones that you are most likely to encounter first.","---
+marp: true
+title: 4 - Scalar Data Type Examples
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Scalar Data Types
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Categorical Data Types
+
+Character
+Boolean
+Enumeration
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Numerical Data Types
+
+Integer
+Decimal
+Float
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Temporal Data Types
+
+Date
+Time
+Date-Time
+Date-Time with Time-Zone Offset
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-one-content -->
+
+# Summary
+
+Common scalar data types
+Categorical
+Numerical
+Temporal
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:20:04,4,5,3242,232,3474,2023-04-04 11:19:56,2023-04-04 11:20:04,8.514322,"---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 5 - Composite Data Type
+
+---
+
+Building upon scalar data types, we also have composite data types in data science.
+
+---
+
+A composite data type is a logical container used to organize related data.
+
+It contains a set of scalar data types organized in a specific way.
+
+Composite data types allow us to store and access information effectively.
+
+They provide methods for accessing individual scalar values and performing operations on groups of scalar values.
+
+In addition, composite data types provide context to related data which (as we discussed previously) is used to create information.
+
+You can think of a composite data type as a container that holds a collection of related data in a specific way.
+
+---
+
+There are several types of composite data types that we encounter in data science. 
+
+They can be grouped together in various ways. 
+
+However, to keep things simple, we're going to organize them into the following four groups:
+
+Homogenous data types - which require all data to be of the same data type
+
+Tabular data types - which store data in a set of rows and columns
+
+Semi-structured data types - which store data as a set of relationships
+
+And multi-media data types - which store data for images, audio, video, and more.
+
+Let's take a look at a few of the most common composite data types we encounter in data science.","---
+marp: true
+title: 5 - Composite Data Type
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Composite Data Type
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Composite Data Type
+
+Logical container
+Organize related data
+Set of scalar data types
+Access individual scalar values
+Perform operations on groups of scalar values
+Provide context to related data
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Composite Data Type
+
+Homogenous
+Tabular
+Semi-structured
+Multi-media
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Composite Data Type
+
+## Homogenous
+
+All data of the same data type
+
+## Tabular
+
+Data stored in rows and columns
+
+## Semi-structured
+
+Data stored as a set of relationships
+
+## Multi-media
+
+Data for images, audio, video, and more.
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:20:13,4,6,3514,195,3709,2023-04-04 11:20:04,2023-04-04 11:20:13,8.873317,"---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 6 - Composite Data Type Examples
+
+---
+
+In data science, we have several composite data types.
+
+We're going to learn about the ones that you're most likely to encounter.
+
+---
+
+First, we have the composite data types that represent homogenous data.
+
+First, we have a vector, also known as an array, which is a one-dimensional sequence of homogenous data.
+
+Vectors are used to store a list of elements that are all of the same data type.
+
+For example, character strings, which we discussed earlier, are a sequence of characters stored in a vector.
+
+Second, we have a matrix, which is a two-dimensional grid of homogenous data.
+
+Matrices are typically used to store and process groups of related numbers using a set of mathematical operations known as matrix algebra.
+
+Finally, we have a tensor, which is a three-dimensional cube (or an n-dimensional hypercube) of homogenous data.
+
+Tensors are typically used to create deep neural networks in machine learning, which is where the deep learning framework TensorFlow gets it's name.
+
+---
+
+Next, we have composite data types that represent tabular data.
+
+First, we have a dictionary, which is a two-column table that stores a list of key-value pairs.
+
+A dictionary, also known as a look-up table, is used to quickly retrieve data by a unique identifier.
+
+Second, we have a table.
+
+A table stores data as a set of rows and columns.
+
+Tables are the most common way you will encounter structured data in data science.
+
+We'll discuss tabular data in much more detail in the next module.
+
+---
+
+Next, we have composite data types that represent semi-structured data.
+
+First, we have a tree, which organizes data as a set of nodes and branches.
+
+Trees are used to represent hierarchical data (i.e. data that are organized into parent-child relationships).
+
+Second, we have a graph, which organizes data as a set of nodes and edges.
+
+Graphs are used to represent a network of data, representing each item as a node and each relationship as an edge.
+
+---
+
+Finally, we have composite data types to represent multimedia data.
+
+For example: 
+
+a body of text is essentially a long vector of characters.
+
+Images are represented as a two-dimensional matrix of pixels.
+
+Audio is represented as a one-dimensional vector of the amplitude of sound waves over time.
+
+Video is represented as sound and a set of images moving frame-by-frame over time.
+
+and shape data is a graph of points, lines, and polygons used construct geometric structures like maps and 3D objects.
+
+Many more composite data types exist in data science; however, these are the ones that you are most likely to encounter.","---
+marp: true
+title: 6 - Composite Data Type Examples
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Composite Data Types
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Homogenous Data
+
+Vector
+Array
+Matrix
+Tensor
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Tabular Data
+
+Dictionary
+Table
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Semi-Structured Data
+
+Tree
+Graph
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Multimedia Data
+
+Text
+Image
+Audio
+Video
+Shape
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:20:16,4,7,3099,70,3169,2023-04-04 11:20:13,2023-04-04 11:20:16,3.178034,"---
+course: Intro to Data for Data Science
+module: 4 - Data Types
+title: 7 - Summary
+
+---
+
+In this module, we learned about data types and how we represent and store data in a computer.
+
+---
+
+First, we learned about data types, binary representations of data used by computer systems.
+
+Next, we learned about scalar data types, representations of data that store a single value.
+
+Then, we saw a few examples of common scalar data types you'll encounter in data science.
+
+Next, we learned about composite data types, representations that store data as a group of related values.
+
+Finally, we saw about a few examples of common composite data types you'll encounter in data science.","---
+marp: true
+title: 7 - Summary
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Summary
+
+---
+
+<!-- _class: title-two-content-left -->
+
+# Summary
+
+Data types
+Scalar data types
+Composite data types
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:20:21,5,1,3205,99,3304,2023-04-04 11:20:16,2023-04-04 11:20:21,4.367008,"---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 1 - Overview
+
+---
+
+Hello again.
+
+I'm Matthew Renze, data science consultant, author, and public speaker.
+
+Welcome back to this introductory course on data for data science.
+
+In this module, we'll learn about tabular data and how we can extract information from tables of data using queries.
+
+---
+
+How do we extract information from data?
+
+What's the best way to structure our data to extract information?
+
+And how do we answer our questions once our data has been structured?
+
+---
+
+To answer these questions, we're going to learn about tabular data and how we extract information from tables using queries.
+
+First, we'll learn about tabular data, data that are stored in the rows and columns of a table.
+
+Next, we'll learn about observations, records of observable phenomena, which are stored in the rows.
+
+Then, we'll learn about variables, values that vary for each observation, which are stored in the columns.
+
+Next, we'll learn about relationships that can exist between observations in multiple tables.
+
+Finally, we'll learn about queries, statements that allow a computer to answer a question using a table of data.","---
+marp: true
+title: 1 - Overview
+theme: template
+---
+
+<!-- _class: title-slide -->
+
+# Tabular Data
+
+---
+
+<!-- _class: title-only -->
+
+# Overview
+
+Tabular Data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: one-pane -->
+
+![bg contain A photo of Matthew Renze, the instructor](images/placeholder.png)",
+2023-04-04 11:20:26,5,2,3387,127,3514,2023-04-04 11:20:21,2023-04-04 11:20:26,5.296806,"---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 2 - Tabular Data
+
+---
+
+Tabular data are the most common form of structured data that we use for analysis in data science.
+
+But what are tabular data and how do we organize our data in this way?
+
+---
+
+Tabular data are data organized into a table.
+
+The table provides the data with structure.
+
+A table, is a two-dimensional grid of data.
+
+However, unlike a matrix, which we saw earlier, all of the elements in a table *do not* need to be all of the same data type 
+
+Rather, all data *in each column* must be the same data type, which we refer to as homogenous data.
+
+However, all data *in a row* can have different data types, from column to column, which we refer to as heterogenous data.
+
+---
+
+For example, imagine we have a table of patients at a hospital.
+
+We would have a set of rows (one for each patient) and a set of columns, (one for each attribute of the patient).
+
+Each element of data in a column must be the same data type.
+
+For example, 
+
+ - all of the names must be character strings,
+
+ - all of the genders must be enumerations of male, female, or other genders,
+
+ - all ages must be integers,
+
+ - and so one.
+
+However, the each row contains elements of various data types.
+
+For example, 
+
+ - the name ""Bill"" is a character string, 
+
+ - the gender ""Male"" is an enumeration,
+
+ - and the age ""21"" is an integer,
+
+As we can see, each column contains only a single data type; however, each *row* can contain multiple data types.
+
+---
+
+In data science, tabular data can be broken down into three main components:
+
+Observations - which we locate on the rows of a table
+
+Variables - which we locate on the columns of a table
+
+and Relationships - which connect data in one table to data in another table
+
+We'll discuss each of these components, in more detail, next.","---
+marp: true
+title: 2 - Tabular Data
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Tabular Data
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Tabular Data
+
+Table
+Two-dimensional grid
+Structure
+Homogenous data in columns
+Heterogenous data in rows
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Components
+
+Observations
+Variables
+Relationships
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:20:34,5,3,3353,231,3584,2023-04-04 11:20:26,2023-04-04 11:20:34,8.412755,"---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 3 - Observations
+
+---
+
+Data science is founded upon making observations of the world around us.
+
+But what are observations and how do we record them in tabular data?
+
+---
+
+An observation is a recording of the qualities and quantities of an observable phenomenon in the natural world.
+
+This includes what we can see, hear, feel, or measure with sensors.
+
+In data science, we record observations on the rows of a table.
+
+The rows are the horizontal groups of data that are contained within the table.
+
+---
+
+For example, imagine that we are recording the vital signs of a patient at a hospital.
+
+For each observation, we would record the date of the observation, the patient's heart rate, their temperature, and other vitals.
+
+Each of these observations would be recorded on a separate row.
+
+What is important to note is that all of the elements in a row of data belong to the same observation.
+
+For example, a row of data can be an observation of a person, a place, a thing, or a set of sensor readings at a specific time.
+
+In data science, we want each row to contain one and only one observation.
+
+Essentially, each row should record one, and only one, person, place, or thing begin observed at a given time.
+
+---
+
+Outside of data science, the rows of a table of data go by various names.
+
+First, you may hear them simply referred to as ""rows"", for, well, obvious reasons, I guess.
+
+In computer science, they are often referred to as a tuples (or a tupples), which is a mathematical term for a list of data.
+
+Or you may often hear them referred to simply as ""records"", because they store a recording of an observation, entity, or transaction of some kind.
+
+No matter what they are called, observations should always be represented as rows in tabular data.","---
+marp: true
+title: 3 - Observations
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Observations
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Observations
+
+Recording of qualities and quantities
+Observable phenomenon
+Recorded on rows
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Example
+
+Vital signs of a patient
+Date, heart rate, temperature, and more
+Each observation on a separate row
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# One Observation per Row
+
+One observation per row
+Person, place, thing, or sensor readings
+One and only one observation per row
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Other Names
+
+Rows
+Tuples
+Records
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:20:46,5,4,3446,280,3726,2023-04-04 11:20:34,2023-04-04 11:20:46,11.546206,"---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 4 - Variables
+
+---
+
+The world is in a constant state of change; things vary from one observation to the next.
+
+But how do we record these variations across observations in data science?
+
+---
+
+A variable is placeholder for a value that changes. 
+
+We call them ""variables"" because their values ""vary"" across each observation.
+
+In data science, we store variables on the columns of a table.
+
+Columns are the vertical groups of data that are contained within the table.
+
+---
+
+For example, imagine we're recording vital signs for a patient at a hospital.
+
+Our variables might be:
+
+ - the date and time of the observation,
+
+ - the patients heart rate measured by their pulse, 
+
+ - and their body temperature at the time of the observation.
+
+What is most important, is that all of the elements in a specific column must be of the same data type, scale, and unit of measure.
+
+---
+
+For example:
+
+ - we don't want our dates to be stored using different date formats.
+
+ - we don't want our heart rate data to be stored using two different data types.
+
+ - and we don't want our temperature to use both Celsius and Fahrenheit units of measure.
+
+---
+
+Instead, we want all of the data in the column to use the same data type, same scale, and same units of measure.
+
+Finally, we want one and only one variable per column of data.
+
+We don't want to try placing multiple variables in a single column.
+
+---
+
+For example, if we're recording blood pressure, we record two numbers:
+
+ - the systolic blood pressure,
+
+ - and the diastolic blood pressure.
+
+We don't want to record both of these measures in a single column, like we commonly see it written in our medical history.
+
+---
+
+Instead, we would prefer to have a single column for systolic blood pressure and a single column for diastolic blood pressure.
+
+Storing each variable in a separate column allows us to store, process, and analyze the data more efficiently.
+
+---
+
+Outside of data science, the columns of a table go by various names.
+
+First, you may simply hear them referred to as ""columns"".
+
+In addition, you may also hear them referred to as ""attributes"".
+
+Or in some cases, as ""properties"".
+
+No matter what they are called, variables should always be represented as columns in tabular data.","---
+marp: true
+title: 4 - Variables
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Variables
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Variables
+
+Placeholder for a value that changes
+Stored on the columns
+Same data type, scale, and unit of measure
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Example
+
+## Vital Signs
+
+| Date         | Pulse      | Temp.     |
+| ------------ | ---------- | --------- |
+| **1/1/2023** | 89         | 39.0      |
+| 2023-01-02   | **Normal** | 38.5      |
+| 2023-01-03   | 80         | **99° F** | 
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Example
+
+## Blood Pressure
+
+| Systolic | Diastolic |
+| -------- | --------- |
+| 120      | 80        |
+| 130      | 90        |
+| 140      | 100       |
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Example
+
+## Columns
+
+Columns
+Attributes
+Properties
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:20:58,5,5,3541,350,3891,2023-04-04 11:20:46,2023-04-04 11:20:58,12.416183,"---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 5 - Relationships
+
+---
+
+Everything is related in some way, shape, or form.
+
+So how do we represent relationships in data science?
+
+---
+
+In data science, we want each table to contain a single type of observation or type of entity.
+
+For example, we want to keep a list of our patients in one table and a list of our doctors a separate table. 
+
+We want each table to only contain data that are related to one another in a highly cohesive way.
+
+We don't want to compress multiple types of observations or multiple types of entities into a single table.
+
+So, we create a separate table for each type of observation or entity.
+
+This means that our dataset often needs to be split up into multiple tables.
+
+When we have multiple tables of data, the observations in one table can be related to the observations in another table.
+
+---
+
+A relationship is a way to express how a row of data in one table is related to a row of data in another table.
+
+We create relationships between rows using ""keys"".
+
+We use a primary key to uniquely identify an observation in it's source table.
+
+Then we use a foreign key in observations in a second table to refer back to the original observation in the source table.
+
+---
+
+For example, imagine that we have two tables:
+
+First, we have a table of patients.
+
+It contains their names, genders, dates of birth, and more.
+
+Second, we have a table of all of our patient's vital signs.
+
+It contains observations of the patient's temperature, heart rate and more for a specific day.
+
+We could duplicate the patient's name and other personal data for each recording of their vital signs.
+
+However, it's much more efficient to store the patient's data once and then simply refer back to that data from the vital-signs table.
+
+We do this by creating a primary key and a foreign key.
+
+---
+
+First, in our patients table, we create a column to store our primary key.
+
+Then we create a primary key for each unique patient in our patients table.
+
+We use a 1 for Bill, a 2 for Miko, and so on.
+
+This primary key uniquely identifies each patient in our system.
+
+---
+
+Next, in our vital-signs table, we create a column for our foreign key 
+
+We populate this column with the unique identifier that points back to the primary key.
+
+We use a 1 for Bill, a 2 for Miko, and so on.
+
+---
+
+Now we can navigate the relationship forward from any patient to get their vital signs.
+
+Or we can navigate the relationship backwards from a vital sign to get the patient's name and information.
+
+Relationships allow us to connect data from table to table in many ways.
+
+However, we'll have to defer these various types of relationships to a more advanced course on data science.","---
+marp: true
+title: 5 - Relationships
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Relationships
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Tables
+
+Single type of observation
+Single type of entity
+Highly cohesive
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Keys
+
+Primary key
+Foreign key
+
+![image An icon of a key in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Example
+
+## Patients
+| ID | Name | Gender | DOB        |
+| -- | ---- | ------ | ---------- |
+| 1  | Bill | Male   | 2002-01-01 |
+| 2  | Miko | Female | 2008-05-12 |
+| 3  | Juan | Other  | 1978-12-31 |
+
+## Vital Signs
+| ID | Patient ID | Date       | Temp. | Pulse |
+| -- | --------- | ---------- | ----- | ----- |
+| 1  | 1         | 2023-01-01 | 37.1  | 89    |
+| 2  | 2         | 2023-01-01 | 38.1  | 80    |
+| 3  | 2         | 2023-01-02 | 36.5  | 75    |
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Example
+
+## Patients
+| **ID** | Name | Gender | DOB        |
+| ------ | ---- | ------ | ----------",
+2023-04-04 11:21:08,5,6,3444,238,3682,2023-04-04 11:20:58,2023-04-04 11:21:08,9.377385,"---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 6 - Queries
+
+---
+
+How do we extract information from tabular data? 
+
+The answer, is a query.
+
+---
+
+A query is computer representation of a question we want answer using a table of data.
+
+They allow us to ask questions of the data and return answers as results.
+
+Queries are created using programming languages.
+
+More specifically, we use a special type of programming language called a query language.
+
+The most popular query language is Structured Query Language (or SQL for short).
+
+However, you can also perform queries using other programming languages like Python and R.
+
+---
+
+For example, let's say we want to answer the question: ""What was Bill's average body temperature over the past 5 years"".
+
+We could write this question in the form of a SQL query.
+
+The SQL query allows us to express that we want to:
+
+ - select the average temperature
+
+ - from the Vital Signs table
+
+ - where the patient's name is ""Bill""
+
+ - and the date is greater than or equal to January 1, 2015 (which we're assuming is five years ago).
+
+I've intentionally kept this query simple for those of you who have never seen a SQL query before.
+
+However, if you've had some experience with SQL, you may see several ways we could improve this query.
+
+---
+
+When we execute this query, 
+
+First, the database will scan all of the records in the Vital Signs table 
+
+Next, it will filter out anyone who is not our patient named Bill.
+
+---
+
+Then, it will filter out any row that is older than January 1, 2015.
+
+---
+
+Next, it will select just the Temperature column from the Vital Signs table.
+
+---
+
+Finally, it will compute the average of the remaining temperature values.
+
+---
+
+The computer will then return this value as a result.
+
+As we can see, the result of executing this query is 37 degrees Celsius.
+
+---
+
+Essentially, this is how we get from a question to an answer, using a query.
+
+We start with a question in our natural language,
+
+ - we construct a SQL query to express that question to the computer, 
+
+ - we execute the query which returns a result, 
+
+ - and then we express that result in the form of an answer to the question.
+
+Queries are the primary tool used for extracting information from data in data science.","---
+marp: true
+title: 6 - Queries
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Queries
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Queries
+
+Computer representation of a question
+Extract information from data
+Return answers as results
+Created using programming languages
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# SQL Query
+
+select avg([Temperature])
+from [Vital Signs]
+where [Patient Name] = ""Bill""
+and [Date] >= ""2015-01-01""
+
+![image An icon of a database in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-comparison -->
+
+# Query Execution
+
+## SQL Query
+
+select avg([Temperature])
+from [Vital Signs]
+where [Patient Name] = ""Bill""
+and [Date] >= ""2015-01-01""
+
+## Execution Steps
+
+1. Scan all records
+2. Filter by patient name
+3. Filter by date
+4. Select temperature column
+5. Compute average
+
+## Result
+
+37.0",
+2023-04-04 11:21:11,5,7,3146,73,3219,2023-04-04 11:21:08,2023-04-04 11:21:11,3.27065,"---
+course: Intro to Data for Data Science
+module: 5 - Tabular Data
+title: 7 - Summary
+
+---
+
+In this module, we learned about tabular data and how we can extract information from tables of data using queries.
+
+---
+
+First, we learned that tabular data are data that are organized into tables consisting of rows and columns.
+
+Next, we learned that observations are records of observable phenomena, which are stored on the rows.
+
+Then, we learned that variables contain values that vary across each observation, which are stored on the columns.
+
+Next, we learned that we can create relationships between observations in two or more tables by using primary and foreign keys.
+
+Finally, we learned that queries allow us to ask questions of tabular data and return answers in the form of information.
+
+In the next module, we'll learn about the data life cycle -- the journey of data as it is transformed from raw data to actionable insight.","---
+marp: true
+title: 7 - Summary
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Summary
+
+---
+
+<!-- _class: title-two-content-left -->
+
+# Summary
+
+Tabular data
+Observations
+Variables
+Relationships
+Queries
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:21:15,6,1,3214,92,3306,2023-04-04 11:21:11,2023-04-04 11:21:15,3.995502,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 1 - Overview
+
+---
+
+Welcome back to this introductory course on data for data science.
+
+I'm Matthew Renze, data science consultant, author, and public speaker.
+
+In this module, we'll learn about the life cycle of data -- the journey of data as we move from data collection to action.
+
+---
+
+How do we get from data collection to action in data science?
+
+What does the journey of data look through these various stages?
+
+And what are the tools and methods involved in this process?
+
+---
+
+To answer these questions, we're going to follow the journey of data from data collection to action.
+
+First, we'll learn about data collection and how we record observations of our world.
+
+Next, we'll learn about data storage, and the various types of data repositories we encounter.
+
+Then, we'll learn about data processing, and steps we perform to prepare our data for analysis.
+
+Next, we'll learn about data analysis, and the many tools we can use to analyze data.
+
+Then, we'll learn about taking action based on the results of our analysis.
+
+Finally, we'll learn about how we repeat this process, using feedback as our guide, to optimize over time.","---
+marp: true
+title: 1 - Overview
+theme: template
+---
+
+<!-- _class: title-slide -->
+
+# Data Life Cycle
+
+---
+
+<!-- _class: title-only -->
+
+# Overview
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Life Cycle
+
+Data Collection
+Data Storage
+Data Processing
+Data Analysis
+Taking Action
+Feedback
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:21:21,6,2,3295,164,3459,2023-04-04 11:21:15,2023-04-04 11:21:21,6.114801,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 2 - Collection
+
+---
+
+The first step in the data lifecycle is data collection.
+
+---
+
+We collect data about our world in a two-step process:
+
+First, we observe a phenomenon that exists in the natural world.
+
+This includes sensing the various qualities of the things we're observing and measuring their quantities as well.
+
+Next, we record this observation using a symbolic representation.
+
+In data science, this typically involves encoding the observation in a computer as a binary representation.
+
+It's important to note that data do not exist until there has been both an observation and a recording of the observation.
+
+Data are created as the result of something being observed and recorded as a signal or set of symbols.
+
+Prior to a recording of an observation, there is no data, just the phenomenon that exists in the world.
+
+---
+
+There are several ways we can observe our world to collect data:
+
+We can use sensors to record measurements of observable phenomena.
+
+For example, we can record observations of the ambient air temperature using a digital thermometer.
+
+We can enter data into a transactional system, to record business transactions.
+
+For example, we can create records for new customers, record sales transactions, and create medical records.
+
+We can also record human interactions with computer systems.
+
+For example, we can record website visits, advertisement clicks, and time spent browsing a webpage.
+
+And we can run experiments in order to generate new data in controlled environments.
+
+For example, we can run clinical studies to determine the effectiveness of certain medications.
+
+High quality data begins with data collection, so it's important to know how to properly observe and record data.","---
+marp: true
+title: 2 - Collection
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Collection
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Lifecycle
+
+Collection
+Storage
+Processing
+Analysis
+Visualization
+Dissemination
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Collection
+
+Observation
+Recording
+Binary representation
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Collection Methods
+
+Sensors
+Transactional systems
+Human-computer interactions
+Experiments
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:21:28,6,3,3404,176,3580,2023-04-04 11:21:21,2023-04-04 11:21:28,6.571195,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 3 - Storage
+
+---
+
+The second step in the data lifecycle is data storage.
+
+---
+
+Once we've collected and recorded an observation as data, we need to store it so that it can be retrieved for future analysis.
+
+As data are being recorded by sensors, these data are first recorded temporarily in a type of memory called volatile storage.
+
+Volatile storage means that the data are lost when the device loses power.
+
+As a result, we need to transfer our data somewhere more permanent, so that they will be available anytime we need them.
+
+In data science, we store our data in one of several persistent-storage mediums.
+
+Persistent storage, means that the device retains the data after the power to the device has been shut off.
+
+For example, a computer's hard drive retains its data even if you turn the power off and then turn it back on again.
+
+By storing our data in a persistent storage medium, we can retrieve our data as needed.
+
+Unless we overwrite the data, or the device permanently fails, our data should always remain available.
+
+---
+
+Data can be stored in computers in several ways:
+
+First, we have file-based formats - which store data in files on the filesystem of a computer.
+
+For example, comma-separate values (or CSV) files and Excel spreadsheets.
+
+Next, we have web-based formats - which store data in formats best suited for data transfer over the internet.
+
+For example, eXtensible markup language (or XML) and javascript-object notation (or JSON)
+
+Third, we have transactional databases - which store data in a form best suited for transaction processing.
+
+For example, normalized relational databases and No-SQL databases.
+
+Forth, we have analytical databases - which store data in a format best suited for analytical processing.
+
+For example, data warehouses, data marts, and data cubes.
+
+And finally, we have Big Data platforms - which can store massive data sets by distributing both data and processing across many computers
+
+For example, Spark, Hive, and Hadoop.
+
+There are many options to choose from, so it's important to know which option is right for your specific data-storage scenario.","---
+marp: true
+title: 3 - Storage
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Storage
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Lifecycle
+
+1. Collection
+2. Storage
+3. Processing
+4. Analysis
+5. Visualization
+6. Interpretation
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Storage
+
+Volatile storage
+Persistent storage
+
+![image An icon of a database in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Storage
+
+File-based formats
+Web-based formats
+Transactional databases
+Analytical databases
+Big Data platforms
+
+![image An icon of a database in a minimalist style](images/placeholder.png)",
+2023-04-04 11:21:36,6,4,3339,229,3568,2023-04-04 11:21:28,2023-04-04 11:21:36,8.473706,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 4 - Processing
+
+---
+
+The third step in the data lifecycle is data processing.
+
+---
+
+Once we've stored our data, we need to process them in order to prepare them for analysis.
+
+This involves several steps:
+
+First, we may need to transform the data.
+
+For example, we need to reshape tables, rename columns, convert data types, and encode or decode values.
+
+Next, we may need to clean the data.
+
+For example, we need to ensure internal data consistency, deal with missing values, and handle errors and anomalies.
+
+Finally, may we need to query the data to extract just the subset of data we need for our analysis
+
+For example, we need to select, filter, sort, group, and aggregate data from the persistent data store.
+
+Essentially, we need to prepare our data so that our analysis will produce reliable results.
+
+---
+
+We can perform these data-processing tasks one of three ways:
+
+First, we can perform these steps manually using tools like Microsoft Excel.
+
+This option is only recommended for a quick, one-time, low-risk data analysis, that doesn't require any automation, auditing, or reproducibility.
+
+Second, we can create scripts with programming languages like SQL, Python, or R.
+
+Using scripts allows us to repeat the entire process automatically, iterate on the design over time, and document each step in the process.
+
+Finally, we can create an automated data-processing pipeline, also known as a ""Data ETL"", which stands for Extract, Transform, and Load.
+
+An automated pipeline provides a much more robust solution for data processing, but comes at a much higher cost to create and maintain.
+
+Ultimately, we generally spend a lot of time and energy processing data in data science, so we want to choose the option that minimizes this effort in the long run.","---
+marp: true
+title: 4 - Processing
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Processing
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Processing
+
+Transform
+Clean
+Query
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Data Processing
+
+Manual
+Script
+Automated
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Manual Processing
+
+Quick
+One-time
+Low-risk
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Script Processing
+
+Repeatable
+Iterative
+Documented
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Automated Processing
+
+Robust
+Expensive
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:21:44,6,5,3238,209,3447,2023-04-04 11:21:36,2023-04-04 11:21:44,8.038951,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 5 - Analysis
+
+---
+
+The fourth step in the data lifecycle is data analysis.
+
+---
+
+Once we've processed our data, we want to analyze them to create new information that we can act upon.
+
+There can be many reasons to perform a data analysis.
+
+For example:
+
+to provide support for or against decisions that we need to make,
+
+to explain observations and behaviors that we see occurring,
+
+and to discover new information from patterns that exist in the data.
+
+---
+
+There are numerous ways we can analyze data, for example:
+
+We can create reports, which allow us to analyze both numerical and graphical information.
+
+We can create dashboards, which present key-performance indicators (or KPIs) through a series of visual widgets.
+
+We can perform interactive data analysis, using business intelligence tools (like Excel, Power BI, and Tableau).
+
+We can perform data mining, which uses computer algorithms to find patterns of interest in large data sets.
+
+We can perform machine learning, which involves humans training computer algorithms to detect patterns in new incoming data.
+
+And we can automate data analysis with data-driven artificial intelligence, which involves machines teaching themselves how to solve problems on their own.
+
+There are many ways that we can analyze data, so it's important that we choose the right tool for each type of data analysis we perform.","---
+marp: true
+title: 5 - Analysis
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Analysis
+
+---
+
+<!-- _class: title-two-content-left -->
+
+# Analysis
+
+Fourth step in data lifecycle
+Create new information
+Support decisions
+Explain observations
+Discover new information
+
+![image An icon of a magnifying glass in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Analysis Methods
+
+Reports
+Dashboards
+Interactive data analysis
+Data mining
+Machine learning
+Data-driven AI
+
+![image An icon of a graph in a minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Analysis Methods
+
+Choose the right tool
+For each type of analysis
+Reports: numerical and graphical
+Dashboards: KPIs
+Interactive: BI tools
+Data mining: algorithms
+Machine learning: training
+Data-driven AI: automation
+
+![image An icon of a toolbox in a minimalist style](images/placeholder.png)",
+2023-04-04 11:21:53,6,6,3298,200,3498,2023-04-04 11:21:44,2023-04-04 11:21:53,8.197777,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 6 - Action
+
+---
+
+The next step in the data lifecycle is action.
+
+---
+
+Knowledge for the sake of knowledge is a noble pursuit and valuable in it's own right.
+
+However, in order for data to be valuable to our business, it must lead to some form of action.
+
+So, in data science we use the results of our data analysis to take an action of some kind.
+
+This stage begins with making a decision on what action to take based on the data and our analysis.
+
+This may also include making the decision *not* to act (i.e. choosing inaction based on our analysis).
+
+Next, we take the appropriate action in order to affect positive change.
+
+For example, we might approve a customer for a loan, recommend a product on our website, or change a business process.
+
+Finally, this stage ends with an outcome which is either positive, negative, or resulted in no change at all.
+
+We need to observe and record the outcome of our actions as data, because we're going to use this outcome in the final step in our process.
+
+---
+
+Action from data can take on many forms.
+
+For example:
+
+We can make a decision based upon our own data analysis and then act upon our decision.
+
+We can communicate our findings to a wider audience in order to encourage others to take a specific action.
+
+or we can automate a decision-making process with a computer so that the action happens automatically when the right pattern of data are observed by the machine.
+
+No matter who is performing the action, we always want to make sure that we've chosen the best action given the data.","---
+marp: true
+title: 6 - Action
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Action
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decision
+Positive change
+Negative change
+No change
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decision
+Positive change
+Negative change
+No change
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decision
+Positive change
+Negative change
+No change
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Action
+
+Decision
+Positive change
+Negative change
+No change
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:21:59,6,7,3335,162,3497,2023-04-04 11:21:53,2023-04-04 11:21:59,6.653037,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 7 - Repeat
+
+---
+
+The final stage in the data lifecycle is to repeat the process.
+
+---
+
+As I mentioned in the previous step, it's important that we observe the outcome of our actions to see whether they made a positive impact, a negative impact, or led to no change at all.
+
+We want to use this information as feedback to drive the next iteration of the process.
+
+Feedback is very important in data science - it tells us whether we're steering the ship in the right direction or headed towards a giant cliff.
+
+Data science is a highly iterative process, so we are typically repeating this feedback loop over and over on a regular basis.
+
+The faster we can receive valuable feedback, the quicker we can make course corrections, and the sooner we can achieve our goals.
+
+We want to use this feedback loop to drive continuous improvement in our business processes over time.
+
+Essentially, this is how we optimize any business process -- by continuously improving it over time using feedback.
+
+---
+
+However, it's critically important to note that the success of this data-driven process is based on all of the steps that came before it.
+
+So we need to ensure that:
+
+we've collected reliable data from our observations, 
+
+we've stored them correctly in the right type of persistent storage, 
+
+we've processed them correctly using the right tools and methods, 
+
+we've analyzed them correctly using the right tools and methods, 
+
+we've made a rational decision based on results of our analysis,
+
+and we've repeated this process using outcomes of our actions as feedback.
+
+Performing all of these steps correctly is a bit more difficult than it sounds. 
+
+This is why it's so important that you learn the rest of the details of data science -- so that you can always choose the best possible action given the data.","---
+marp: true
+title: 7 - Repeat
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Repeat
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Feedback Loop
+
+Observation
+Action
+Outcome
+Feedback
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Continuous Improvement
+
+Iterative process
+Receive valuable feedback
+Make course corrections
+Achieve goals
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Optimization
+
+Continuous improvement
+Using feedback
+All steps are important
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:22:03,6,8,3148,82,3230,2023-04-04 11:21:59,2023-04-04 11:22:03,3.625628,"---
+course: Intro to Data for Data Science
+module: 6 - Data Life Cycle
+title: 8 - Summary
+
+---
+
+In this module, we learned about the data life cycle... the journey of data from inception to action.
+
+---
+
+First, we learned about data collection and how we record observations of our world.
+
+Next, we learned about data storage, and the various types of data repositories we encounter.
+
+Then, we learned about data processing, and the steps we perform to prepare our data for analysis.
+
+Next, we learned about data analysis, and the many tools we can use to analyze our data.
+
+Then, we learned about taking action based on the results of our analysis.
+
+Finally, we learned about how we repeat this process, using feedback as our guide, to optimize over time.
+
+In the next module, we'll wrap things up for this course and learn where to go next to continue our *own* data-science journey.","---
+marp: true
+title: 8 - Summary
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Summary
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Summary
+
+Data Life Cycle
+- Collection
+- Storage
+- Processing
+- Analysis
+- Action
+- Feedback
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)",
+2023-04-04 11:22:11,7,1,3347,191,3538,2023-04-04 11:22:03,2023-04-04 11:22:11,7.807009,"---
+course: Intro to Data for Data Science
+module: 7 - Conclusion
+title: 1 - Next Steps
+
+---
+
+Welcome to the final module of this introductory course on data for data science.
+
+I'm Matthew Renze, data science consultant, author and public speaker.
+
+Now let's wrap things up for this course, so we can get started on our next course, and begin applying this knowledge in the real world.
+
+---
+
+You might be wondering:
+
+Where should I go next?
+
+What should I do to apply what I just learned?
+
+And where should I go if I have questions or feedback?
+
+---
+
+First, I recommend that you practice to reinforce the information that you've learned.
+
+So please complete all of the quiz questions,
+
+and practice exercises for this course before you move on.
+
+After years of research, and my own personal experience, we know that humans don't effectively learn new information unless they practice using it.
+
+In fact, we forget about half of the information we've been taught within a hour of learning it and 75% within a few days.
+
+However, if we practice, it reinforces the information and helps solidify it in our long-term memory.
+
+This is the most effective way to maximize your learning and the value you derive from this course.
+
+---
+
+Next, if you're interested in learning more, I recommend taking the remaining courses in this series on data science.
+
+This series contains all of the knowledge you will need to get started on your data-science journey.
+
+There's plenty more to learn, so be sure to get started right away!
+
+---
+
+Finally, I encourage you to engage with me and others in this online learning community.
+
+So please be sure to:
+
+rate this course,
+
+Ask questions in the discussion board,
+
+Leave comments to let me know what you found valuable and what could be improved,
+
+and feel free to send me a message on social media if you'd like to provide me with feedback in public.
+
+---
+
+","---
+marp: true
+title: 1 - Next Steps
+theme: template
+---
+
+<!-- _class: title-slide -->
+
+# Next Steps
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Next Steps
+
+Practice
+Complete quizzes and exercises
+
+![image An icon of a person practicing with a laptop](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Next Steps
+
+Take remaining courses
+In the series on data science
+
+![image An icon of a person learning with a laptop](images/placeholder.png)
+
+---
+
+<!-- _class: title-two-content-left-center -->
+
+# Next Steps
+
+Engage with the community
+Rate the course
+Ask questions
+Leave comments
+Provide feedback
+
+![image An icon of a person engaging with a community](images/placeholder.png)
+
+---
+
+<!-- _class: title-only -->
+
+# Thank You!
+
+![image An icon of a person saying thank you](images/placeholder.png)",
+2023-04-04 11:22:16,7,2,3182,116,3298,2023-04-04 11:22:11,2023-04-04 11:22:16,4.934906,"---
+course: Intro to Data for Data Science
+module: 7 - Conclusion
+title: 2 - Summary
+
+---
+
+Finally, let's summarize the key concepts that we learned in the course.
+
+---
+
+In this course, we learned about data as a foundation for data science.
+
+First, we learned that data are a collection of facts that describe observations of the world around us.
+
+Next, we learned that there are various types of data ... including categorical and numerical data.
+
+Then, we learned that data can be represented and stored in computers using data types.
+
+Next, we learned that tabular data are data organized into rows and columns so that they can be queried effectively.
+
+Finally, we learned that data moves through a life cycle as a journey from data collection to action.
+
+---
+
+Thank you for joining me for this introductory course on data for data science.
+
+I hope that you have found this information valuable and that it has helped you move forward on your data-science journey.
+
+Please be sure to keep in touch via my website and social media... and I hope to see you again in another course in the near future.
+
+---
+
+","---
+marp: true
+title: 2 - Summary
+theme: template
+---
+
+<!-- _class: title-only -->
+
+# Summary
+
+---
+
+<!-- _class: title-two-content-left -->
+
+# Summary
+
+Data
+Types of data
+Data types
+Tabular data
+Data life cycle
+
+![image An icon of a database in a flat minimalist style](images/placeholder.png)
+
+---
+
+<!-- _class: title-only -->
+
+# Thank You!
+
+---
+
+<!-- _class: title-only -->
+
+# Keep in Touch!
+
+Website: [website-url]
+
+Social Media: [social-media-handles]",

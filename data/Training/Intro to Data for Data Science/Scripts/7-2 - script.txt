@@ -1,0 +1,33 @@
+---
+course: Intro to Data for Data Science
+module: 7 - Conclusion
+title: 2 - Summary
+
+---
+
+Finally, let's summarize the key concepts that we learned in the course.
+
+---
+
+In this course, we learned about data as a foundation for data science.
+
+First, we learned that data are a collection of facts that describe observations of the world around us.
+
+Next, we learned that there are various types of data ... including categorical and numerical data.
+
+Then, we learned that data can be represented and stored in computers using data types.
+
+Next, we learned that tabular data are data organized into rows and columns so that they can be queried effectively.
+
+Finally, we learned that data moves through a life cycle as a journey from data collection to action.
+
+---
+
+Thank you for joining me for this introductory course on data for data science.
+
+I hope that you have found this information valuable and that it has helped you move forward on your data-science journey.
+
+Please be sure to keep in touch via my website and social media... and I hope to see you again in another course in the near future.
+
+---
+

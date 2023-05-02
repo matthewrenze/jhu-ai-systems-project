@@ -1,0 +1,34 @@
+---
+course: Intro to Data for Data Science
+module: 3 - Types of Data
+title: 1 - Overview
+
+---
+
+Hello, and welcome back to this introductory course on data for data science.
+
+I'm Matthew Renze, data science consultant, author, and public speaker.
+
+In this module, we'll learn about the various types of data that we will encounter in data science.
+
+---
+
+What types of data exist in data science?
+
+How do we conceptually divide data into groups based on what they represent?
+
+And what are the limitations of each of these types of data?
+
+---
+
+To answer these questions, we're going to learn about the various types of data that exist in data science and their various capabilities and limitations.
+
+First, we'll learn about the two most common types of data: categorical and numerical data.
+
+Next, we'll learn about nominal data, named categories without a natural rank order.
+
+Then we'll learn about ordinal data, named categories that do have a natural rank order.
+
+Next, we'll learn about interval data, numerical measures with an arbitrary zero point.
+
+Finally, we'll learn about ratio data, numerical measures with a natural zero point.

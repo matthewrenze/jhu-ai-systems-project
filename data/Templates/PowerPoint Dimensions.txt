@@ -1,0 +1,60 @@
+Powerpoint Dimensions
+
+Slide: 13.33 x 7.5 (1920 x 1080)
+
+Title: 
+ - Container: 11.5 x 1.45
+ - Top margin: 
+ - Side margins: 0.92 (x2)
+ - Bottom margin: 0.15
+
+Content: 
+ - Container: 11.5 x 4.76
+ - Side margins: 0.92 (x2)
+ - Top margin: 0.15
+ - Bottom margin: 0.75
+
+Two Content:
+ - Container: 5.67 x 4.76
+ - Center margin: 0.17
+
+Three Content
+ - Container: 3.72 x 4.76
+ - Center margin: 0.17 (x2)
+ 
+Four Content (Vertical)
+ - Container: 2.755
+ - Center margin: 0.16 (x3)
+
+Four Content (Horizontal)
+ - Container: 5.67 x 2.30
+ - Center margin: 0.17
+ - Middle margin: 0.16
+ 
+Five Content
+ - Container: 3.72 x 2.30
+ - Center margin: 0.17 (x2)
+ - Middle margin: 0.16 (x3)
+ 
+Six Content
+ - Container: 3.72 x 2.30
+ - Center margin: 0.17 (x2)
+ - Middle margin: 0.16
+ 
+
+Eight Content
+ - Container: 2.75 x 2.30
+ - Center margin: 0.17 (x3)
+ - Middle margin: 0.16
+ 
+Split Panes
+ - Pane size: 6.67 x 7.5
+ 
+Golden Panes
+ - First pane: 5.1 x 7.5
+ - Second pane: 8.23 x 7.5
+
+Three Panes
+ - Pane size: 4.44 x 7.5
+
+ 

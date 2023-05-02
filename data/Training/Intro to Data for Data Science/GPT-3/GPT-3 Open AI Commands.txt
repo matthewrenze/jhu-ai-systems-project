@@ -1,0 +1,28 @@
+
+Prepare custom dataset
+openai tools fine_tunes.prepare_data -f "Data\Training\Intro to Data for Data Science\GPT-3\script-to-slide-model-[N].json"
+
+Train the model
+openai api fine_tunes.create -t "Data\Training\Intro to Data for Data Science\GPT-3\script-to-slide-model-[N]_prepared.jsonl" -m davinci --suffix "script-to-slide-model-[N]"
+
+openai api fine_tunes.create -t "Data\Training\Intro to Data for Data Science\GPT-3\custom-training-set-all-slides_prepared.jsonl" -m davinci --suffix "custom-model-all-slides-[n]"
+
+Follow the stream
+openai api fine_tunes.follow -i ft-wyarVv90yhWHoZCSOZ9Lztyz
+
+List custom *training jobs*
+openai api fine_tunes.list
+
+List custom models
+openai api models.list
+
+Test the model
+NOTE: Test in Playground
+openai api completions.create -m davinci:ft-personal-2023-03-24-02-09-50 -p <YOUR_PROMPT>
+
+Delete a custom model
+openai api models.delete -i davinci:ft-personal-2023-03-24-02-09-50
+
+NOTES:
+You MUST use the stop token in your API calls "\n\n[[END]]\n\n" 
+
