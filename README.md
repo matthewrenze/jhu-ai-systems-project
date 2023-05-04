@@ -6,8 +6,8 @@
 ## Abstract
 In this paper, we explore the automation of script-to-slide generation using three Generative Pretrained Transformer (GPT) models. We created a training set of script-slide pairs using a single source presentation. Next, we created three GPT models using this training data. We used custom fine-tuning for GPT-3 and few-shot learning for GPT-3.5 and GPT-4. These three models used the on-sample training scripts to generate test slides. To assess the relative performance of each model, we compared the generated slides against the training slides and scripts. GPT-4 outperformed the other models in terms of accuracy, similarity, and relevance. However, it underperformed the other models on runtime performance and cost efficiency. This research demonstrates the potential of using GPT models to automate lecture slide generation highlighting areas for further investigation and improvement. All code, data, and supplemental materials are available on GitHub.
 
-## Paper
-- [Automatically Generating Lecture Slides with Generative Pretrained Transformers](research-paper.pdf)
+## Documents
+- [Research Paper](research-paper.pdf)
 
 ## Code
 - [Collect](code/Collect/) - contains the data collection scripts
